@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-papers",
-          title: "papers",
-          description: "List of all my publications. You can filter by tag.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/papers/";
-          },
-        },{id: "nav-team",
+  },{id: "nav-team",
           title: "team",
           description: "The MLDE group brings together researchers from various disciplines such as information systems, computer science, mathematics, or geoinformatics.",
           section: "Navigation",
