@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-07-17 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+We have had a great time at <a href="https://www.icml.cc">ICML 2025</a> with two papers being presented!

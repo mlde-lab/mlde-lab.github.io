@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Machine Learning and Data Engineering
+title: Machine Learning and Data Engineering # the website title (if blank, full name will be used instead)
+first_name: 
 middle_name:  
 last_name:  
 contact_note: >
@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mlde-lab.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -26,10 +26,10 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: shadow_green # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -48,7 +48,7 @@ footer_fixed: true
 search_enabled: false
 socials_in_search: false
 posts_in_search: true
-bib_search: true
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -189,13 +189,14 @@ exclude:
   - readme_preview/
   - vendor  
   - pages/about.md
-  - _news/announcement_*.md
   - _pages/blog.md
   - _pages/repositories.md
   - _posts/  
   - _pages/dropdown.md
   - _pages/cv.md
   - _pages/teaching.md
+  - _pages/projects.md
+  - _pages/people.md
 keep_files:
   - CNAME
   - .nojekyll

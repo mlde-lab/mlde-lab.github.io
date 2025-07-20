@@ -1,0 +1,28 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.team_members %}
+      <hr>
+      <div class="team-container">
+        {% for member in page.team_members %}
+          <div class="team-member">
+            {% if member.image %}
+              {% assign member_image_path = member.image | prepend: 'assets/img/team/' %}
+              {% if member.image_circular %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded-circle team-image-fixed' %}
+              {% else %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+            {% endif %}
+            {% if member.name %}<div class="more-info">{{ member.name }}</div>{% endif %}
+            {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </article>
+</div>

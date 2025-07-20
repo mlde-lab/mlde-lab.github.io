@@ -190,15 +190,66 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
-// Profile
+// Content
+.justified-content {
+  text-align: justify;
+}
 
-.profile {
-  width: 100%;
+// Team 
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 1rem;
+}
 
+.team-member {
+  text-align: center;
+  max-width: 130px;
+
+  .team-image-fixed {
+    width: 130px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px; // für rechteckige Bilder
+
+    &.rounded-circle {
+      border-radius: 50% !important;
+      width: 140px;
+      height: 140px; // quadratisch für Kreisform
+    }
+  }
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    text-align: center;
+    font-size: 0.7rem;
+
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+
+
+// Profile
+
+
+.profile {
+  width: 100%;
+
+  .image-offset {
+    margin-left: 1rem; // oder dein gewünschter Wert
+  }
+  .more-info {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: monospace;
+    text-align: center;
 
     p {
       display: inline-block;
@@ -217,8 +268,11 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 50%;
 
+    .profile-image {
+      margin-left: 10rem; // oder z. B. 32px
+    }
     .address {
       p {
         display: block;
@@ -581,6 +635,7 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  
 }
 
 .post-list {
@@ -1415,5 +1470,18 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+.publication-tags {
+  margin-bottom: 2rem;
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    margin: 0.2rem;
   }
 }
