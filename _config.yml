@@ -196,6 +196,7 @@ exclude:
   - _pages/teaching.md
   - _pages/projects.md
   - _pages/people.md
+  - _pages/research.md
 keep_files:
   - CNAME
   - .nojekyll
