@@ -1,18 +1,13 @@
-- tag: efficiency
-  name: efficiency
+- tag: ml
+  name: machine learning
 
-- tag: hpc
-  name: high-performance computing
-
-- tag: energy
-  name: energy
+- tag: de
+  name: data engineering
   
-- tag: geospatial
-  name: geospatial
+- tag: scalability
+  name: scalability
 
-- tag: sustainability
-  name: sustainability
-
-- tag: datastructures
-  name: data structures
+- tag: applications
+  name: Applications
+  
 

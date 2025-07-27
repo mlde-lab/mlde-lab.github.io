@@ -1,25 +1,25 @@
 @inproceedings{fayad2025dunia,
   title={DUNIA: Pixel-Sized Embeddings via Cross-Modal Alignment for Earth Observation Applications},
   author={Fayad, Ibrahim and Zimmer, Max and Schwartz, Martin and Ciais, Philippe and Gieseke, Fabian and Belouze, Gabriel and Brood, Sarah and De Truchis, Aurelien and d'Aspremont, Alexandre},
-  booktitle={Forty-second International Conference on Machine Learning},
+  booktitle={Forty-Second International Conference on Machine Learning},
   year={2025},
-  url={https://openreview.net/forum?id=JXCiQteuOv},
+  html={https://openreview.net/forum?id=JXCiQteuOv},
   abstract      = {Significant efforts have been directed towards adapting self-supervised multimodal learning for Earth observation applications. However, existing methods produce coarse patch-sized embeddings, limiting their effectiveness and integration with other modalities like LiDAR. To close this gap, we present DUNIA, an approach to learn pixel-sized embeddings through cross-modal alignment between images and full-waveform LiDAR data. As the model is trained in a contrastive manner, the embeddings can be directly leveraged in the context of a variety of environmental monitoring tasks in a zero-shot setting. In our experiments, we demonstrate the effectiveness of the embeddings for seven such tasks (canopy height mapping, fractional canopy cover, land cover mapping, tree species identification, plant area index, crop type classification, and per-pixel waveform-based vertical structure mapping). The results show that the embeddings, along with zero-shot classifiers, often outperform specialized supervised models, even in low data regimes. In the fine-tuning setting, we show strong low-shot capabilities with performances near or better than state-of-the-art on five out of six tasks.},
   abbr={ICML25},
   bibtex_show={true},
   pdf={https://arxiv.org/abs/2502.17066},
   preview={dunia.png},
   selected={true},
-  tags={sustainability, geospatial},
+  tags={ml, applications},
   code={https://github.com/AI4Forest/DUNIA}
 }
 
 @inproceedings{pauls2025capturing,
   title={Capturing Temporal Dynamics in Large-Scale Canopy Tree Height Estimation},
   author={Pauls, Jan and Zimmer, Max and Turan, Berkant and Saatchi, Sassan and Ciais, Philippe and Pokutta, Sebastian and Gieseke, Fabian},
-  booktitle={Forty-second International Conference on Machine Learning},
+  booktitle={Forty-Second International Conference on Machine Learning},
   year={2025},
-  url={https://openreview.net/forum?id=ri1cs3vtXX},
+  html={https://openreview.net/forum?id=ri1cs3vtXX},
   abstract      = {With the rise in global greenhouse gas emissions, accurate large-scale tree canopy height maps are essential for understanding forest structure, estimating above-ground biomass, and monitoring ecological disruptions. To this end, we present a novel approach to generate large-scale, high-resolution canopy height maps over time. Our model accurately predicts canopy height over multiple years given Sentinel-2 time series satellite data. Using GEDI LiDAR data as the ground truth for training the model, we present the first 10m resolution temporal canopy height map of the European continent for the period 2019-2022. As part of this product, we also offer a detailed canopy height map for 2020, providing more precise estimates than previous studies. Our pipeline and the resulting temporal height map are publicly available, enabling comprehensive large-scale monitoring of forests and, hence, facilitating future research and ecological analyses. For an interactive viewer, see this https URL.},
   abbr={ICML25},
   bibtex_show={true},
@@ -27,16 +27,49 @@
   preview={temporalcanopy.png},
   custom={Earth Engine|https://europetreemap.projects.earthengine.app/view/temporalcanopyheight},
   selected={true},
-  tags={sustainability, geospatial},
+  tags={ml, applications},
   code={https://github.com/AI4Forest/Europe-Temporal-Canopy-Height}
+}
+
+@article{BernardinoKHKLFOGMAVS2025,
+  author = {Paulo Negri Bernardino and Wanda De Keersmaecker and Stéphanie Horion and Ruben Van De Kerchove and Stef Lhermitte and Rasmus Fensholt and Stefan Oehmcke and Fabian Gieseke and Koenraad Van Meerbeek and Christin Abel and Jan Verbesselt and Ben Somers},
+  title = {Predictability of abrupt shifts in dryland ecosystem functioning},
+  journal = {Nature Climate Change},
+  year = {2025},
+  volume = {15},
+  pages = {86--91},
+  doi = {10.1038/s41558-024-02201-0},
+  abstract      = {Climate change and human-induced land degradation threaten dryland ecosystems, vital to one-third of the global population and pivotal to inter-annual global carbon fluxes. Early warning systems are essential for guiding conservation, climate change mitigation and alleviating food insecurity in drylands. However, contemporary methods fail to provide large-scale early warnings effectively. Here we show that a machine learning-based approach can predict the probability of abrupt shifts in Sudano–Sahelian dryland vegetation functioning (75.1% accuracy; 76.6% precision) particularly where measures of resilience (temporal autocorrelation) are supplemented with proxies for vegetation and rainfall dynamics and other environmental factors. Regional-scale predictions for 2025 highlight a belt in the south of the study region with high probabilities of future shifts, largely linked to long-term rainfall trends. Our approach can provide valuable support for the conservation and sustainable use of dryland ecosystem services, particularly in the context of climate change projected drying trends.},
+  html={https://www.nature.com/articles/s41558-024-02201-0},
+  tags={applications},
+  preview={abrupt_shifts_2025.png},
+  selected={true},
+  bibtex_show={true},
+  abbr={Journal},
+}
+
+@article{BrandtCLFCWGSTI2025HighResolution,
+  author = {Martin Brandt and Jerome Chave and Sizhuo Li and Rasmus Fensholt and Philippe Ciais and Jean-Pierre Wigneron and Fabian Gieseke and Sassan Saatchi and C. J. Tucker and Christian Igel},
+  title = {High-resolution sensors and deep learning models for tree resource monitoring},
+  journal = {Nature Reviews Electrical Engineering},
+  year = {2025},
+  volume = {2},
+  pages = {13--26},
+  doi = {10.1038/s44287-024-00116-8},
+  html = {https://www.nature.com/articles/s44287-024-00116-8},
+  abstract = {Trees contribute to carbon dioxide absorption through biomass, regulate the climate, support biodiversity, enhance soil, air and water quality, and offer economic and health benefits. Traditionally, tree monitoring on continental and global scales has focused on forest cover, whereas assessing biomass and species diversity, as well as trees outside closed-canopy forests, has been challenging. A new generation of commercial and public satellites and sensors provide high-resolution spatial and temporal optical data that can be used to identify trees as objects. Technologies from the field of artificial intelligence, such as convolutional neural networks and vision transformers, can go beyond detecting these objects as two-dimensional representations, and support characterization of the three-dimensional structure of objects, such as canopy height and wood volume, via contextual learning from two-dimensional images. These advancements enable reliable characterization of trees, their structure, biomass and diversity both inside and outside forests. Furthermore, self-supervision and foundation models facilitate large-scale applications without requiring extensive amounts of labels. Here, we summarize these advances, highlighting their application towards consistent tree monitoring systems that can assess carbon stocks, attribute losses and gains to underlying drivers and, ultimately, contribute to climate change mitigation.},
+  abbr={Journal},
+  bibtex_show={true},
+  tags={applications},
+  preview={high_res_sensors_2025.png}
 }
 
 @InProceedings{pauls2024estimating,
 title={Estimating Canopy Height at Scale},
 author={Jan Pauls and Max Zimmer and Una M. Kelly and Martin Schwartz and Sassan Saatchi and Philippe Ciais and Sebastian Pokutta and Martin Brandt and Fabian Gieseke},
-booktitle={Forty-first International Conference on Machine Learning},
+booktitle={Forty-First International Conference on Machine Learning},
 year={2024},
-url={https://openreview.net/forum?id=ZzCY0fRver},
+html={https://openreview.net/forum?id=ZzCY0fRver},
 abstract      = {We propose a framework for global-scale canopy height estimation based on satellite data. Our model leverages advanced data preprocessing techniques, resorts to a novel loss function designed to counter geolocation inaccuracies inherent in the ground-truth height measurements, and employs data from the Shuttle Radar Topography Mission to effectively filter out erroneous labels in mountainous regions, enhancing the reliability of our predictions in those areas. A comparison between predictions and ground-truth labels yields an MAE / RMSE of 2.43 / 4.73 (meters) overall and 4.45 / 6.72 (meters) for trees taller than five meters, which depicts a substantial improvement compared to existing global-scale maps. The resulting height map as well as the underlying framework will facilitate and enhance ecological analyses at a global scale, including, but not limited to, large-scale forest and biomass monitoring.},
 abbr={ICML24},
 bibtex_show={true},
@@ -45,5 +78,139 @@ code={https://github.com/AI4Forest/Global-Canopy-Height-Map},
 preview={canopy_height.png},
 selected={true},
 custom={Earth Engine|https://worldwidemap.projects.earthengine.app/view/canopy-height-2020},
-tags={sustainability, geospatial},
+tags={ml,de,applications},
+}
+
+
+@inproceedings{LuelfLMVZG2024CLIPBranches,
+  author = {Christian Lülf and Denis Mayr {Lima Martins} and Salles Marcos Antonio Vaz and Yongluan Zhou and Fabian Gieseke},
+  title = {CLIP-Branches: Interactive Fine-Tuning for Text-Image Retrieval},
+  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year = {2024},
+  address = {Washington, D.C.},
+  abstract={The advent of text-image models, most notably CLIP, has signifi-
+cantly transformed the landscape of information retrieval. These
+models enable the fusion of various modalities, such as text and
+images. One significant outcome of CLIP is its capability to allow
+users to search for images using text as a query, as well as vice
+versa. This is achieved via a joint embedding of images and text
+data that can, for instance, be used to search for similar items. De-
+spite efficient query processing techniques such as approximate
+nearest neighbor search, the results may lack precision and com-
+pleteness. We introduce CLIP-Branches, a novel text-image search
+engine built upon the CLIP architecture. Our approach enhances
+traditional text-image search engines by incorporating an interac-
+tive fine-tuning phase, which allows the user to further concretize
+the search query by iteratively defining positive and negative exam-
+ples. Our framework involves training a classification model given
+the additional user feedback and essentially outputs all positively
+classified instances of the entire data catalog. By building upon re-
+cent techniques, this inference phase, however, is not implemented
+by scanning the entire data catalog, but by employing efficient
+index structures pre-built for the data. Our results show that the
+fine-tuned results can improve the initial search outputs in terms
+of relevance and accuracy while maintaining swift response times},
+  abbr={SIGIR24},
+  selected={true},
+  bibtex_show={true},
+  pdf={https://arxiv.org/abs/2406.13322},
+  preview={clip_branches.png},
+  tags={ml,de},
+  code={https://github.com/cluel01/clip-branches}
+}
+
+@article{OehmckeLTRNLGI2024DeepPointCloud,
+  author = {Stefan Oehmcke and Lei Li and Katerina Trepekli and Jaime C. Revenga and Thomas Nord-Larsen and Fabian Gieseke and Christian Igel},
+  title = {Deep point cloud regression for above-ground forest biomass estimation from airborne LiDAR},
+  journal = {Remote Sensing of Environment},
+  year = {2024},
+  volume = {302},
+  doi = {10.1016/j.rse.2023.113968},
+  html = {https://www.sciencedirect.com/science/article/pii/S0034425723005205?via%3Dihub},
+  abbr={Journal},
+}
+
+@inproceedings{LimaDCF2023EndToEndNeural,
+  author = {Martins Lima and Mayr; Lülf Denis and Gieseke Christian; and  Fabian},
+  title = {End-to-End Neural Network Training for Hyperbox-Based Classification},
+  booktitle = {31st European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning},
+  year = {2023},
+  address = {Brügge},
+  html = {https://arxiv.org/abs/2307.09269},
+  abbr={ESANN23},
+}
+
+@inproceedings{LuelfLMVZG2023FastSearchByClassification,
+  author = {Christian Lülf and Denis Mayr {Lima Martins} and Salles Marcos Antonio Vaz and Yongluan Zhou and Fabian Gieseke},
+  title = {Fast Search-By-Classification for Large-Scale Databases Using Index-Aware Decision Trees and Random Forests},
+  booktitle = {Proceedings of the VLDB Endowment},
+  pages = {2845--2857},
+  volume = {16},
+  editor = {Endowment VLDB},
+  year = {2023},
+  publisher = {ACM Press},
+  address = {Vancouver},
+  issn = {2150-8097},
+  doi = {10.14778/3611479.3611492},
+  abstrac={The vast amounts of data collected in various domains pose great
+challenges to modern data exploration and analysis. To find “inter-
+esting” objects in large databases, users typically define a query
+using positive and negative example objects and train a classifi-
+cation model to identify the objects of interest in the entire data
+catalog. However, this approach requires a scan of all the data to
+apply the classification model to each instance in the data catalog,
+making this method prohibitively expensive to be employed in
+large-scale databases serving many users and queries interactively.
+In this work, we propose a novel framework for such search-by-
+classification scenarios that allows users to interactively search for
+target objects by specifying queries through a small set of positive
+and negative examples. Unlike previous approaches, our frame-
+work can rapidly answer such queries at low cost without scanning
+the entire database. Our framework is based on an index-aware
+construction scheme for decision trees and random forests that
+transforms the inference phase of these classification models into a
+set of range queries, which in turn can be efficiently executed by
+leveraging multidimensional indexing structures. Our experiments
+show that queries over large data catalogs with hundreds of millions
+of objects can be processed in a few seconds using a single server,
+compared to hours needed by classical scanning-based approaches.},
+  html = {https://dl.acm.org/doi/abs/10.14778/3611479.3611492},
+  abbr={VLDB23},
+  pdf={https://arxiv.org/abs/2306.02670},
+  selected={true},
+  preview={decision_branches.png}
+}
+
+@inproceedings{LuelfLMVZG2023RapidEarth,
+  author = {Christian Lülf and Denis Mayr {Lima Martins} and Salles Marcos Antonio Vaz and Yongluan Zhou and Fabian Gieseke},
+  title = {RapidEarth: A Search Engine for Large-Scale Geospatial Imagery},
+  booktitle = {Proceedings of the 31st International Conference on Advances in Geographic Information Systems, SIGSPATIAL, Demo Paper, 2023},
+  year = {2023},
+  address = {Hamburg},
+  html = {https://dl.acm.org/doi/10.1145/3589132.3625601},
+  abbr={SIGSPATIAL23},
+  abstract={Data exploration and analysis in various domains often necessitate the search for specific objects in massive databases. A common search strategy, often known as search-by-classification, resorts to training machine learning models on small sets of positive and negative samples and to performing inference on the entire database to discover additional objects of interest. While such an approach often yields very good results in terms of classification performance, the entire database usually needs to be scanned, a process that can easily take several hours even for medium-sized data catalogs. In this work, we present RapidEarth, a geospatial search-by-classification engine that allows analysts to rapidly search for interesting objects in very large data collections of satellite imagery in a matter of seconds, without the need to scan the entire data catalog. RapidEarth embodies a co-design of multidimensional indexing structures and decision branches, a recently proposed variant of classical decision trees. These decision branches allow RapidEarth to transform the inference phase into a set of range queries, which can be efficiently processed by leveraging the aforementioned multidimensional indexing structures. The main contribution of this work is a geospatial search engine that implements these technical findings. },
+  pdf={https://arxiv.org/abs/2309.15617},
+  preview={rapid_earth.png},
+  custom={Best Demo Award},
+  selected={true}
+}
+
+@article{LiSMRACFTSASXAP2023DeepLearning,
+  author = {Sizhuo Li and Martin Brandt and Rasmus Fensholt and Ankit Kariryaa and Christian Igel and Fabian Gieseke and Thomas Nord-Larsen and Stefan Oehmcke and Ask Holm Carlsen and Samuli Junttila and Xiaoye Tong and Alexandre d’Aspremont and Philippe Ciais},
+  title = {Deep learning enables image-based tree counting, crown segmentation, and height prediction at national scale},
+  journal = {PNAS Nexus},
+  year = {2023},
+  volume = {2},
+  number = {4},
+  doi = {10.1093/pnasnexus/pgad076},
+  abbr={Journal},
+}
+
+@article{ReinerBTSKCDHCMIOGLLSBSTDSMTF2023MoreThanOne,
+  author = {Florian Reiner and Martin Brandt and Xiaoye Tong and David Skole and Ankit Kariryaa and Philippe Ciais and Andrew Davies and Pierre Hiernaux and Jerome Chave and Maurice Mugabowindekwe and Christian Igel and Stefan Oehmcke and Fabian Gieseke and Sizhuo Li and Siyu Liu and Sassan S Saatchi and Peter Boucher and Jenia Singh and Simon Taugourdeau and Morgane Dendoncker and Xiao-Peng Song and Ole Mertz and Compton Tucker and Rasmus Fensholt},
+  title = {More than one quarter of Africa's tree cover is found outside areas previously classified as forest},
+  journal = {Nature Communications},
+  year = {2023},
+  abbr={Journal},
 }

@@ -2,11 +2,14 @@
 layout: page
 ---
 <div class="post">
+
   <article>
-    {% if page.team_members %}
-      <hr>
+    {% if page.group_management %}
+      <h4 class="text-center mt-4 mb-3">
+        Group Management
+      </h4>
       <div class="team-container">
-        {% for member in page.team_members %}
+        {% for member in page.group_management %}
           <div class="team-member">
             {% if member.image %}
               {% assign member_image_path = member.image | prepend: 'assets/img/team/' %}
@@ -18,11 +21,82 @@ layout: page
               {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
               {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
             {% endif %}
-            {% if member.name %}<div class="more-info">{{ member.name }}</div>{% endif %}
+            {% if member.url %}
+              <div class="more-info"><a href="{{ site.baseurl }}/team/{{ member.url }}">{{ member.name }}</a></div>
+            {% else %}
+            {% if member.name %}
+              <div class="more-info">{{ member.name }}</div>{% endif %}
+            {% endif %}
             {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+            
           </div>
         {% endfor %}
       </div>
     {% endif %}
   </article>
+  
+  <article>
+    {% if page.researchers %}
+      <h4 class="text-center mt-4 mb-3">
+        Researchers
+      </h4>
+      <div class="team-container">
+        {% for member in page.researchers %}
+          <div class="team-member">
+            {% if member.image %}
+              {% assign member_image_path = member.image | prepend: 'assets/img/team/' %}
+              {% if member.image_circular %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded-circle team-image-fixed' %}
+              {% else %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+            {% endif %}
+            {% if member.url %}
+              <div class="more-info"><a href="{{ site.baseurl }}/team/" {{ member.url }}>{{ member.name }}</a></div>
+            {% else %}
+            {% if member.name %}
+              <div class="more-info">{{ member.name }}</div>{% endif %}
+            {% endif %}
+            {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+            
+            
+
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </article>
+  
+<article>
+    {% if page.student_assistants %}
+      <h4 class="text-center mt-4 mb-3">
+        Student Assistants
+      </h4>
+      <div class="team-container">
+        {% for member in page.student_assistants %}
+          <div class="team-member">
+            {% if member.image %}
+              {% assign member_image_path = member.image | prepend: 'assets/img/team/' %}
+              {% if member.image_circular %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded-circle team-image-fixed' %}
+              {% else %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+            {% endif %}
+            {% if member.url %}
+              <div class="more-info"><a href="{{ site.baseurl }}/team/" {{ member.url }}>{{ member.name }}</a></div>
+            {% else %}
+            {% if member.name %}
+              <div class="more-info">{{ member.name }}</div>{% endif %}
+            {% endif %}
+            {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </article>  
 </div>

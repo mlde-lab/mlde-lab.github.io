@@ -1,6 +1,17 @@
 ---
 ---
 <!-- _layouts/bib.html -->
+{% assign show_entry = true %}
+{% if page.filter_lastname %}
+  {% assign show_entry = false %}
+  {% for author in entry.author_array %}
+    {% if author.last == page.filter_lastname %}
+      {% assign show_entry = true %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if show_entry %}
       <div class="row entry" data-tags="{{ entry.tags | join: ',' }}">
         <div class="col-sm-2" data-tags="{{ entry.tags | join: ',' }}">
         {%- if entry.preview -%}
@@ -21,7 +32,7 @@
         <div id="{{entry.key}}" class="col-sm-10">
         <!-- Title -->
         <div class="title">
-          <a href="{{ entry.pdf }}" class="no-highlight">
+          <a href="{{ entry.html }}" class="no-highlight">
           {{entry.title}}
           </a>
         </div>
@@ -265,3 +276,5 @@
           {%- endif %}
         </div>
       </div>
+      
+{% endif %} 
