@@ -2,10 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: |+
-  <div class="alert alert-success" role="alert">
-    <i class="fas fa-flask"></i> <b>We are hiring!</b> We are seeking motivated PhD students to work on Deep Learning. Reach out or directly apply <a href="http://iol.zib.de/openings" class="alert-link">here</a>!
-  </div>
 
 profile:
   align: center
@@ -13,7 +9,7 @@ profile:
   profile_image_class: profile-image
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>MLDE Group</p>
+    <p>MLDE Group (2024)</p>
     <!--<p>123 your address street</p>
     <p>Your City, State 12345</p>-->
 
@@ -33,7 +29,6 @@ latest_posts:
 
 The **Machine Learning and Data Engineering (MLDE)** group focuses on developing efficient and scalable implementations of modern machine learning methods. Our research addresses key challenges such as reducing the computational resources required for the inference phase of large-scale deep learning models or accelerating training through distributed computing. We work on both methodological innovations and practical applications, particularly in areas such as remote sensing and energy systems. 
 
-The group is part of the [Department of Information Systems](https://www.wi.uni-muenster.de) of the [University of Münster](https://www.uni-muenster.de/en/) and is led by Fabian Gieseke. 
-
+The group is part of the [Department of Information Systems](https://www.wi.uni-muenster.de) of the [University of Münster](https://www.uni-muenster.de/en/) and is led by [Fabian Gieseke](https://mlde-lab.github.io/team/fabian-gieseke).
 
 
