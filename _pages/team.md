@@ -2,7 +2,7 @@
 layout: team
 permalink: /team/
 title: team
-description: The MLDE group brings together researchers from various disciplines such as information systems, computer science, mathematics, and geoinformatics, fostering an interdisciplinary environment to tackle complex problems in data-driven research. By combining expertise in machine learning, algorithms, data engineering, and application domains, the team aims to develop innovative solutions that bridge theoretical foundations with practical applications.
+description: The MLDE group brings together researchers from various disciplines such as information systems, computer science, mathematics, and geoinformatics, fostering an interdisciplinary environment to tackle complex problems in data-driven research. By combining expertise in machine learning, algorithms, data engineering, and application domains, we develop innovative solutions that bridge theoretical foundations with practical applications.
 nav: true
 nav_order: 2
     

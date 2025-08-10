@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <!--<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.-->
+subtitle: |+
+  <div class="alert alert-success" role="alert">
+    <i class="fas fa-flask"></i> <b>We are hiring!</b> We are seeking motivated PhD students to work on Deep Learning. Reach out or directly apply <a href="http://iol.zib.de/openings" class="alert-link">here</a>!
+  </div>
 
 profile:
   align: center
