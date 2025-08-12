@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: This page gives an overview of ongoing and completed research projects, both including collaborations with academic partners and collaborations with industry.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 8
+display_categories: [ongoing, completed]
 horizontal: false
 ---
 

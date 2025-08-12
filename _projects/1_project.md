@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: AI4Forest
+description: AI-Based High-Resolution Forest Monitoring
+img: assets/img/projects/1/canopy_height.jpg
 importance: 1
-category: work
+category: ongoing
 related_publications: true
 ---
 

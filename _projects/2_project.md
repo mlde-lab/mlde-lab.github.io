@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: TinyAIoT
+description: Energy- and resource-efficient artificial intelligence for modern IoT applications
+img: assets/img/projects/2/smart_trashcan_setup.jpg
 importance: 2
-category: work
+category: ongoing
 giscus_comments: true
 ---
 

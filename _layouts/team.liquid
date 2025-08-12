@@ -2,11 +2,46 @@
 layout: page
 ---
 <div class="post">
+  
+  <article>
+    {% if page.researchers %}
+      <h4 class="text-center mt-4 mb-3">
+        Researchers
+      </h4>
+      <div class="team-container">
+        {% for member in page.researchers %}
+          <div class="team-member">
+            {% if member.image %}
+              {% assign member_image_path = member.image | prepend: 'assets/img/team/' %}
+              {% if member.image_circular %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded-circle team-image-fixed' %}
+              {% else %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+            {% endif %}
+            {% if member.url %}
+              <div class="more-info"><a href="{{ site.baseurl }}/team/{{ member.url }}">{{ member.name }}</a></div>
+            {% else %}
+            {% if member.name %}
+              <div class="more-info">{{ member.name }}</div>{% endif %}
+            {% endif %}
+            {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+            {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>&nbsp;{% endif %}
+            {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;{% endif %}
+            {% if member.google_scholar %}<a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar ai-lg"></i></a>&nbsp;{% endif %}            
+                      
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </article>
 
   <article>
     {% if page.group_management %}
       <h4 class="text-center mt-4 mb-3">
-        Group Management
+        Administrative Support
       </h4>
       <div class="team-container">
         {% for member in page.group_management %}
@@ -28,41 +63,9 @@ layout: page
               <div class="more-info">{{ member.name }}</div>{% endif %}
             {% endif %}
             {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
-            
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  </article>
-  
-  <article>
-    {% if page.researchers %}
-      <h4 class="text-center mt-4 mb-3">
-        Researchers
-      </h4>
-      <div class="team-container">
-        {% for member in page.researchers %}
-          <div class="team-member">
-            {% if member.image %}
-              {% assign member_image_path = member.image | prepend: 'assets/img/team/' %}
-              {% if member.image_circular %}
-                {% assign member_image_class = 'img-fluid z-depth-1 rounded-circle team-image-fixed' %}
-              {% else %}
-                {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
-              {% endif %}
-              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
-            {% endif %}
-            {% if member.url %}
-              <div class="more-info"><a href="{{ site.baseurl }}/team/" {{ member.url }}>{{ member.name }}</a></div>
-            {% else %}
-            {% if member.name %}
-              <div class="more-info">{{ member.name }}</div>{% endif %}
-            {% endif %}
-            {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
-            
-            
-
+            {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>&nbsp;{% endif %}
+            {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;{% endif %}
+            {% if member.google_scholar %}<a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar ai-lg"></i></a>&nbsp;{% endif %}            
           </div>
         {% endfor %}
       </div>
@@ -88,12 +91,16 @@ layout: page
               {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
             {% endif %}
             {% if member.url %}
-              <div class="more-info"><a href="{{ site.baseurl }}/team/" {{ member.url }}>{{ member.name }}</a></div>
+              <div class="more-info"><a href="{{ site.baseurl }}/team/{{ member.url }}">{{ member.name }}</a></div>
             {% else %}
             {% if member.name %}
               <div class="more-info">{{ member.name }}</div>{% endif %}
             {% endif %}
             {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+            {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>&nbsp;{% endif %}
+            {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;{% endif %}
+            {% if member.google_scholar %}<a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar ai-lg"></i></a>&nbsp;{% endif %}            
+            
           </div>
         {% endfor %}
       </div>
@@ -119,12 +126,13 @@ layout: page
               {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
             {% endif %}
             {% if member.url %}
-              <div class="more-info"><a href="{{ site.baseurl }}/team/" {{ member.url }}>{{ member.name }}</a></div>
+              <div class="more-info"><a href="{{ site.baseurl }}/team/{{ member.url }}">{{ member.name }}</a></div>
             {% else %}
             {% if member.name %}
               <div class="more-info">{{ member.name }}</div>{% endif %}
             {% endif %}
-            {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+            {% if member.period %}<div class="more-info">{{ member.period }}</div>{% endif %}
+            
           </div>
         {% endfor %}
       </div>

@@ -243,7 +243,11 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
 
   .image-offset {
-    margin-left: 1rem; // oder dein gewünschter Wert
+    margin-left: 0rem; 
+  }
+  
+  @media (min-width: 576px) {
+    .image-offset { margin-left: 1rem !important; }
   }
   .more-info {
     margin-bottom: 10px;

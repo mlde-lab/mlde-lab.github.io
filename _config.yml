@@ -48,7 +48,7 @@ footer_fixed: true
 search_enabled: false
 socials_in_search: false
 posts_in_search: true
-bib_search: false
+bib_search: true
 
 # Dimensions
 max_width: 930px
@@ -132,7 +132,7 @@ external_sources:
 
 newsletter:
   enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/	newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
@@ -194,7 +194,6 @@ exclude:
   - _pages/dropdown.md
   - _pages/cv.md
   - _pages/teaching.md
-  - _pages/projects.md
   - _pages/people.md
   - _pages/research.md
 keep_files:

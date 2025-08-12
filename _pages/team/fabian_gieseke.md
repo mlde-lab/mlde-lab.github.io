@@ -10,6 +10,8 @@ subtitle: |+
     <i class="fas fa-microscope"></i>&nbsp;&nbsp;<b>Large-Scale Machine Learning, Tiny Machine Learning, Applications (Remote Sensing, Energy Systems, ...)</b><br>
     <i class="fab fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/gieseke" target="_blank"><b>GitHub</b></a>&nbsp;&nbsp;
     <i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/fabian-gieseke/" target="_blank"><b>LinkedIn</b></a>&nbsp;&nbsp;
+    <i class="ai ai-google-scholar ai-lg"></i>&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de" target="_blank"><b>Google Scholar</b></a>&nbsp;&nbsp;
+
    <br>
   </div>
   
@@ -23,7 +25,7 @@ profile:
   profile_image_class: profile-image
 ---
 
-## Contact
+## Office/Contact
 
 <div style="display: flex; gap: 80px; flex-wrap: wrap;">
 
@@ -51,6 +53,16 @@ profile:
 
 <br>
 
+
+## Research Interests
+
+- Efficient Large-Scale Machine Learning
+- Machine Learning for Resource-Constrained Devices
+- High-Performance Computing
+- Database Systems and Machine Learning
+- Remote Sensing
+- Energy Systems
+
 ## Bio
 
 <div style="text-align: justify">
@@ -61,11 +73,11 @@ Fabian Gieseke is the head of the Machine Learning and Data Engineering group at
   <li><b>Full Professor (W3)</b>, Department of Information Systems, University of Münster (Germany), 2020-today.</li>
   <li><b>Associate Professor (part-time)</b>, Department of Computer Science, University of Copenhagen (Denmark), 2021-today.</li>
   <li><b>Assistant Professor (Tenure-Track)</b>, Department of Computer Science, University of Copenhagen (Denmark), 2016-2021.</li>
-  <li><b>Postdoctoral Researcher</b>, Institute for Computing and Information Sciences (iCIS), Radboud University Nijmegen (Netherlands), 2014-2016.</li>
-  <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Copenhagen (Denmark), 2013-2014.</li>
+  <li><b>Postdoctoral Researcher</b>, Institute for Computing and Information Sciences (iCIS), Radboud University Nijmegen (Netherlands), 2014-2016 (supported via the <a href="https://www.ru.nl/en/staff/researchers/radboud-excellence-initiative">Raboud Excellence Initiative</a>).</li>
+  <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Copenhagen (Denmark), 2013-2014 (supported via the <a href="https://www.daad.de/en/">German Academic Exchange Service</a>).</li>
   <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Oldenburg (Germany), 2012-2013.</li>
   <li><b>Doctoral Degree (Dr. rer. nat.)</b>, Department of Computer Science, University of Oldenburg, Germany, 2006-2012</li>
-  <li><b>Diploma in Mathematics (<i>with honors/distinction</i>)</b>, University of Münster, Germany, 2001-2006</li>
+  <li><b>Diploma in Mathematics (<i>with distinction</i>)</b>, University of Münster, Germany, 2001-2006</li>
   <li><b>Diploma in Computer Science</b>, University of Münster, Germany, 2001-2006</li>
 </ul>
 

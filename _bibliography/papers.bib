@@ -129,17 +129,22 @@ of relevance and accuracy while maintaining swift response times},
   html = {https://www.sciencedirect.com/science/article/pii/S0034425723005205?via%3Dihub},
   abbr={Journal},
   preview={deep_point_cloud.png},
+  abstract={Quantifying forest biomass stocks and their dynamics is important for implementing effective climate change mitigation measures by aiding local forest management, studying processes driving af-, re-, and deforestation, and improving the accuracy of carbon accounting. Owing to the 3-dimensional nature of forest structure, remote sensing using airborne LiDAR can be used to perform these measurements of vegetation structure at large scale. Harnessing the full dimensionality of the data, we present deep learning systems predicting wood volume and above ground biomass (AGB) directly from the full LiDAR point cloud and compare results to state-of-the-art approaches operating on basic statistics of the point clouds. For this purpose, we devise different neural network architectures for point cloud regression and evaluate them on remote sensing data of areas for which AGB estimates have been obtained from field measurements in the Danish national forest inventory. Our adaptation of Minkowski convolutional neural networks for regression give the best results. The deep neural networks produce significantly more accurate wood volume, AGB, and carbon stock estimates compared to state-of-the-art approaches. In contrast to other methods, the proposed deep learning approach does not require a digital terrain model and is robust to artifacts along the boundaries of the evaluated areas, which we demonstrate for the case where trees protrude into the area from the outside. We expect this finding to have a strong impact on LiDAR-based analyses of biomass dynamics.},
+  bibtex_show={true}
 }
 
 @inproceedings{LimaDCF2023EndToEndNeural,
-  author = {Martins Lima and Mayr; Lülf Denis and Gieseke Christian; and  Fabian},
+  author = {Denis Lima Mayr Martins and Christian Lülf and Fabian Gieseke},
   title = {End-to-End Neural Network Training for Hyperbox-Based Classification},
   booktitle = {31st European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning},
   year = {2023},
   address = {Brügge},
-  html = {https://arxiv.org/abs/2307.09269},
+  html = {https://www.esann.org/sites/default/files/proceedings/2023/ES2023-33.pdf},
+  pdf={https://arxiv.org/abs/2307.09269},
   abbr={ESANN23},
   preview={nn_boxes.png},
+  bibtex_show={true},
+  abstract={Hyperbox-based classification has been seen as a promising technique in which decisions on the data are represented as a series of orthogonal, multidimensional boxes (i.e., hyperboxes) that are often interpretable and human-readable. However, existing methods are no longer capable of efficiently handling the increasing volume of data many application domains face nowadays. We address this gap by proposing a novel, fully differentiable framework for hyperbox-based classification via neural networks. In contrast to previous work, our hyperbox models can be efficiently trained in an end-to-end fashion, which leads to significantly reduced training times and superior classification results. }
 }
 
 @inproceedings{LuelfLMVZG2023FastSearchByClassification,
@@ -154,7 +159,7 @@ of relevance and accuracy while maintaining swift response times},
   address = {Vancouver},
   issn = {2150-8097},
   doi = {10.14778/3611479.3611492},
-  abstrac={The vast amounts of data collected in various domains pose great
+  abstract={The vast amounts of data collected in various domains pose great
 challenges to modern data exploration and analysis. To find “inter-
 esting” objects in large databases, users typically define a query
 using positive and negative example objects and train a classifi-
@@ -180,7 +185,8 @@ compared to hours needed by classical scanning-based approaches.},
   abbr={VLDB23},
   pdf={https://arxiv.org/abs/2306.02670},
   selected={true},
-  preview={decision_branches.png}
+  preview={decision_branches.png},
+  bibtex_show={true}
 }
 
 @inproceedings{LuelfLMVZG2023RapidEarth,
@@ -208,6 +214,9 @@ compared to hours needed by classical scanning-based approaches.},
   doi = {10.1093/pnasnexus/pgad076},
   abbr={Journal},
   preview={deep_learning_ensembles_trees.png},
+  html={https://academic.oup.com/pnasnexus/article/2/4/pgad076/7073732},
+  abstract={Sustainable tree resource management is the key to mitigating climate warming, fostering a green economy, and protecting valuable habitats. Detailed knowledge about tree resources is a prerequisite for such management but is conventionally based on plot-scale data, which often neglects trees outside forests. Here, we present a deep learning-based framework that provides location, crown area, and height for individual overstory trees from aerial images at country scale. We apply the framework on data covering Denmark and show that large trees (stem diameter >10 cm) can be identified with a low bias (12.5%) and that trees outside forests contribute to 30% of the total tree cover, which is typically unrecognized in national inventories. The bias is high (46.6%) when our results are evaluated against all trees taller than 1.3 m, which involve undetectable small or understory trees. Furthermore, we demonstrate that only marginal effort is needed to transfer our framework to data from Finland, despite markedly dissimilar data sources. Our work lays the foundation for digitalized national databases, where large trees are spatially traceable and manageable.},
+  bibtex_show={true},
 }
 
 @article{ReinerBTSKCDHCMIOGLLSBSTDSMTF2023MoreThanOne,
@@ -216,5 +225,8 @@ compared to hours needed by classical scanning-based approaches.},
   journal = {Nature Communications},
   year = {2023},
   abbr={Journal},
-  preview={trees_africa.png}
+  preview={trees_africa.png},
+  html={https://www.nature.com/articles/s41467-023-37880-4},
+  bibtex_show={true}, 
+  abstract={The consistent monitoring of trees both inside and outside of forests is key to sustainable land management. Current monitoring systems either ignore trees outside forests or are too expensive to be applied consistently across countries on a repeated basis. Here we use the PlanetScope nanosatellite constellation, which delivers global very high-resolution daily imagery, to map both forest and non-forest tree cover for continental Africa using images from a single year. Our prototype map of 2019 (RMSE = 9.57%, bias = −6.9%). demonstrates that a precise assessment of all tree-based ecosystems is possible at continental scale, and reveals that 29% of tree cover is found outside areas previously classified as tree cover in state-of-the-art maps, such as in croplands and grassland. Such accurate mapping of tree cover down to the level of individual trees and consistent among countries has the potential to redefine land use impacts in non-forest landscapes, move beyond the need for forest definitions, and build the basis for natural climate solutions and tree-related studies.}
 }
