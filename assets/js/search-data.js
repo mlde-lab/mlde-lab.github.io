@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-team",
           title: "team",
-          description: "The MLDE group brings together researchers from various disciplines such as information systems, computer science, mathematics, and geoinformatics, fostering an interdisciplinary environment to tackle complex problems in data-driven research. By combining expertise in machine learning, algorithms, data engineering, and application domains, we develop innovative solutions that bridge theoretical foundations with practical applications.",
+          description: "The MLDE group brings together researchers from various disciplines such as information systems, computer science, mathematics, and geoinformatics, to tackle complex problems in data-driven research. By combining expertise in machine learning, algorithms, data engineering, and application domains, we develop innovative solutions that bridge theoretical foundations with practical applications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "This page gives an overview of ongoing and completed research projects, both including collaborations with academic partners and collaborations with industry.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -31,52 +38,17 @@ ninja.data = [{
             },},{id: "news-new-webpage-is-online-sparkles-smile",
           title: 'New webpage is online! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-we-have-had-a-great-time-at-icml-2025-with-two-papers-being-presented",
-          title: 'We have had a great time at ICML 2025 with two papers being...',
+          section: "News",},{id: "news-we-have-had-a-great-time-at-icml-2025-this-year-with-two-papers-being-presented",
+          title: 'We have had a great time at ICML 2025 this year with two...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-ai4forest",
+          title: 'AI4Forest',
+          description: "AI-Based High-Resolution Forest Monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-tinyaiot",
+          title: 'TinyAIoT',
+          description: "Energy- and resource-efficient artificial intelligence for modern IoT applications",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},];
