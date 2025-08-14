@@ -128,4 +128,9 @@
       </div>
     </progress>
   {% endif %}
+  {% if page.breadcrumb %}
+  <div class="container mt-3" role="navigation">
+    {% include breadcrumbs.liquid %}
+  </div>
+{% endif %}
 </header>

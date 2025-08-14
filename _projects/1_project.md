@@ -2,8 +2,6 @@
 layout: project
 title: AI4Forest
 description: AI-Based High-Resolution Forest Monitoring
-subtitle: |
-  test
 img: assets/img/projects/1/canopy_height.jpg
 importance: 1
 category: ongoing
@@ -18,7 +16,7 @@ researchers:
   - name: Prof. Dr. Fabian Gieseke
     image: fabian_gieseke.jpg
     image_circular: false
-    role: Full Professor
+    role: Principal Investigator
     url: /team/fabian-gieseke
     email: fabian.gieseke AT uni-muenster.de
     github: https://github.com/gieseke
