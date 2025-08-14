@@ -1,0 +1,89 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">projects > {{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {{ content }}
+
+
+    {% if page.researchers %}
+      <h2>
+        Project Members (Excluding External)
+      </h2>
+      
+      <div class="team-container">
+        {% for member in page.researchers %}
+          <div class="team-member">
+            {% if member.image %}
+              {% assign member_image_path = member.image | prepend: 'assets/img/team/' %}
+              {% if member.image_circular %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded-circle team-image-fixed' %}
+              {% else %}
+                {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+            {% endif %}
+            {% if member.url %}
+              <div class="more-info"><a href="{{ member.url }}">{{ member.name }}</a></div>
+            {% else %}
+            {% if member.name %}
+              <div class="more-info">{{ member.name }}</div>{% endif %}
+            {% endif %}
+            {% if member.role %}<div class="more-info">{{ member.role }}</div>{% endif %}
+            
+            {% if member.github %}
+              <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i>&nbsp;
+            {% else %}
+              <i class="fab fa-github"></i></a>&nbsp;
+            {% endif %}
+            
+            {% if member.linkedin %}
+              <a href="{{ member.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;
+            {% else %}
+              <i class="fab fa-linkedin"></i>&nbsp;            
+            {% endif %}
+            
+            {% if member.google_scholar %}
+              <a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar ai-lg"></i></a>&nbsp;
+            {% else %}
+              <i class="ai ai-google-scholar ai-lg"></i>&nbsp;            
+            {% endif %}            
+                      
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <br>
+    
+   {% if page.related_publications %}
+      <h2>
+        Related Publications
+      </h2>
+
+	<div class="publications">
+	{% bibliography -f papers %}
+	</div>
+
+  {% endif %}
+  
+  </article>
+  
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>

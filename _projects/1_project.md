@@ -1,18 +1,38 @@
 ---
-layout: page
+layout: project
 title: AI4Forest
 description: AI-Based High-Resolution Forest Monitoring
+subtitle: |
+  test
 img: assets/img/projects/1/canopy_height.jpg
 importance: 1
 category: ongoing
 related_publications: true
+project_filter_publications: ai4forest
+breadcrumb:
+  - title: projects
+    url: /projects/
+  - title: ai4forest
+
+researchers:
+  - name: Prof. Dr. Fabian Gieseke
+    image: fabian_gieseke.jpg
+    image_circular: false
+    role: Full Professor
+    url: /team/fabian-gieseke
+    email: fabian.gieseke AT uni-muenster.de
+    github: https://github.com/gieseke
+    linkedin: https://www.linkedin.com/in/fabian-gieseke/
+    google_scholar: https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de
+  - name: Jan Pauls
+    image: jan_pauls.jpg
+    image_circular: false
+    role: Doctoral Candidate
+  - name: Jorunn Mense
+    image: jorunn_mense.jpg
+    image_circular: false
+    role: Doctoral Candidate
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: TinyAIoT
 description: Energy- and resource-efficient artificial intelligence for modern IoT applications
 img: assets/img/projects/2/smart_trashcan_setup.jpg

@@ -53,24 +53,47 @@ layout: default
             </div>
           </div>
           {%- endif %}
-          
+
           
           <div class="clearfix">
+          
+             {% if page.contact %}
+               <h2>Contact</h2>              
+               {{ page.contact | raw}}   
+             {% endif %}
+
+             {% if page.research %}
+               <h2>Research Interests</h2>              
+               {{ page.research }}   
+             {% endif %}
+
+             {% if page.bio %}
+               <h2>Bio</h2>              
+               {{ page.bio }}   
+             {% endif %}             
             {{ content }}
           </div>
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
+      <h2>
+        Publications
+      </h2>
 
-          {% if page.selected_papers %}
-          <script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
-          {% endif %}
+      {% include bib_search.liquid %}
+      <br>
+      <br>
+	<div class="publication-tags">
+	  <a href="#" class="btn btn-sm z-depth-0 active" role="button" data-tag="all">All</a>
+	  {% assign tags = site.data.publication_tags %}
+	  {% for tag in tags %}
+	    <a href="#{{ tag.tag }}" class="btn btn-sm z-depth-0" role="button" data-tag="{{ tag.tag }}">{{ tag.name }}</a>
+	  {% endfor %}
+	</div>
+
+	<div class="publications">
+	{% bibliography -f papers %}
+	</div>
+
+
 
         </article>
 

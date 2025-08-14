@@ -1,7 +1,7 @@
 @inproceedings{fayad2025dunia,
   title={DUNIA: Pixel-Sized Embeddings via Cross-Modal Alignment for Earth Observation Applications},
   author={Fayad, Ibrahim and Zimmer, Max and Schwartz, Martin and Ciais, Philippe and Gieseke, Fabian and Belouze, Gabriel and Brood, Sarah and De Truchis, Aurelien and d'Aspremont, Alexandre},
-  booktitle={Forty-Second International Conference on Machine Learning},
+  booktitle={42nd International Conference on Machine Learning (ICML)},
   year={2025},
   html={https://openreview.net/forum?id=JXCiQteuOv},
   abstract      = {Significant efforts have been directed towards adapting self-supervised multimodal learning for Earth observation applications. However, existing methods produce coarse patch-sized embeddings, limiting their effectiveness and integration with other modalities like LiDAR. To close this gap, we present DUNIA, an approach to learn pixel-sized embeddings through cross-modal alignment between images and full-waveform LiDAR data. As the model is trained in a contrastive manner, the embeddings can be directly leveraged in the context of a variety of environmental monitoring tasks in a zero-shot setting. In our experiments, we demonstrate the effectiveness of the embeddings for seven such tasks (canopy height mapping, fractional canopy cover, land cover mapping, tree species identification, plant area index, crop type classification, and per-pixel waveform-based vertical structure mapping). The results show that the embeddings, along with zero-shot classifiers, often outperform specialized supervised models, even in low data regimes. In the fine-tuning setting, we show strong low-shot capabilities with performances near or better than state-of-the-art on five out of six tasks.},
@@ -10,14 +10,15 @@
   pdf={https://arxiv.org/abs/2502.17066},
   preview={dunia.png},
   selected={true},
-  tags={ml, applications},
-  code={https://github.com/AI4Forest/DUNIA}
+  tags={ml, application},
+  code={https://github.com/AI4Forest/DUNIA},
+  projects={ai4forest}
 }
 
 @inproceedings{pauls2025capturing,
   title={Capturing Temporal Dynamics in Large-Scale Canopy Tree Height Estimation},
   author={Pauls, Jan and Zimmer, Max and Turan, Berkant and Saatchi, Sassan and Ciais, Philippe and Pokutta, Sebastian and Gieseke, Fabian},
-  booktitle={Forty-Second International Conference on Machine Learning},
+  booktitle={42nd International Conference on Machine Learning (ICML)},
   year={2025},
   html={https://openreview.net/forum?id=ri1cs3vtXX},
   abstract      = {With the rise in global greenhouse gas emissions, accurate large-scale tree canopy height maps are essential for understanding forest structure, estimating above-ground biomass, and monitoring ecological disruptions. To this end, we present a novel approach to generate large-scale, high-resolution canopy height maps over time. Our model accurately predicts canopy height over multiple years given Sentinel-2 time series satellite data. Using GEDI LiDAR data as the ground truth for training the model, we present the first 10m resolution temporal canopy height map of the European continent for the period 2019-2022. As part of this product, we also offer a detailed canopy height map for 2020, providing more precise estimates than previous studies. Our pipeline and the resulting temporal height map are publicly available, enabling comprehensive large-scale monitoring of forests and, hence, facilitating future research and ecological analyses. For an interactive viewer, see this https URL.},
@@ -27,8 +28,9 @@
   preview={temporalcanopy.png},
   custom={Earth Engine|https://europetreemap.projects.earthengine.app/view/temporalcanopyheight},
   selected={true},
-  tags={ml, applications},
-  code={https://github.com/AI4Forest/Europe-Temporal-Canopy-Height}
+  tags={ml, application},
+  code={https://github.com/AI4Forest/Europe-Temporal-Canopy-Height},
+  projects={ai4forest}
 }
 
 @article{BernardinoKHKLFOGMAVS2025,
@@ -41,7 +43,7 @@
   doi = {10.1038/s41558-024-02201-0},
   abstract      = {Climate change and human-induced land degradation threaten dryland ecosystems, vital to one-third of the global population and pivotal to inter-annual global carbon fluxes. Early warning systems are essential for guiding conservation, climate change mitigation and alleviating food insecurity in drylands. However, contemporary methods fail to provide large-scale early warnings effectively. Here we show that a machine learning-based approach can predict the probability of abrupt shifts in Sudano–Sahelian dryland vegetation functioning (75.1% accuracy; 76.6% precision) particularly where measures of resilience (temporal autocorrelation) are supplemented with proxies for vegetation and rainfall dynamics and other environmental factors. Regional-scale predictions for 2025 highlight a belt in the south of the study region with high probabilities of future shifts, largely linked to long-term rainfall trends. Our approach can provide valuable support for the conservation and sustainable use of dryland ecosystem services, particularly in the context of climate change projected drying trends.},
   html={https://www.nature.com/articles/s41558-024-02201-0},
-  tags={applications},
+  tags={application},
   preview={abrupt_shifts_2025.png},
   selected={true},
   bibtex_show={true},
@@ -60,14 +62,14 @@
   abstract = {Trees contribute to carbon dioxide absorption through biomass, regulate the climate, support biodiversity, enhance soil, air and water quality, and offer economic and health benefits. Traditionally, tree monitoring on continental and global scales has focused on forest cover, whereas assessing biomass and species diversity, as well as trees outside closed-canopy forests, has been challenging. A new generation of commercial and public satellites and sensors provide high-resolution spatial and temporal optical data that can be used to identify trees as objects. Technologies from the field of artificial intelligence, such as convolutional neural networks and vision transformers, can go beyond detecting these objects as two-dimensional representations, and support characterization of the three-dimensional structure of objects, such as canopy height and wood volume, via contextual learning from two-dimensional images. These advancements enable reliable characterization of trees, their structure, biomass and diversity both inside and outside forests. Furthermore, self-supervision and foundation models facilitate large-scale applications without requiring extensive amounts of labels. Here, we summarize these advances, highlighting their application towards consistent tree monitoring systems that can assess carbon stocks, attribute losses and gains to underlying drivers and, ultimately, contribute to climate change mitigation.},
   abbr={Journal},
   bibtex_show={true},
-  tags={applications},
+  tags={application},
   preview={high_res_sensors_2025.png}
 }
 
 @InProceedings{pauls2024estimating,
 title={Estimating Canopy Height at Scale},
 author={Jan Pauls and Max Zimmer and Una M. Kelly and Martin Schwartz and Sassan Saatchi and Philippe Ciais and Sebastian Pokutta and Martin Brandt and Fabian Gieseke},
-booktitle={Forty-First International Conference on Machine Learning},
+booktitle={41st International Conference on Machine Learning (ICML)},
 year={2024},
 html={https://openreview.net/forum?id=ZzCY0fRver},
 abstract      = {We propose a framework for global-scale canopy height estimation based on satellite data. Our model leverages advanced data preprocessing techniques, resorts to a novel loss function designed to counter geolocation inaccuracies inherent in the ground-truth height measurements, and employs data from the Shuttle Radar Topography Mission to effectively filter out erroneous labels in mountainous regions, enhancing the reliability of our predictions in those areas. A comparison between predictions and ground-truth labels yields an MAE / RMSE of 2.43 / 4.73 (meters) overall and 4.45 / 6.72 (meters) for trees taller than five meters, which depicts a substantial improvement compared to existing global-scale maps. The resulting height map as well as the underlying framework will facilitate and enhance ecological analyses at a global scale, including, but not limited to, large-scale forest and biomass monitoring.},
@@ -78,7 +80,8 @@ code={https://github.com/AI4Forest/Global-Canopy-Height-Map},
 preview={canopy_height.png},
 selected={true},
 custom={Earth Engine|https://worldwidemap.projects.earthengine.app/view/canopy-height-2020},
-tags={ml,de,applications},
+tags={ml,de,application},
+projects={ai4forest}
 }
 
 
@@ -200,7 +203,7 @@ compared to hours needed by classical scanning-based approaches.},
   abstract={Data exploration and analysis in various domains often necessitate the search for specific objects in massive databases. A common search strategy, often known as search-by-classification, resorts to training machine learning models on small sets of positive and negative samples and to performing inference on the entire database to discover additional objects of interest. While such an approach often yields very good results in terms of classification performance, the entire database usually needs to be scanned, a process that can easily take several hours even for medium-sized data catalogs. In this work, we present RapidEarth, a geospatial search-by-classification engine that allows analysts to rapidly search for interesting objects in very large data collections of satellite imagery in a matter of seconds, without the need to scan the entire data catalog. RapidEarth embodies a co-design of multidimensional indexing structures and decision branches, a recently proposed variant of classical decision trees. These decision branches allow RapidEarth to transform the inference phase into a set of range queries, which can be efficiently processed by leveraging the aforementioned multidimensional indexing structures. The main contribution of this work is a geospatial search engine that implements these technical findings. },
   pdf={https://arxiv.org/abs/2309.15617},
   preview={rapid_earth.png},
-  custom={Best Demo Award},
+  award={Best Demo Award},
   selected={true}
 }
 
@@ -229,4 +232,265 @@ compared to hours needed by classical scanning-based approaches.},
   html={https://www.nature.com/articles/s41467-023-37880-4},
   bibtex_show={true}, 
   abstract={The consistent monitoring of trees both inside and outside of forests is key to sustainable land management. Current monitoring systems either ignore trees outside forests or are too expensive to be applied consistently across countries on a repeated basis. Here we use the PlanetScope nanosatellite constellation, which delivers global very high-resolution daily imagery, to map both forest and non-forest tree cover for continental Africa using images from a single year. Our prototype map of 2019 (RMSE = 9.57%, bias = −6.9%). demonstrates that a precise assessment of all tree-based ecosystems is possible at continental scale, and reveals that 29% of tree cover is found outside areas previously classified as tree cover in state-of-the-art maps, such as in croplands and grassland. Such accurate mapping of tree cover down to the level of individual trees and consistent among countries has the potential to redefine land use impacts in non-forest landscapes, move beyond the need for forest definitions, and build the basis for natural climate solutions and tree-related studies.}
+}
+
+@inproceedings{OehmckeG2022InputSelection,
+  author = {Stefan Oehmcke and Fabian Gieseke},
+  title = {Input Selection for Bandwidth-Limited Neural Network Inference},
+  booktitle = {Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)},
+  pages = {280--288},
+  editor = {Arindam Banerjee and Zhi-Hua Zhou and  Evangelos E. Papalexakis and Matteo Riondato},
+  year = {2022},
+  publisher = {SIAM Publications},
+  address = {USA},
+  doi = {10.1137/1.9781611977172.32},
+  bibtex_show={true},
+  pdf={https://arxiv.org/abs/1906.04673},
+  html={https://epubs.siam.org/doi/10.1137/1.9781611977172.32},
+  abstract={Data are often accommodated on centralized storage servers. This is the case, for instance, in remote sensing and astronomy, where projects produce several petabytes of data every year. While machine learning models are often trained on relatively small subsets of the data, the inference phase typically requires transferring significant amounts of data between the servers and the clients. In many cases, the bandwidth available per user is limited, which then renders the data transfer to be one of the major bottlenecks. In this work, we propose a framework that automatically selects the relevant parts of the input data for a given neural network. The model as well as the associated selection masks are trained simultaneously such that a good model performance is achieved while only a minimal amount of data is selected. During the inference phase, only those parts of the data have to be transferred between the server and the client. We propose both instance-independent and instance-dependent selection masks. The former ones are the same for all instances to be transferred, whereas the latter ones allow for variable transfer sizes per instance. Our experiments show that it is often possible to significantly reduce the amount of data needed to be transferred without affecting the model quality much.},
+  preview={2022_selection_masks.png},
+  abbr={SDM22},
+  tags={ml,de},
+  selected={true}
+}
+
+@inproceedings{OehmckeLRNLTGI2022DeepLearning,
+  author = {Stefan Oehmcke and Lei Li and Jaime Revenga and Thomas Nord-Larsen and Katerina Trepekli and Fabian Gieseke and Christian Igel},
+  title = {Deep Learning Based 3D Point Cloud Regression for Estimating Forest Biomass},
+  booktitle = {30th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2022)},
+  pages = {1--4},
+  editor = {Matthias Renz and Mohamed Sarwat},
+  year = {2022},
+  publisher = {ACM Press},
+  address = {New York, NY, USA},
+  doi = {10.1145/3557915.3561471},
+  bibtex_show={true},
+  html={https://dl.acm.org/doi/10.1145/3557915.3561471},
+  pdf={https://arxiv.org/abs/2112.11335},
+  abstract={Quantification of forest biomass stocks and their dynamics is important for implementing effective climate change mitigation measures. The knowledge is needed, e.g., for local forest management, studying the processes driving af-, re-, and deforestation, and can improve the accuracy of carbon-accounting. Remote sensing using airborne LiDAR can be used to perform these measurements of vegetation structure at large scale. We present deep learning systems for predicting wood volume, above-ground biomass (AGB), and subsequently above-ground carbon stocks directly from airborne LiDAR point clouds. We devise different neural network architectures for point cloud regression and evaluate them on remote sensing data of areas for which AGB estimates have been obtained from field measurements in the Danish national forest inventory. Our adaptation of Minkowski convolutional neural networks for regression gave the best results. The deep neural networks produced significantly more accurate wood volume, AGB, and carbon stock estimates compared to state-of-the-art approaches operating on basic statistics of the point clouds. In contrast to other methods, the proposed deep learning approach does not require a digital terrain model. We expect this finding to have a strong impact on LiDAR-based analyses of biomass dynamics.},
+ preview={2022_3d_point_cloud.png},
+ abbr={SIGSPATIAL22},
+ tags={ml,application,rs}
+}
+
+@article{MasoleleDMVGMMSMH2022UsingHighResolution,
+  author = {Robert N. Masolele and Sy Veronique De and Diego Marcos and Jan Verbesselt and Fabian Gieseke and Kalkidan Ayele Mulatu and Yitebitu Moges and Heiru Sebrala and Christopher Martius and Martin Herold},
+  title = {Using high-resolution imagery and deep learning to classify land-use following deforestation: a case study in Ethiopia},
+  journal = {GIScience and Remote Sensing},
+  year = {2022},
+  volume = {59},
+  number = {1},
+  pages = {1446--1472},
+  doi = {10.1080/15481603.2022.2115619},
+  bibtex_show={true},
+  html={https://www.tandfonline.com/doi/full/10.1080/15481603.2022.2115619},
+  abstract={National-scale assessments of post-deforestation land-use are crucial for decreasing deforestation and forest degradation-related emissions. In this research, we assess the potential of different satellite data modalities (single-date, multi-date, multi-resolution, and an ensemble of multi-sensor images) for classifying land-use following deforestation in Ethiopia using the U-Net deep neural network architecture enhanced with attention. We performed the analysis on satellite image data retrieved across Ethiopia from freely available Landsat-8, Sentinel-2 and Planet-NICFI satellite data. The experiments aimed at an analysis of (a) single-date images from individual sensors to account for the differences in spatial resolution between image sensors in detecting land-uses, (b) ensembles of multiple images from different sensors (Planet-NICFI/Sentinel-2/Landsat-8) with different spatial resolutions, (c) the use of multi-date data to account for the contribution of temporal information in detecting land-uses, and, finally, (d) the identification of regional differences in terms of land-use following deforestation in Ethiopia. We hypothesize that choosing the right satellite imagery (sensor) type is crucial for the task. Based on a comprehensive visually interpreted reference dataset of 11 types of post-deforestation land-uses, we find that either detailed spatial patterns (single-date Planet-NICFI) or detailed temporal patterns (multi-date Sentinel-2, Landsat-8) are required for identifying land-use following deforestation, while medium-resolution single-date imagery is not sufficient to achieve high classification accuracy. We also find that adding soft-attention to the standard U-Net improved the classification accuracy, especially for small-scale land-uses. The models and products presented in this work can be used as a powerful data resource for governmental and forest monitoring agencies to design and monitor deforestation mitigation measures and data-driven land-use policy.},
+  abbr={Journal},
+  tags={application,rs},
+  preview={2022_deep_learning_ethiopia.png}
+}
+
+@article{MugabowindekweBCRSKIHCMTLRDNVLGTSF2022NationWide,
+  author = {Maurice Mugabowindekwe and Martin Brandt and Jerome Chave and Florian Reiner and David Skole and Ankit Kariryaa and Christian Igel and Pierre Hiernaux and Philippe Ciais and Ole Mertz and Xiaoye Tong and Sizhuo Li and Gaspard Rwanyiziri and Thaulin Dushimiyimana and Alain Ndoli and Uwizeyimana Valens and Jens-Peter Lillesø and Fabian Gieseke and Compton Tucker and Sassan S Saatchi and Rasmus Fensholt},
+  title = {Nation-wide mapping of tree-level aboveground carbon stocks in Rwanda},
+  journal = {Nature Climate Change},
+  year = {2022},
+  volume = {13},
+  doi = {10.1038/s41558-022-01544-w},
+  bibtex_show={true},
+  html={https://www.nature.com/articles/s41558-022-01544-w},
+  abstract={Trees sustain livelihoods and mitigate climate change but a predominance of trees outside forests and limited resources make it difficult for many tropical countries to conduct automated nation-wide inventories. Here, we propose an approach to map the carbon stock of each individual overstory tree at the national scale of Rwanda using aerial imagery from 2008 and deep learning. We show that 72% of the mapped trees are located in farmlands and savannas and 17% in plantations, accounting for 48.6% of the national aboveground carbon stocks. Natural forests cover 11% of the total tree count and 51.4% of the national carbon stocks, with an overall carbon stock uncertainty of 16.9%. The mapping of all trees allows partitioning to any landscapes classification and is urgently needed for effective planning and monitoring of restoration activities as well as for optimization of carbon sequestration, biodiversity and economic benefits of trees.},
+  abbr={Journal},
+  tags={application,rs},
+  preview={2022_nation_wide_trees.png},
+  selected={true}
+}
+
+@article{RevengaTOJLIGF2022AboveGround,
+  author = {Jaime C. Revenga and Katerina Trepekli and  Stefan Oehmcke and Rasmus Jensen and Lei Li and Christian Igel and Fabian Gieseke and Thomas Friborg},
+  title = {Above-Ground Biomass Prediction for Croplands at a Sub-Meter Resolution Using UAV–LiDAR and Machine Learning Methods},
+  journal = {Remote Sensing (Remote Sens.)},
+  year = {2022},
+  volume = {14},
+  number = {16},
+  pages = {3912},
+  doi = {10.3390/rs14163912},
+  bibtex_show={true},
+  html={https://www.mdpi.com/2072-4292/14/16/3912},
+  abstract={Current endeavors to enhance the accuracy of in situ above-ground biomass (AGB) prediction for croplands rely on close-range monitoring surveys that use unstaffed aerial vehicles (UAVs) and mounted sensors. In precision agriculture, light detection and ranging (LiDAR) technologies are currently used to monitor crop growth, plant phenotyping, and biomass dynamics at the ecosystem scale. In this study, we utilized a UAV–LiDAR sensor to monitor two crop fields and a set of machine learning (ML) methods to predict real-time AGB over two consecutive years in the region of Mid-Jutland, Denmark. During each crop growing period, UAV surveys were conducted in parallel with AGB destructive sampling every 7–15 days, the AGB samples from which were used as the ground truth data. We evaluated the ability of the ML models to estimate the real-time values of AGB at a sub-meter resolution (0.17–0.52 m2). An extremely randomized trees (ERT) regressor was selected for the regression analysis, based on its predictive performance for the first year’s growing season. The model was retrained using previously identified hyperparameters to predict the AGB of the crops in the second year. The ERT performed AGB estimation using height and reflectance metrics from LiDAR-derived point cloud data and achieved a prediction performance of 𝑅2 = 0.48 at a spatial resolution of 0.35 m2. The prediction performance could be improved significantly by aggregating adjacent predictions (𝑅2 = 0.71 and 𝑅2 = 0.93 at spatial resolutions of 1 m2 and 2 m2, respectively) as they ultimately converged to the reference biomass values because any individual errors averaged out. The AGB prediction results were examined as function of predictor type, training set size, sampling resolution, phenology, and canopy density. The results demonstrated that when combined with ML regression methods, the UAV–LiDAR method could be used to provide accurate real-time AGB prediction for crop fields at a high resolution, thereby providing a way to map their biochemical constituents.},
+  abbr={Journal},
+  preview={2022_above_ground.png},
+  tags={application,rs}
+}
+
+@inproceedings{DaiGOWB2021Attentional,
+  author = {Yimian Dai and Fabian Gieseke and Stefan Oehmcke and Yiquan Wu and Kobus Barnard},
+  title = {Attentional Feature Fusion},
+  booktitle = {Proceedings of the Workshop on Applications of Computer Vision (WACV)},
+  pages = {3559--3568},
+  year = {2021},
+  publisher = {IEEE},
+  doi = {10.1109/WACV48630.2021.00360},
+  bibtex_show={true},
+  abstract={Feature fusion, the combination of features from different layers or branches, is an omnipresent part of modern network architectures. It is often implemented via simple operations, such as summation or concatenation, but this might not be the best choice. In this work, we propose a uniform and general scheme, namely attentional feature fusion, which is applicable for most common scenarios, including feature fusion induced by short and long skip connections as well as within Inception layers. To better fuse features of inconsistent semantics and scales, we propose a multi-scale channel attention module, which addresses issues that arise when fusing features given at different scales. We also demonstrate that the initial integration of feature maps can become a bottleneck and that this issue can be alleviated by adding another level of attention, which we refer to as iterative attentional feature fusion. With fewer layers or parameters, our models outperform state-of-the-art networks on both CIFAR-100 and ImageNet datasets, which suggests that more sophisticated attention mechanisms for feature fusion hold great potential to consistently yield better results compared to their direct counterparts. Our codes and trained models are available online.},
+  html={https://openaccess.thecvf.com/content/WACV2021/papers/Dai_Attentional_Feature_Fusion_WACV_2021_paper.pdf},
+  pdf={https://openaccess.thecvf.com/content/WACV2021/papers/Dai_Attentional_Feature_Fusion_WACV_2021_paper.pdf},
+  abbr={WACV21},
+  tags={ml},
+  preview={2021_attentional_feature_fusion.png}
+}
+
+@inproceedings{MunksgaardBHGO2021DatasetSensitive,
+  author = {Philip Munksgaard and Svend Lund Breddam and Troels Henriksen and Fabian Gieseke and Cosmin Eugen Oancea},
+  title = {Dataset Sensitive Autotuning of Multi-versioned Code Based on Monotonic Properties --- Autotuning in Futhark},
+  booktitle = {Proceedings of the 22nd International Symposium on Trends in Functional Programming (TFP)},
+  pages = {3--23},
+  series = {Lecture Notes in Computer Science},
+  volume = {12834},
+  year = {2021},
+  publisher = {Springer},
+  address = {Virtual Event},
+  doi = {10.1007/978-3-030-83978-9},
+  bibtex_show={true},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-83978-9_1},
+  abstract={Functional languages allow rewrite-rule systems that aggressively generate a multitude of semantically-equivalent but differently-optimized code versions. In the context of GPGPU execution, this paper addresses the important question of how to compose these code versions into a single program that (near-)optimally discriminates them across
+different datasets. Rather than aiming at a general autotuning framework reliant on stochastic search, we argue that in some cases, a more effective solution can be obtained by customizing the tuning strategy for the compiler transformation producing the code versions. We present a simple and highly-composable strategy which requires that the (dynamic) program property used to discriminate between code versions conforms with a certain monotonicity assumption. Assuming the monotonicity assumption holds, our strategy guarantees that if an optimal solution exists it will be found. If an optimal solution doesn’t exist, our strategy produces human tractable and deterministic results that provide insights into what went wrong and how it can be fixed. We apply our tuning strategy to the incremental-flattening transformation supported by the publicly-available Futhark compiler and compare with a previous black-box tuning solution that uses the popular OpenTuner library. We demonstrate the feasibility of our solution on a set of standard datasets of real-world applications and public benchmark suites, such as Rodinia and FinPar. We show that our approach shortens the tuning time by a factor of 6× on average, and more importantly, in five out of eleven cases, it produces programs that are (as high as 10×) faster than the ones produced by the OpenTuner-based technique.},
+  award={Best Paper Award},
+  tags={de},
+  abbr={TFP21},
+  preview={2021_furthark.png}
+}
+
+@inproceedings{OehmckeNSGG2021Estimating,
+  author = {Stefan Oehmcke and Thomas Nyegaard-Signori and Kenneth Grogan and Fabian Gieseke},
+  title = {Estimating Forest Canopy Height With Multi-Spectral and Multi-Temporal Imagery Using Deep Learning},
+  booktitle = {2021 {IEEE} International Conference on Big Data (Big Data)},
+  pages = {4915--4924},
+  editor = {Yixin Chen and Heiko Ludwig and Yicheng Tu and Usama M. Fayyad and Xingquan Zhu and Xiaohua Hu and Suren Byna and Xiong Liu and Jianping Zhang and Shirui Pan and Vagelis Papalexakis and Jianwu Wang and Alfredo Cuzzocrea and Carlos Ordonez},
+  year = {2021},
+  publisher = {Wiley-IEEE Press},
+  address = {Orlando, US},
+  doi = {10.1109/BigData52589.2021.9672018},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/document/9672018/},
+  abstract={Canopy height is a vital indicator to asses carbon uptake and productivity of forests. However, precise measurements, such as from airborne or spaceborne 3D laser scanning (LiDAR), are expensive and usually cover only small areas. In this work, we propose a novel deep learning model that can generate detailed maps of tree canopy heights. In contrast to previous approaches that use a single image as input, we process multi-temporal data via a an adaptation of the popular U-Net architecture that is based on the EfficientNet and 3D convolution operators. To that end, our model receives multi-spectral Landsat satellite imagery as input and can predict continuous height maps. As labeled data, we resort to spatially sparse LiDAR data from ICESat-2. Thus, with such a model, one can produce dense canopy height maps given only multi-spectral Landsat data. Our experimental evaluation shows that our our model outperforms existing and improved single-temporal models. To test generalizability, we created a non-overlapping dataset to evaluate our approach and further tested the model performance on out-of-distribution data. The results show that our model can successfully learn drastic changes in distribution.},
+  tags={application,rs},
+  preview={2021_estimating_forest.png},
+    abbr={IEEE BigData 2021},
+}
+
+
+@article{MasoleleDHMVGMM2021SpatialAnd,
+  author = {Robert N. Masolele and Veronique {De Sy} and Martin Herold and Diego Marcos and Jan Verbesselt and Fabian Gieseke and Adugna G. Mullissa and Christopher Martius},
+  title = {Spatial and temporal deep learning methods for deriving land-use following deforestation: A pan-tropical case study using Landsat time series},
+  journal = {Remote Sensing of Environment},
+  year = {2021},
+  volume = {264},
+  pages = {112600},
+  doi = {10.1016/j.rse.2021.112600},
+  bibtex_show={true},
+  abstract={Assessing land-use following deforestation is vital for reducing emissions from deforestation and forest degradation. In this paper, for the first time, we assess the potential of spatial, temporal and spatio-temporal deep learning methods for large-scale classification of land-use following tropical deforestation using dense satellite time series over six years on the pan-tropical scale (incl. Latin America, Africa, and Asia). Based on an extensive reference database of six forest to land-use conversion types, we find that the spatio-temporal models achieved a substantially higher F1-score accuracies than models that account only for spatial or temporal patterns. Although all models performed better when the scope of the problem was limited to a single continent, the spatial models were more competitive than the temporal ones in this setting. These results suggest that the spatial patterns of land-use within a continent share more commonalities than the temporal patterns and the spatial patterns across continents. This work explores the feasibility of extending and complementing previous efforts for characterizing follow-up land-use after deforestation at a small-scale via human visual interpretation of high resolution RGB imagery. It supports the usage of fast and automated large-scale land-use classification and showcases the value of deep learning methods combined with spatio-temporal satellite data to effectively address the complex tasks of identifying land-use following deforestation in a scalable and cost effective manner.},
+  tags={application,rs},
+  preview={2021_spatial_temporal.png},
+  html={https://www.sciencedirect.com/science/article/pii/S0034425721003205},
+  abbr={Journal}  
+}
+
+@inproceedings{DaiOGWB2020AttentionAs,
+  author = {Yimian Dai and Stefan Oehmcke and Fabian Gieseke and Yiquan Wu and Kobus Barnard},
+  title = {Attention as Activation},
+  booktitle = {Proceedings of the 25th International Conference on Pattern Recognition (ICPR)},
+  pages = {9156--9163},
+  year = {2020},
+  publisher = {IEEE},
+  address = {Milan, Italy},
+  doi = {10.1109/ICPR48806.2021.9413020},
+  bibtex_show={true},
+  pdf={https://arxiv.org/abs/2007.07729},
+  html={https://www.computer.org/csdl/proceedings-article/icpr/2021/09413020/1tmhWvP2y9a},
+  tags={ml},
+  abbr={ICPR20},
+  preview={2021_attention_as_activation.png}
+}
+
+@inproceedings{GiesekeRHVO2020MassivelyParallel,
+  author = {Fabian Gieseke and Sabina Rosca and Troels Henriksen and Jan Verbesselt and Cosmin Eugen Oancea},
+  title = {Massively-Parallel Change Detection for Satellite Time Series Data with Missing Values},
+  booktitle = {Proceedings of the 36th {IEEE} International Conference on Data Engineering (ICDE)},
+  pages = {385--396},
+  year = {2020},
+  address = {Dallas, USA},
+  doi = {10.1109/ICDE48307.2020.00040},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/document/9101616},
+  pdf={https://futhark-lang.org/publications/icde20.pdf},
+  abstract={Large amounts of satellite data are now becoming available, which, in combination with appropriate change detection methods, offer the opportunity to derive accurate information on timing and location of disturbances such as deforestation events across the earth surface. Typical scenarios require the analysis of billions of image patches/pixels. While various change detection techniques have been proposed in the literature, the associated implementations usually do not scale well, which renders the corresponding analyses computationally very expensive or even impossible. In this work, we propose a novel massively-parallel implementation for a state-of-the-art change detection method and demonstrate its potential in the context of monitoring deforestation. The novel implementation can handle large scenarios in a few hours or days using cheap commodity hardware, compared to weeks or even years using the existing publicly available code, and enables researchers, for the first time, to conduct global-scale analyses covering large parts of our Earth using little computational resources. From a technical perspective, we provide a high-level parallel algorithm specification along with several performance-critical optimizations dedicated to efficiently map the specified parallelism to modern parallel devices. While a particular change detection method is addressed in this work, the algorithmic building blocks provided are also of immediate relevance to a wide variety of related approaches in remote sensing and other fields.},
+  abbr={ICDE20},
+  preview={2020_icde.png},
+  tags={de},
+  selected={true}
+}
+
+@inproceedings{OanceaRG2020Approximate,
+  author = {Cosmin Eugen Oancea and Ties Robroek and Fabian Gieseke},
+  title = {Approximate Nearest-Neighbour Fields via Massively-Parallel Propagation-Assisted K-D Trees},
+  booktitle = {2020 {IEEE} International Conference on Big Data},
+  pages = {5172--5181},
+  year = {2020},
+  publisher = {IEEE},
+  doi = {10.1109/BigData50022.2020.9378426},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/document/9378426},
+  pdf={https://hjemmesider.diku.dk/~zgh600/Publications/annf-kd-tree-mlbd20.pdf},
+  abstract={Nearest neighbour fields accurately and intuitively describe the transformation between two images and have been heavily used in computer vision. Generating such fields, however, is not an easy task due to the induced computational complexity, which quickly grows with the sizes of the images. Modern parallel devices such as graphics processing units depict a viable way of reducing the practical run time of such compute-intensive tasks. In this work, we propose a novel parallel implementation for one of the state-of-the-art methods for the computation of nearest neighbour fields, called p ropagation-assisted k -d trees. The resulting implementation yields valuable computational savings over a corresponding multi-core implementation. Additionally, it is tuned to consume only little additional memory and is, hence, capable of dealing with high-resolution image data, which is vital as image quality standards keep rising.},
+  abbr={IEEE BigData 2020},
+  tags={de},
+  preview={2020_approximate_fields.png}
+}
+
+@inproceedings{OehmckeTHPG2020CreatingCloudFree,
+  author = {Oehmcke, Stefan and Chen, Tzu-Hsin Karen and Prishchepov, Alexander V. and Gieseke, Fabian},
+  title = {Creating Cloud-Free Satellite Imagery from Image Time Series with Deep Learning},
+  booktitle = {Proceedings of the 9th ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data},
+  pages = {3:1-3:10},
+  year = {2020},
+  publisher = {ACM},
+  address = {Seattle, USA},
+  doi = {10.1145/3423336.3429345},
+  bibtex_show={true},
+  html={https://dl.acm.org/doi/10.1145/3423336.3429345},
+  abbr={BigSpatial20},
+  abstract={Optical satellite images are important for environmental monitoring. Unfortunately, such images are often affected by distortions, such as clouds, shadows, or missing data. This work proposes a deep learning approach for cleaning and imputing satellite images, which could serve as a reliable preprocessing step for spatial and spatio-temporal analyzes. More specifically, a coherent and cloud-free image for a specific target date and region is created based on a sequence of images of that region obtained at previous dates. Our model first extracts information from the previous time steps via a special gating function and then resorts to a modified version of the well-known U-Net architecture to obtain the desired output image. The model uses supplementary data, namely the approximate cloud coverage of input images, the temporal distance to the target time, and a missing data mask for each input time step. During the training phase we condition our model with the targets cloud coverage and missing values (disabled in production), which allows us to use data afflicted by distortion during training and thus does not require pre-selection of distortion-free data. Our experimental evaluation, conducted on data of the Landsat missions, shows that our approach outperforms the commonly utilized approach that resorts to taking the median of cloud-free pixels for a given position. This is especially the case when the quality of the data for the considered period is poor (e.g., lack of cloud free-images during the winter/fall periods). Our deep learning approach allows to improve the utility of the entire Landsat archive, the only existing global medium-resolution free-access satellite archive dating back to the 1970s. It therefore holds scientific and societal potential for future analyses conducted on data from this and other satellite imagery repositories.},
+  tags={ml,de,rs,application},
+  preview={2020_cloud_free.png}
+}
+
+@article{BrandtTKRASCRHDKMIGSLMMSRGMDF2020AnUnexpectedly,
+  author = {M Brandt and C Tucker and A Kariryaa and K Rasmussen and C Abel and J Small and J Chave and L Rasmussen and P Hiernaux and A Diouf and L Kergoat and O Mertz and C Igel and F Gieseke and J Schöning and S Li and K Melocik and J Meyer and  SinnoS and E Romero and E Glennie and A Montagu and M Dendoncker and R Fensholt},
+  title = {An unexpectedly large count of trees in the West African Sahara and Sahel},
+  journal = {Nature},
+  year = {2020},
+  volume = {2020},
+  doi = {10.1038/s41586-020-2824-5},
+  bibtex_show={true},
+  html={https://www.nature.com/articles/s41586-020-2824-5},
+  abstract={A large proportion of dryland trees and shrubs (hereafter referred to collectively as trees) grow in isolation, without canopy closure. These non-forest trees have a crucial role in biodiversity, and provide ecosystem services such as carbon storage, food resources and shelter for humans and animals. However, most public interest relating to trees is devoted to forests, and trees outside of forests are not well-documented. Here we map the crown size of each tree more than 3 m2 in size over a land area that spans 1.3 million km2 in the West African Sahara, Sahel and sub-humid zone, using submetre-resolution satellite imagery and deep learning. We detected over 1.8 billion individual trees (13.4 trees per hectare), with a median crown size of 12 m2, along a rainfall gradient from 0 to 1,000 mm per year. The canopy cover increases from 0.1% (0.7 trees per hectare) in hyper-arid areas, through 1.6% (9.9 trees per hectare) in arid and 5.6% (30.1 trees per hectare) in semi-arid zones, to 13.3% (47 trees per hectare) in sub-humid areas. Although the overall canopy cover is low, the relatively high density of isolated trees challenges prevailing narratives about dryland desertification, and even the desert shows a surprisingly high tree density. Our assessment suggests a way to monitor trees outside of forests globally, and to explore their role in mitigating degradation, climate change and poverty.},
+  abbr={Journal},
+  selected={true},
+  preview={2020_nature.png}
+}
+
+@article{HamunyelaRMEHGV2020Implementation,
+  author = {Eliakim Hamunyela and Sabina Rosca and Andrei Mirt and Eric Engle and Martin Herold and Fabian Gieseke and Jan Verbesselt. },
+  title = {Implementation of BFASTmonitor Algorithm on Google Earth Engine to Support Large-Area and Sub-Annual Change Monitoring Using Earth Observation Data},
+  journal = {Remote Sensing},
+  year = {2020},
+  volume = {12},
+  number = {18},
+  doi = {10.3390/rs12182953},
+  bibtex_show={true},
+  abbr={Journal},
+  html={https://www.mdpi.com/2072-4292/12/18/2953},
+  abstract={Monitoring of abnormal changes on the earth’s surface (e.g., forest disturbance) has improved greatly in recent years because of satellite remote sensing. However, high computational costs inherently associated with processing and analysis of satellite data often inhibit large-area and sub-annual monitoring. Normal seasonal variations also complicate the detection of abnormal changes at sub-annual scale in the time series of satellite data. Recently, however, computationally powerful platforms, such as the Google Earth Engine (GEE), have been launched to support large-area analysis of satellite data. Change detection methods with the capability to detect abnormal changes in time series data while accounting for normal seasonal variations have also been developed but are computationally intensive. Here, we report an implementation of BFASTmonitor (Breaks For Additive Season and Trend monitor) on GEE to support large-area and sub-annual change monitoring using satellite data available in GEE. BFASTmonitor is a data-driven unsupervised change monitoring approach that detects abnormal changes in time series data, with near real-time monitoring capabilities. Although BFASTmonitor has been widely used in forest cover loss monitoring, it is a generic change monitoring approach that can be used to monitor changes in a various time series data. Using Landsat time series for normalised difference moisture index (NDMI), we evaluated the performance of our GEE BFASTmonitor implementation (GEE BFASTmonitor) by detecting forest disturbance at three forest areas (humid tropical forest, dry tropical forest, and miombo woodland) while comparing it to the original R-based BFASTmonitor implementation (original BFASTmonitor). A map-to-map comparison showed that the spatial and temporal agreements on forest disturbance between the original and our GEE BFASTmonitor implementations were high. At each site, the spatial agreement was more than 97%, whereas the temporal agreement was over 94%. The high spatial and temporal agreement show that we have properly translated and implemented the BFASTmonitor algorithm on GEE. Naturally, due to different numerical solvers being used for regression model fitting in R and GEE, small differences could be observed in the outputs. These differences were most noticeable at the dry tropical forest and miombo woodland sites, where the forest exhibits strong seasonality. To make GEE BFASTmonitor accessible to non-technical users, we developed a web application with simplified user interface. We also created a JavaScript-based GEE BFASTmonitor package that can be imported as a module. Overall, our GEE BFASTmonitor implementation fills an important gap in large-area environmental change monitoring using earth observation data.},
+preview={2020_bfast_earth.png}  
 }

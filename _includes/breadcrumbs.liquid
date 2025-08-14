@@ -1,0 +1,19 @@
+{% assign crumbs = page.breadcrumb %}
+{% if crumbs %}
+<nav aria-label="Breadcrumb">
+  <ol class="breadcrumb bg-transparent p-0 my-2">
+    <!--<li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">start</a></li>-->
+    {% for item in crumbs %}
+      {% assign is_last = forloop.last %}
+      <li class="breadcrumb-item{% if is_last %} active{% endif %}" {% if is_last %}aria-current="page"{% endif %}>
+        {% if item.url and item.url != '' and is_last == false %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</nav>
+{% endif %}
+

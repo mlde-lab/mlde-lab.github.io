@@ -5,13 +5,13 @@ title: team
 description: The MLDE group brings together researchers from various disciplines such as information systems, computer science, mathematics, and geoinformatics, to tackle complex problems in data-driven research. By combining expertise in machine learning, algorithms, data engineering, and application domains, we develop innovative solutions that bridge theoretical foundations with practical applications.
 nav: true
 nav_order: 2
-    
+      
 researchers:
   - name: Prof. Dr. Fabian Gieseke
     image: fabian_gieseke.jpg
     image_circular: false
     role: Full Professor
-    url: fabian-gieseke
+    url: /team/fabian-gieseke
     email: fabian.gieseke AT uni-muenster.de
     github: https://github.com/gieseke
     linkedin: https://www.linkedin.com/in/fabian-gieseke/
@@ -40,6 +40,7 @@ researchers:
     image: julian_kranz.jpg
     image_circular: false
     role: Postdoc
+    url: https://sites.google.com/view/juliankranz
   - name: Jan Pauls
     image: jan_pauls.jpg
     image_circular: false
@@ -57,7 +58,7 @@ group_management:
   - name: Julia Seither
     image: julia_seither.jpg
     image_circular: false
-    role: Administrative Support
+    role: Team Assistant
     
 student_assistants:
   - name: Sven Ligensa
@@ -77,12 +78,17 @@ alumni:
   - name: Dr. Christian Lülf
     image: christian_luelf.jpg
     period: 2020-2024
+    more_info: Thalia
   - name: Dr. Denis M. L. Martins
     image: denis_martins.jpg
+    url: https://denmartins.github.io
     period: 2021-2023
+    more_info: PUC-Campinas
   - name: Dr. Moritz Vinzent Seiler
     image: moritz_seiler.jpg
+    url: https://www.uni-paderborn.de/person/105520
     period: 2021-2023
+    more_info: University of Paderborn
   - name: Thorben Hellweg
     image: thorben_hellweg.jpg
     period: 2020-2022

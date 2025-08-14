@@ -7,7 +7,11 @@
 - tag: scalability
   name: scalability
 
-- tag: applications
-  name: Applications
+- tag: application
+  name: Application
   
+- tag: rs
+  name: Remote Sensing
 
+- tag: energy
+  name: Energy

@@ -11,6 +11,30 @@
   {% endfor %}
 {% endif %}
 
+
+{% if page.project_filter_publications %}
+  {% assign show_entry = false %}
+
+  {%- assign pf = page.project_filter_publications | downcase | strip -%}
+
+  {%- comment -%} entry.projects ist String; Klammern raus, normalisieren, dann splitten {%- endcomment -%}
+  {% assign projects_raw = entry.projects | default: "" 
+     | replace: "{","" | replace: "}","" 
+     | downcase 
+     | replace: ", ", "," | replace: " ,", "," %}
+
+  {% assign projects = projects_raw | split: "," %}
+
+  {%- for p in projects -%}
+    {% assign pnorm = p | strip %}
+    {% if pnorm == pf %}
+      {% assign show_entry = true %}
+    {% endif %}
+  {%- endfor -%}
+{% endif %}
+
+
+
 {% if show_entry %}
       <div class="row entry" data-tags="{{ entry.tags | join: ',' }}">
         <div class="col-sm-2" data-tags="{{ entry.tags | join: ',' }}">
@@ -35,6 +59,9 @@
           <a href="{{ entry.html }}" class="no-highlight">
           {{entry.title}}
           </a>
+	{% if entry.award %}
+	  <span class="badge badge-warning ms-2">{{ entry.award }}</span>
+	{% endif %}
         </div>
         <!-- Author -->
         <div class="author">
@@ -119,14 +146,8 @@
         {%- capture formatted_abbr -%}
           {%- if entry.journal contains "arXiv" -%}
             Preprint
-          {%- elsif entry.type == "inproceedings" -%}
-            {%- if entry.booktitle contains "Workshop" or entry.series contains "Workshop" or entry.abbr contains "Workshop" -%}
-              Workshop
-            {%- else -%}
-              {{entry.abbr | upcase}}
-            {%- endif -%}
           {%- else -%}
-            {{entry.abbr}}
+            {{entry.abbr | upcase}}
           {%- endif -%}
         {%- endcapture -%}
 
