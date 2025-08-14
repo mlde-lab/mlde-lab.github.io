@@ -1,6 +1,6 @@
 ---
-layout: start
-title: start
+layout: about
+title: about
 permalink: /
 
 profile:
