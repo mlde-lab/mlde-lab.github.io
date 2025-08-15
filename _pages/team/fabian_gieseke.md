@@ -2,32 +2,23 @@
 layout: team_member
 title: "Fabian Gieseke"
 permalink: /team/fabian-gieseke/
+
+breadcrumb:
+  - title: team
+    url: /team/
+  - title: Fabian Gieseke
+  
 subtitle: |+
   <div class="alert alert-info" role="alert">
-  <i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>
+  <!--<i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>-->
   <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany)</b><br>
-    <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Associate Professor (part-time) at the <a href="https://di.ku.dk/english/">Department of Computer Science</a> of the <a href="https://www.ku.dk/en">University of Copenhagen</a> (Denmark)</b><br><br>
-    <i class="fab fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/gieseke" target="_blank"><b>GitHub</b></a>&nbsp;&nbsp;
-    <i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/fabian-gieseke/" target="_blank"><b>LinkedIn</b></a>&nbsp;&nbsp;
-    <i class="ai ai-google-scholar ai-lg"></i>&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de" target="_blank"><b>Google Scholar</b></a>&nbsp;&nbsp;
+    <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Associate Professor (part-time) at the <a href="https://di.ku.dk/english/">Department of Computer Science</a> of the <a href="https://www.ku.dk/en">University of Copenhagen</a> (Denmark)</b><br>
    <br>
-  </div>
 
-nav: false
-filter_lastname: Gieseke
-
-profile:
-  name: Fabian Gieseke
-  image: fabian_gieseke_rectangle.jpg
-  profile_image_class: profile-image
-  
-contact: |
-  <div>
-  <div>
-    <b>University of Münster</b><br>
-    Department of Information Systems<br>
-    Room 233, Leonardo-Campus 3, 48147 Münster, Germany<br>
-   <i class="fas fa-envelope"></i>&nbsp;&nbsp; 
+    <b>Contact (University of Münster)</b>
+    <ul>
+    <li>Room 233, Leonardo-Campus 3, 48147 Münster, Germany</li>
+    <li><i class="fas fa-envelope"></i>&nbsp;&nbsp; 
     <script>
     (function(){
       var n = "fabian.gieseke";
@@ -36,15 +27,13 @@ contact: |
       document.write('<a href="mailto:' + e + '">' + e + '</a>');
     })();
   </script>
-    <br>
-    <i class="fas fa-phone"></i>&nbsp;&nbsp; +49 251 83-38151
-  </div>
-  <br>
-  <div>
-    <b>University of Copenhagen</b><br>
-    Department of Computer Science<br>
-    Universitetsparken 1, DK-2100 Copenhagen, Denmark<br>
-    <i class="fas fa-envelope"></i>&nbsp;&nbsp; 
+  </li>
+    <li><i class="fas fa-phone"></i>&nbsp;&nbsp; +49 251 83-38151</li>
+    </ul>
+    <b>Contact (University of Copenhagen)</b>
+    <ul>
+    <li>Universitetsparken 1, DK-2100 Copenhagen, Denmark</li>
+    <li><i class="fas fa-envelope"></i>&nbsp;&nbsp; 
     <script>
     (function(){
       var n = "fabian.gieseke";
@@ -53,10 +42,22 @@ contact: |
       document.write('<a href="mailto:' + e + '">' + e + '</a>');
     })();
   </script>
+  </li>
+  </ul>
+    <i class="fab fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/gieseke" target="_blank"><b>GitHub</b></a>&nbsp;&nbsp;
+    <i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/fabian-gieseke/" target="_blank"><b>LinkedIn</b></a>&nbsp;&nbsp;
+    <i class="ai ai-google-scholar ai-lg"></i>&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de" target="_blank"><b>Google Scholar</b></a>&nbsp;&nbsp;
+   
   </div>
 
-  </div>
-  <br>
+nav: false
+filter_lastname: Gieseke
+
+profile:
+  name: Fabian Gieseke
+  image: fabian_gieseke.jpg
+  profile_image_class: profile-image
+  
 research: |
   <div style="text-align: justify">
   My research interests lie in the field of large-scale machine learning, which has gained enormous importance in recent years. One of the reasons for this is the fact that data volumes have dramatically increased in many areas. This is, for example, the case in remote sensing, where current projects deliver petabytes of data every day. A similar "data flood" can nowadays be observed in various other domains, such as medicine, finance, modern media systems, or in the context of modern energy grids. My past and current work focuses both on the development of new, scalable machine learning techniques and on the practical application of such methods.

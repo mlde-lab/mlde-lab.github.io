@@ -10,7 +10,7 @@ project_filter_publications: ai4forest
 breadcrumb:
   - title: projects
     url: /projects/
-  - title: ai4forest
+  - title: AI4Forest
 
 researchers:
   - name: Prof. Dr. Fabian Gieseke

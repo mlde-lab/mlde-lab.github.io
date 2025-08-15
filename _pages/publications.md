@@ -5,6 +5,9 @@ title: publications
 description: This page lists peer-reviewed publications and preprints by the MLDE members.
 nav: true
 nav_order: 6
+
+breadcrumb:
+  - title: publications
 ---
 
 <!-- _pages/publications.md -->
