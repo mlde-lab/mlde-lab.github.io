@@ -1,81 +1,82 @@
 ---
 layout: project
-title: TinyAIoT
-description: Energy- and resource-efficient artificial intelligence for modern IoT applications
-img: assets/img/projects/2/smart_trashcan_setup.jpg
-importance: 2
+title: 	Energy- and resource-efficient artificial intelligence for modern IoT applications
+acronym: TinyAIoT
+description: 
+img: assets/img/projects/2/tinyaiot_logo_preview.png
+importance: 1
 category: ongoing
-giscus_comments: true
+related_publications: false
+project_filter_publications: tinyaiot
+breadcrumb:
+  - title: projects
+    url: /projects/
+  - title: TinyAIoT
+
+funding:
+  - name: BMUKN
+    url: https://www.bundesumweltministerium.de/en/
+    logo: assets/img/projects/2/logo_en.svg
+    
+researchers:
+  - name: Prof. Dr. Fabian Gieseke
+    image: fabian_gieseke.jpg
+    image_circular: false
+    role: Principal Investigator
+    url: /team/fabian-gieseke
+    email: fabian.gieseke AT uni-muenster.de
+    github: https://github.com/gieseke
+    linkedin: https://www.linkedin.com/in/fabian-gieseke/
+    google_scholar: https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de
+  - name: Jan Stenkamp
+    image: jan_stenkamp.jpg
+    image_circular: false
+    role: Doctoral Candidate
+  - name: Dr. Nina Herrmann
+    image: nina_herrmann.jpg
+    image_circular: false
+    role: Postdoc
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+{% include project_box.html
+   variant="info"
+   icon="fas fa-project-diagram"
+   title=page.title 
+   abstract="The rapid growth of the Internet of Things fueled the design of devices that are based on microcontrollers, equipped with sensors, and capable of exchanging data. These devices - used, e.g., in smart home applications or to build environmental monitoring stations - enable the collection and analysis of large amounts of data and the development of potentially powerful applications. However, applications are currently limited by the need to exchange collected data via cloud services to use state-of-the-art AI processes, which consumes significant resources in the form of energy, material, and bandwidth. The aim of the TinyAIoT project is to reduce these resource requirements by developing efficient and tiny AI models that can be used on the microcontrollers themselves. This not only extends the range of possible use cases to more powerful applications, but also reduces the required bandwidth of applications, enabling microcontrollers to operate autonomously for several weeks to years.<br><br>This project is funded by the [Federal Ministry for the Environment, Climate Action, Nature Conservation, and Nuclear Safety (BMUKN)](https://www.bundesumweltministerium.de/en/) and expires on December 31, 2025. The project is carried out as a joint project between the [University of Münster](https://www.uni-muenster.de/en/) and the [Reedu GmbH & Co. KG](https://sensebox.de/en/research-tinyaiot.html).
+   "
+   acronym="TinyAIoT"
+   timeframe="01/2023 – 12/2025"
+   funding=page.funding
+%}
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+  
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/2/smart_trashcan_setup.png" title="Smart Trashbin" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/2/personenzaehler.png" title="Counting Persons" class="img-fluid rounded z-depth-1"  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/2/tof_takeovers.png" title="Smart Takeovers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+<div class="row">
+    <div class="col-12 justify mt-4 mb-4">
+The main goal of the TinyAIoT project is to further reduce the resource requirements of existing implementations and to adapt further AI models accordingly. In particular, the resource and energy requirements are to be reduced to such an extent that the underlying microcontrollers can be operated autonomously by means of batteries over a longer period of time. A special focus shall be on the special combination of microcontrollers of the Arduino family and the LoRaWAN network protocol (e.g. very small main memory and limited bandwidth of LoRaWAN). The results will eventually be used to adapt and extend the senseBox and associated sensor networks, leading to a 'smart' version of the senseBox -the TinyAI-senseBox- that can be operated autonomously for longer periods of time Combination
 </div>
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/2/wiediversistmeingarten.jpg" title="Birdiary" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+The TinyAIoT project was partly inspired by the existing <a href="https://wiediversistmeingarten.org">Birdiary</a> project.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

@@ -28,7 +28,7 @@ subtitle: |+
     })();
   </script>
   </li>
-    <li><i class="fas fa-phone"></i>&nbsp;&nbsp; +49 251 83-38151</li>
+    <li><i class="fas fa-phone"></i>&nbsp;&nbsp; +49 251 8338151</li>
     </ul>
     <b>Contact (University of Copenhagen)</b>
     <ul>
@@ -72,7 +72,7 @@ research: |
   </ul>
 bio: |
   <div style="text-align: justify">
-  Fabian Gieseke is the head of the Machine Learning and Data Engineering group at the Department of Information Systems of the University of Münster. After having received his diploma degrees in Mathematics and in Computer Science from the University of Münster, and his Doctoral Degree in Computer Science from the University of Oldenburg, he was a postdoc at the University of Copenhagen (funded by the German Academic Exchange Service) and the Radboud University Nijmegen (funded by the Radboud Excellence Initiative), respectively, before he became a Tenure-Track Assistant Professor at the Department of Computer Science of the University of Copenhagen. He became Full Professor (W3) at the University of Münster in 2020 and is still affiliated with the University of Copenhagen. His research focus is on the efficient implementation of machine learning techniques using high-performance computing and specialized data structures and algorithms. He has worked together with domains experts from a variety of fields including remote sensing or modern energy systems.
+  Fabian Gieseke is the head of the Machine Learning and Data Engineering group at the Department of Information Systems, University of Münster. He received diploma degrees in Mathematics and Computer Science from the University of Münster and a Doctoral Degree in Computer Science from the University of Oldenburg. He then held postdoctoral positions at the University of Copenhagen (funded by the German Academic Exchange Service) and at Radboud University Nijmegen (funded by the Radboud Excellence Initiative), before becoming a Tenure-Track Assistant Professor at the Department of Computer Science, University of Copenhagen. He became Full Professor (W3) at the University of Münster in 2020 while still remaining affiliated with the University of Copenhagen. His research focus is on the efficient implementation of machine learning techniques using high-performance computing and specialized data structures and algorithms. He has worked together with domains experts from a variety of fields including remote sensing or modern energy systems.
   </div>
 
   <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
@@ -83,6 +83,9 @@ bio: |
   <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Copenhagen (Denmark), 2013-2014 (supported by the <a href="https://www.daad.de/en/">German Academic Exchange Service</a>).</li>
   <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Oldenburg (Germany), 2012-2013.</li>
   <li><b>Doctoral Degree (Dr. rer. nat.)</b>, Department of Computer Science, University of Oldenburg, Germany, 2006-2012.	</li>
+  <ul>
+  <li>Thesis: <i><a href="https://uol.de/f/2/dept/informatik/download/Promotionen/phdthesis_fabian_gieseke.pdf">From Supervised to Unsupervised Support Vector Machines and Applications in Astronomy</a></i></li>
+  </ul>
   <li><b>Diploma in Mathematics (<i>with distinction</i>)</b>, University of Münster, Germany, 2001-2006.</li>
   <li><b>Diploma in Computer Science</b>, University of Münster, Germany, 2001-2006.</li>
   </ul>

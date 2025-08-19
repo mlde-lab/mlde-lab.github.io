@@ -1545,7 +1545,7 @@ figure.cover {
 }
 
 .breadcrumb {
-  font-size: 2.5rem;     
+  font-size: 1.8rem;     
   font-weight: 300;      
   line-height: 1.2;
   color: var(--global-text-color);
@@ -1578,4 +1578,36 @@ figure.cover {
 .breadcrumb .breadcrumb-item a:hover {
   color: inherit;
   text-decoration: underline;
+}
+
+.project-alert { border-radius: .25rem; /* oder: 0 */ }
+
+/* Funding-Bereich */
+.funding-container { }
+.funding-blurb { }
+
+/* Logos direkt hinter "Funding:" in derselben Zeile */
+.funding-logos {
+  display: inline-flex !important;  /* erzwingt Inline-Verhalten */
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: .5rem;
+  margin-left: .5rem;               /* kleiner Abstand hinter dem Label */
+  vertical-align: baseline;
+}
+
+.funding-logo {
+  display: inline-block;   
+  height: 45px;
+  width: auto;
+  border: 1px solid var(--global-theme-color); 
+  border-radius: 0;
+  padding: 2px;
+  background: #fff;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;  
+  hyphens: auto;             
 }

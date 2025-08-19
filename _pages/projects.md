@@ -7,6 +7,10 @@ nav: true
 nav_order: 8
 display_categories: [ongoing, completed]
 horizontal: false
+
+breadcrumb:
+  - title: projects
+
 ---
 
 <!-- pages/projects.md -->

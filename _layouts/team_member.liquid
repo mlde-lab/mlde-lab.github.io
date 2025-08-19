@@ -56,21 +56,18 @@ layout: default
 
           
           <div class="clearfix">
-          
-             {% if page.contact %}
-               <h2>Contact</h2>              
-               {{ page.contact | raw}}   
-             {% endif %}
-
-             {% if page.research %}
-               <h2>Research Interests</h2>              
-               {{ page.research }}   
-             {% endif %}
 
              {% if page.bio %}
                <h2>Bio</h2>              
                {{ page.bio }}   
              {% endif %}             
+             
+             {% if page.research %}
+               <h2>Research Interests</h2>              
+               {{ page.research }}   
+             {% endif %}
+
+             
             {{ content }}
           </div>
 

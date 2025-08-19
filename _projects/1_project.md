@@ -1,8 +1,9 @@
 ---
 layout: project
-title: AI4Forest
-description: AI-Based High-Resolution Forest Monitoring
-img: assets/img/projects/1/canopy_height.jpg
+acronym: AI4Forest
+title: AI-Based High-Resolution Forest Monitoring
+description: 
+img: assets/img/projects/1/canopy_height_preview.jpg
 importance: 1
 category: ongoing
 related_publications: true
@@ -12,6 +13,14 @@ breadcrumb:
     url: /projects/
   - title: AI4Forest
 
+funding:
+  - name: BMBF
+    url: https://www.bmbf.de
+    logo: assets/img/projects/1/bmftr-logo-en.svg
+  - name: DLR
+    url: https://www.dlr.de
+    logo: assets/img/projects/1/dlr-logo-en.svg
+    
 researchers:
   - name: Prof. Dr. Fabian Gieseke
     image: fabian_gieseke.jpg
@@ -32,68 +41,48 @@ researchers:
     role: Doctoral Candidate
 ---
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+{% include project_box.html
+   variant="info"
+   icon="fas fa-project-diagram"
+   title=page.title 
+   abstract="Preserving global vegetation is crucial for addressing and mitigating climate change. Accurate, up-to-date forest health data is essential. AI4Forest aims to develop advanced AI methods to monitor forests using satellite imagery, including radar and optical data. The project will create scalable techniques for detailed, high-resolution maps of the globe, e.g., to monitor canopy height, biomass, and to track forest disturbances. This project is funded by the [Federal Ministry of Research, Technology and Space](https://www.bmbf.de) and the [German Aerospace Center](https://www.dlr.de) (project ID 01IS23025B).<br><br> Please see the project website at [ai4forest.eu](https://ai4forest.eu) for more details.
+   "
+   acronym="AI4Forest"
+   timeframe="01/2023 – 05/2027"
+   funding=page.funding
+%}
+
+
+  
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/1/individual_trees.png" title="Detection of Individual Trees" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/1/canopy_height_comparison.png" title="Canopy Height Maps" class="img-fluid rounded z-depth-1"  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/1/sdm.png" title="Data-Efficient Deep Learning" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+<div class="row">
+    <div class="col-12 justify mt-4 mb-4">
+Accurate and up-to-date information on global forest health, disturbances, evolution of above ground biomass and carbon storage is essential for policy-makers to design effective strategies for climate adaptation and mitigation. Advances in Earth observation and AI have paved the way for automated forest monitoring using satellite data, along with radar and LiDAR data. However, existing forest maps often have low resolution, cover limited areas or fail to track temporal dynamics.
+
+The AI4Forest project brings together experts in AI, Applied Mathematics, Computer Science, Remote Sensing, and Climate Science, being a collaboration between the University of Münster, ZIB, TUM, LSCE, and CNRS. The project aims to develop scalable AI methods for forest monitoring and to efficiently and cost-effectively process large datasets. These advancements will enable the creation of detailed forest maps with high spatial and temporal resolution, down to individual trees and species, and allow for regular updates across Europe and globally.
+
 </div>
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+	{% include figure.liquid loading="eager" path="assets/img/projects/1/canopy_height.png" title="Global Canopy Height Map" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+	    A global canopy height map based on a deep learning model.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

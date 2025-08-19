@@ -10,7 +10,7 @@
   pdf={https://arxiv.org/abs/2502.17066},
   preview={dunia.png},
   selected={true},
-  tags={ml, application},
+  tags={ml,application},
   code={https://github.com/AI4Forest/DUNIA},
   projects={ai4forest}
 }
@@ -43,7 +43,7 @@
   doi = {10.1038/s41558-024-02201-0},
   abstract      = {Climate change and human-induced land degradation threaten dryland ecosystems, vital to one-third of the global population and pivotal to inter-annual global carbon fluxes. Early warning systems are essential for guiding conservation, climate change mitigation and alleviating food insecurity in drylands. However, contemporary methods fail to provide large-scale early warnings effectively. Here we show that a machine learning-based approach can predict the probability of abrupt shifts in Sudano–Sahelian dryland vegetation functioning (75.1% accuracy; 76.6% precision) particularly where measures of resilience (temporal autocorrelation) are supplemented with proxies for vegetation and rainfall dynamics and other environmental factors. Regional-scale predictions for 2025 highlight a belt in the south of the study region with high probabilities of future shifts, largely linked to long-term rainfall trends. Our approach can provide valuable support for the conservation and sustainable use of dryland ecosystem services, particularly in the context of climate change projected drying trends.},
   html={https://www.nature.com/articles/s41558-024-02201-0},
-  tags={application},
+  tags={application,rs},
   preview={abrupt_shifts_2025.png},
   selected={true},
   bibtex_show={true},
@@ -62,7 +62,7 @@
   abstract = {Trees contribute to carbon dioxide absorption through biomass, regulate the climate, support biodiversity, enhance soil, air and water quality, and offer economic and health benefits. Traditionally, tree monitoring on continental and global scales has focused on forest cover, whereas assessing biomass and species diversity, as well as trees outside closed-canopy forests, has been challenging. A new generation of commercial and public satellites and sensors provide high-resolution spatial and temporal optical data that can be used to identify trees as objects. Technologies from the field of artificial intelligence, such as convolutional neural networks and vision transformers, can go beyond detecting these objects as two-dimensional representations, and support characterization of the three-dimensional structure of objects, such as canopy height and wood volume, via contextual learning from two-dimensional images. These advancements enable reliable characterization of trees, their structure, biomass and diversity both inside and outside forests. Furthermore, self-supervision and foundation models facilitate large-scale applications without requiring extensive amounts of labels. Here, we summarize these advances, highlighting their application towards consistent tree monitoring systems that can assess carbon stocks, attribute losses and gains to underlying drivers and, ultimately, contribute to climate change mitigation.},
   abbr={Journal},
   bibtex_show={true},
-  tags={application},
+  tags={application,rs},
   preview={high_res_sensors_2025.png}
 }
 
@@ -88,7 +88,7 @@ projects={ai4forest}
 @inproceedings{LuelfLMVZG2024CLIPBranches,
   author = {Christian Lülf and Denis Mayr {Lima Martins} and Salles Marcos Antonio Vaz and Yongluan Zhou and Fabian Gieseke},
   title = {CLIP-Branches: Interactive Fine-Tuning for Text-Image Retrieval},
-  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval (Demo Track)},
   year = {2024},
   address = {Washington, D.C.},
   abstract={The advent of text-image models, most notably CLIP, has signifi-
@@ -133,7 +133,8 @@ of relevance and accuracy while maintaining swift response times},
   abbr={Journal},
   preview={deep_point_cloud.png},
   abstract={Quantifying forest biomass stocks and their dynamics is important for implementing effective climate change mitigation measures by aiding local forest management, studying processes driving af-, re-, and deforestation, and improving the accuracy of carbon accounting. Owing to the 3-dimensional nature of forest structure, remote sensing using airborne LiDAR can be used to perform these measurements of vegetation structure at large scale. Harnessing the full dimensionality of the data, we present deep learning systems predicting wood volume and above ground biomass (AGB) directly from the full LiDAR point cloud and compare results to state-of-the-art approaches operating on basic statistics of the point clouds. For this purpose, we devise different neural network architectures for point cloud regression and evaluate them on remote sensing data of areas for which AGB estimates have been obtained from field measurements in the Danish national forest inventory. Our adaptation of Minkowski convolutional neural networks for regression give the best results. The deep neural networks produce significantly more accurate wood volume, AGB, and carbon stock estimates compared to state-of-the-art approaches. In contrast to other methods, the proposed deep learning approach does not require a digital terrain model and is robust to artifacts along the boundaries of the evaluated areas, which we demonstrate for the case where trees protrude into the area from the outside. We expect this finding to have a strong impact on LiDAR-based analyses of biomass dynamics.},
-  bibtex_show={true}
+  bibtex_show={true},
+    tags={rs,ml,application}
 }
 
 @inproceedings{LimaDCF2023EndToEndNeural,
@@ -147,7 +148,8 @@ of relevance and accuracy while maintaining swift response times},
   abbr={ESANN23},
   preview={nn_boxes.png},
   bibtex_show={true},
-  abstract={Hyperbox-based classification has been seen as a promising technique in which decisions on the data are represented as a series of orthogonal, multidimensional boxes (i.e., hyperboxes) that are often interpretable and human-readable. However, existing methods are no longer capable of efficiently handling the increasing volume of data many application domains face nowadays. We address this gap by proposing a novel, fully differentiable framework for hyperbox-based classification via neural networks. In contrast to previous work, our hyperbox models can be efficiently trained in an end-to-end fashion, which leads to significantly reduced training times and superior classification results. }
+  abstract={Hyperbox-based classification has been seen as a promising technique in which decisions on the data are represented as a series of orthogonal, multidimensional boxes (i.e., hyperboxes) that are often interpretable and human-readable. However, existing methods are no longer capable of efficiently handling the increasing volume of data many application domains face nowadays. We address this gap by proposing a novel, fully differentiable framework for hyperbox-based classification via neural networks. In contrast to previous work, our hyperbox models can be efficiently trained in an end-to-end fashion, which leads to significantly reduced training times and superior classification results. },
+    tags={ml}
 }
 
 @inproceedings{LuelfLMVZG2023FastSearchByClassification,
@@ -189,7 +191,8 @@ compared to hours needed by classical scanning-based approaches.},
   pdf={https://arxiv.org/abs/2306.02670},
   selected={true},
   preview={decision_branches.png},
-  bibtex_show={true}
+  bibtex_show={true},
+  tags={ml,de}
 }
 
 @inproceedings{LuelfLMVZG2023RapidEarth,
@@ -204,7 +207,9 @@ compared to hours needed by classical scanning-based approaches.},
   pdf={https://arxiv.org/abs/2309.15617},
   preview={rapid_earth.png},
   award={Best Demo Award},
-  selected={true}
+  selected={true},
+  tags={rs,ml,de}
+  
 }
 
 @article{LiSMRACFTSASXAP2023DeepLearning,
@@ -220,6 +225,7 @@ compared to hours needed by classical scanning-based approaches.},
   html={https://academic.oup.com/pnasnexus/article/2/4/pgad076/7073732},
   abstract={Sustainable tree resource management is the key to mitigating climate warming, fostering a green economy, and protecting valuable habitats. Detailed knowledge about tree resources is a prerequisite for such management but is conventionally based on plot-scale data, which often neglects trees outside forests. Here, we present a deep learning-based framework that provides location, crown area, and height for individual overstory trees from aerial images at country scale. We apply the framework on data covering Denmark and show that large trees (stem diameter >10 cm) can be identified with a low bias (12.5%) and that trees outside forests contribute to 30% of the total tree cover, which is typically unrecognized in national inventories. The bias is high (46.6%) when our results are evaluated against all trees taller than 1.3 m, which involve undetectable small or understory trees. Furthermore, we demonstrate that only marginal effort is needed to transfer our framework to data from Finland, despite markedly dissimilar data sources. Our work lays the foundation for digitalized national databases, where large trees are spatially traceable and manageable.},
   bibtex_show={true},
+  tags={rs,application,ml}
 }
 
 @article{ReinerBTSKCDHCMIOGLLSBSTDSMTF2023MoreThanOne,
@@ -231,7 +237,8 @@ compared to hours needed by classical scanning-based approaches.},
   preview={trees_africa.png},
   html={https://www.nature.com/articles/s41467-023-37880-4},
   bibtex_show={true}, 
-  abstract={The consistent monitoring of trees both inside and outside of forests is key to sustainable land management. Current monitoring systems either ignore trees outside forests or are too expensive to be applied consistently across countries on a repeated basis. Here we use the PlanetScope nanosatellite constellation, which delivers global very high-resolution daily imagery, to map both forest and non-forest tree cover for continental Africa using images from a single year. Our prototype map of 2019 (RMSE = 9.57%, bias = −6.9%). demonstrates that a precise assessment of all tree-based ecosystems is possible at continental scale, and reveals that 29% of tree cover is found outside areas previously classified as tree cover in state-of-the-art maps, such as in croplands and grassland. Such accurate mapping of tree cover down to the level of individual trees and consistent among countries has the potential to redefine land use impacts in non-forest landscapes, move beyond the need for forest definitions, and build the basis for natural climate solutions and tree-related studies.}
+  abstract={The consistent monitoring of trees both inside and outside of forests is key to sustainable land management. Current monitoring systems either ignore trees outside forests or are too expensive to be applied consistently across countries on a repeated basis. Here we use the PlanetScope nanosatellite constellation, which delivers global very high-resolution daily imagery, to map both forest and non-forest tree cover for continental Africa using images from a single year. Our prototype map of 2019 (RMSE = 9.57%, bias = −6.9%). demonstrates that a precise assessment of all tree-based ecosystems is possible at continental scale, and reveals that 29% of tree cover is found outside areas previously classified as tree cover in state-of-the-art maps, such as in croplands and grassland. Such accurate mapping of tree cover down to the level of individual trees and consistent among countries has the potential to redefine land use impacts in non-forest landscapes, move beyond the need for forest definitions, and build the basis for natural climate solutions and tree-related studies.},
+    tags={rs,application,ml}
 }
 
 @inproceedings{OehmckeG2022InputSelection,
@@ -427,7 +434,7 @@ different datasets. Rather than aiming at a general autotuning framework reliant
   abstract={Large amounts of satellite data are now becoming available, which, in combination with appropriate change detection methods, offer the opportunity to derive accurate information on timing and location of disturbances such as deforestation events across the earth surface. Typical scenarios require the analysis of billions of image patches/pixels. While various change detection techniques have been proposed in the literature, the associated implementations usually do not scale well, which renders the corresponding analyses computationally very expensive or even impossible. In this work, we propose a novel massively-parallel implementation for a state-of-the-art change detection method and demonstrate its potential in the context of monitoring deforestation. The novel implementation can handle large scenarios in a few hours or days using cheap commodity hardware, compared to weeks or even years using the existing publicly available code, and enables researchers, for the first time, to conduct global-scale analyses covering large parts of our Earth using little computational resources. From a technical perspective, we provide a high-level parallel algorithm specification along with several performance-critical optimizations dedicated to efficiently map the specified parallelism to modern parallel devices. While a particular change detection method is addressed in this work, the algorithmic building blocks provided are also of immediate relevance to a wide variety of related approaches in remote sensing and other fields.},
   abbr={ICDE20},
   preview={2020_icde.png},
-  tags={de},
+  tags={de,rs},
   selected={true}
 }
 
@@ -444,7 +451,7 @@ different datasets. Rather than aiming at a general autotuning framework reliant
   pdf={https://hjemmesider.diku.dk/~zgh600/Publications/annf-kd-tree-mlbd20.pdf},
   abstract={Nearest neighbour fields accurately and intuitively describe the transformation between two images and have been heavily used in computer vision. Generating such fields, however, is not an easy task due to the induced computational complexity, which quickly grows with the sizes of the images. Modern parallel devices such as graphics processing units depict a viable way of reducing the practical run time of such compute-intensive tasks. In this work, we propose a novel parallel implementation for one of the state-of-the-art methods for the computation of nearest neighbour fields, called p ropagation-assisted k -d trees. The resulting implementation yields valuable computational savings over a corresponding multi-core implementation. Additionally, it is tuned to consume only little additional memory and is, hence, capable of dealing with high-resolution image data, which is vital as image quality standards keep rising.},
   abbr={IEEE BigData 2020},
-  tags={de},
+  tags={de,ml},
   preview={2020_approximate_fields.png}
 }
 
@@ -477,7 +484,8 @@ different datasets. Rather than aiming at a general autotuning framework reliant
   abstract={A large proportion of dryland trees and shrubs (hereafter referred to collectively as trees) grow in isolation, without canopy closure. These non-forest trees have a crucial role in biodiversity, and provide ecosystem services such as carbon storage, food resources and shelter for humans and animals. However, most public interest relating to trees is devoted to forests, and trees outside of forests are not well-documented. Here we map the crown size of each tree more than 3 m2 in size over a land area that spans 1.3 million km2 in the West African Sahara, Sahel and sub-humid zone, using submetre-resolution satellite imagery and deep learning. We detected over 1.8 billion individual trees (13.4 trees per hectare), with a median crown size of 12 m2, along a rainfall gradient from 0 to 1,000 mm per year. The canopy cover increases from 0.1% (0.7 trees per hectare) in hyper-arid areas, through 1.6% (9.9 trees per hectare) in arid and 5.6% (30.1 trees per hectare) in semi-arid zones, to 13.3% (47 trees per hectare) in sub-humid areas. Although the overall canopy cover is low, the relatively high density of isolated trees challenges prevailing narratives about dryland desertification, and even the desert shows a surprisingly high tree density. Our assessment suggests a way to monitor trees outside of forests globally, and to explore their role in mitigating degradation, climate change and poverty.},
   abbr={Journal},
   selected={true},
-  preview={2020_nature.png}
+  preview={2020_nature.png},
+  tags={application,rs,ml}
 }
 
 @article{HamunyelaRMEHGV2020Implementation,
@@ -492,5 +500,6 @@ different datasets. Rather than aiming at a general autotuning framework reliant
   abbr={Journal},
   html={https://www.mdpi.com/2072-4292/12/18/2953},
   abstract={Monitoring of abnormal changes on the earth’s surface (e.g., forest disturbance) has improved greatly in recent years because of satellite remote sensing. However, high computational costs inherently associated with processing and analysis of satellite data often inhibit large-area and sub-annual monitoring. Normal seasonal variations also complicate the detection of abnormal changes at sub-annual scale in the time series of satellite data. Recently, however, computationally powerful platforms, such as the Google Earth Engine (GEE), have been launched to support large-area analysis of satellite data. Change detection methods with the capability to detect abnormal changes in time series data while accounting for normal seasonal variations have also been developed but are computationally intensive. Here, we report an implementation of BFASTmonitor (Breaks For Additive Season and Trend monitor) on GEE to support large-area and sub-annual change monitoring using satellite data available in GEE. BFASTmonitor is a data-driven unsupervised change monitoring approach that detects abnormal changes in time series data, with near real-time monitoring capabilities. Although BFASTmonitor has been widely used in forest cover loss monitoring, it is a generic change monitoring approach that can be used to monitor changes in a various time series data. Using Landsat time series for normalised difference moisture index (NDMI), we evaluated the performance of our GEE BFASTmonitor implementation (GEE BFASTmonitor) by detecting forest disturbance at three forest areas (humid tropical forest, dry tropical forest, and miombo woodland) while comparing it to the original R-based BFASTmonitor implementation (original BFASTmonitor). A map-to-map comparison showed that the spatial and temporal agreements on forest disturbance between the original and our GEE BFASTmonitor implementations were high. At each site, the spatial agreement was more than 97%, whereas the temporal agreement was over 94%. The high spatial and temporal agreement show that we have properly translated and implemented the BFASTmonitor algorithm on GEE. Naturally, due to different numerical solvers being used for regression model fitting in R and GEE, small differences could be observed in the outputs. These differences were most noticeable at the dry tropical forest and miombo woodland sites, where the forest exhibits strong seasonality. To make GEE BFASTmonitor accessible to non-technical users, we developed a web application with simplified user interface. We also created a JavaScript-based GEE BFASTmonitor package that can be imported as a module. Overall, our GEE BFASTmonitor implementation fills an important gap in large-area environmental change monitoring using earth observation data.},
-preview={2020_bfast_earth.png}  
+preview={2020_bfast_earth.png},
+  tags={application,rs}
 }

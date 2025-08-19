@@ -47,6 +47,9 @@ researchers:
     image: jan_pauls.jpg
     image_circular: false
     role: Doctoral Candidate
+    url: /team/jan-pauls
+    github: https://github.com/jan-pauls
+    linkedin: https://www.linkedin.com/in/jan-pauls-521a68170/?originalSubdomain=de
   - name: Jorunn Mense
     image: jorunn_mense.jpg
     image_circular: false
