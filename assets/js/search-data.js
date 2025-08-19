@@ -41,14 +41,19 @@ ninja.data = [{
           section: "News",},{id: "news-we-have-had-a-great-time-at-icml-2025-this-year-with-two-papers-being-presented",
           title: 'We have had a great time at ICML 2025 this year with two...',
           description: "",
-          section: "News",},{id: "projects-ai4forest",
-          title: 'AI4Forest',
-          description: "AI-Based High-Resolution Forest Monitoring",
+          section: "News",},{id: "projects-ai-based-high-resolution-forest-monitoring",
+          title: 'AI-Based High-Resolution Forest Monitoring',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-tinyaiot",
-          title: 'TinyAIoT',
-          description: "Energy- and resource-efficient artificial intelligence for modern IoT applications",
+            },},{id: "projects-energy-and-resource-efficient-artificial-intelligence-for-modern-iot-applications",
+          title: 'Energy- and resource-efficient artificial intelligence for modern IoT applications',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-ai-innovations-in-finance",
+          title: 'AI Innovations in Finance',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},];
