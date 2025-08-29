@@ -11,7 +11,8 @@ breadcrumb:
 subtitle: |+
   <div class="alert alert-info" role="alert">
   <!--<i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>-->
-  <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany)</b><br>
+  <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany). Affiliated with both the <a href="https://www.uni-muenster.de/Informatik/en/">Computer Science</a> and the <a href="https://www.uni-muenster.de/Geoinformatics/en/">Institute for Geoinformatics</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany).</b><br>
+  
     <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Associate Professor (part-time) at the <a href="https://di.ku.dk/english/">Department of Computer Science</a> of the <a href="https://www.ku.dk/en">University of Copenhagen</a> (Denmark)</b><br>
    <br>
 
@@ -72,7 +73,7 @@ research: |
   </ul>
 bio: |
   <div style="text-align: justify">
-  Fabian Gieseke is the head of the Machine Learning and Data Engineering group at the Department of Information Systems, University of Münster. He received diploma degrees in Mathematics and Computer Science from the University of Münster and a Doctoral Degree in Computer Science from the University of Oldenburg. He then held postdoctoral positions at the University of Copenhagen (funded by the German Academic Exchange Service) and at Radboud University Nijmegen (funded by the Radboud Excellence Initiative), before becoming a Tenure-Track Assistant Professor at the Department of Computer Science, University of Copenhagen. He became Full Professor (W3) at the University of Münster in 2020 while still remaining affiliated with the University of Copenhagen. His research focus is on the efficient implementation of machine learning techniques using high-performance computing and specialized data structures and algorithms. He has worked together with domains experts from a variety of fields including remote sensing or modern energy systems.
+  Fabian Gieseke is the head of the Machine Learning and Data Engineering group at the Department of Information Systems, University of Münster. He received diploma degrees in Mathematics and Computer Science from the University of Münster and a Doctoral Degree in Computer Science from the University of Oldenburg. He then held postdoctoral positions at the University of Copenhagen (funded by the German Academic Exchange Service) and at Radboud University Nijmegen (funded by the Radboud Excellence Initiative), before becoming a Tenure-Track Assistant Professor at the Department of Computer Science, University of Copenhagen. He became Full Professor (W3) at the University of Münster in 2020 while remaining Associate Professor (part-time) at the University of Copenhagen. He is also affiliated with both the Computer Science Department and the Geoinformatics Department at the University of Münster. His research focus is on the efficient implementation of machine learning techniques using high-performance computing and specialized data structures and algorithms. He has worked together with domains experts from a variety of fields including remote sensing or modern energy systems.
   </div>
 
   <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
