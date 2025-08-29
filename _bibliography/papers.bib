@@ -503,3 +503,104 @@ different datasets. Rather than aiming at a general autotuning framework reliant
 preview={2020_bfast_earth.png},
   tags={application,rs}
 }
+
+
+@inproceedings{KoOG2019MagnitudeAnd,
+  author = {Vinnie Ko and Stefan Oehmcke and Fabian Gieseke},
+  title = {Magnitude and Uncertainty Pruning Criterion for Neural Networks},
+  booktitle = {2019 {IEEE} International Conference on Big Data {(IEEE} BigData)},
+  pages = {2317--2326},
+  year = {2019},
+  publisher = {IEEE},
+  address = {Los Angeles, USA},
+  doi = {10.1109/BigData47090.2019.9005692},
+  url = {https://doi.org/10.1109/BigData47090.2019.9005692},
+  tags={ml},
+  bibtex_show={true},
+  abstract={Neural networks have achieved dramatic improvements in recent years and depict the state-of-the-art methods for many real-world tasks nowadays. One drawback is, however, that many of these models are overparameterized, which makes them both computationally and memory intensive. Furthermore, overparameterization can also lead to undesired overfitting side-effects. Inspired by recently proposed magnitude-based pruning schemes and the Wald test from the field of statistics, we introduce a novel magnitude and uncertainty (M&U) pruning criterion that helps to lessen such shortcomings. One important advantage of our M&U pruning criterion is that it is scale-invariant, a phenomenon that the magnitude-based pruning criterion suffers from. In addition, we present a “pseudo bootstrap” scheme, which can efficiently estimate the uncertainty of the weights by using their update information during training. Our experimental evaluation, which is based on various neural network architectures and datasets, shows that our new criterion leads to more compressed models compared to models that are solely based on magnitude-based pruning criteria, with, at the same time, less loss in predictive power.},
+  abbr={IEEE BigData 2019},   
+  preview={2019_magnitude_pruning.png} 
+}
+
+@inproceedings{OehmckeTBMBG2019DetectingHardly,
+  author = {Stefan Oehmcke and Christoph Thrysøe and Andreas Borgstad and Marcos Vaz Salles and Martin Brandt and Fabian Gieseke},
+  title = {Detecting Hardly Visible Roads in Low-Resolution Satellite Time Series Data},
+  booktitle = {2019 {IEEE} International Conference on Big Data {(IEEE} BigData)},
+  pages = {2403--2412},
+  year = {2019},
+  publisher = {IEEE},
+  doi = {10.1109/BigData47090.2019.9006251},
+  tags={ml,application,rs},
+  bibtex_show={true},
+  abstract={Massive amounts of satellite data have been gathered over time, holding the potential to unveil a spatiotemporal chronicle of the surface of Earth. These data allow scientists to investigate various important issues, such as land use changes, on a global scale. However, not all land-use phenomena are equally visible on satellite imagery. In particular, the creation of an inventory of the planet's road infrastructure remains a challenge, despite being crucial to analyze urbanization patterns and their impact. Towards this end, this work advances data-driven approaches for the automatic identification of roads based on open satellite data. Given the typical resolutions of these historical satellite data, we observe that there is inherent variation in the visibility of different road types. Based on this observation, we propose two deep learning frameworks that extend state-of-the-art deep learning methods by formalizing road detection as an ordinal classification task. In contrast to related schemes, one of the two models also resorts to satellite time series data that are potentially affected by missing data and cloud occlusion. Taking these time series data into account eliminates the need to manually curate datasets of high-quality image tiles, substantially simplifying the application of such models on a global scale. We evaluate our approaches on a dataset that is based on Sentinel~2 satellite imagery and OpenStreetMap vector data. Our results indicate that the proposed models can successfully identify large and medium-sized roads. We also discuss opportunities and challenges related to the detection of roads and other infrastructure on a global scale.},
+  abbr={IEEE BigData 2019},
+  preview={2019_roads.png}
+}
+
+@inproceedings{GiesekeI2018TrainingBig,
+  author = {Fabian Gieseke and Christian Igel},
+  title = {Training Big Random Forests with Little Resources},
+  booktitle = {Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, KDD 2018, London, UK, August 19-23, 2018},
+  pages = {1445--1454},
+  year = {2018},
+  publisher = {ACM},
+  doi = {10.1145/3219819.3220124},
+  html = {https://doi.org/10.1145/3219819.3220124},
+  abbr={KDD18},
+  tags={ml,de},
+  bibtex_show={true},
+  abstract={Without access to large compute clusters, building random forests on large datasets is still a challenging problem. This is, in particular, the case if fully-grown trees are desired. We propose a simple yet effective framework that allows to efficiently construct ensembles of huge trees for hundreds of millions or even billions of training instances using a cheap desktop computer with commodity hardware. The basic idea is to consider a multi-level construction scheme, which builds top trees for small random subsets of the available data and which subsequently distributes all training instances to the top trees' leaves for further processing. While being conceptually simple, the overall efficiency crucially depends on the particular implementation of the different phases. The practical merits of our approach are demonstrated using dense datasets with hundreds of millions of training instances.},
+  preview={2018_kdd_rf.png},
+  pdf={https://arxiv.org/pdf/1802.06394},
+  selected={true}
+}
+
+@inproceedings{GiesekeOMIH2018BiggerBuffer,
+  author = {Fabian Gieseke and Cosmin Eugen Oancea and Ashish Mahabal and Christian Igel and Tom Heskes},
+  title = {Bigger Buffer k-d Trees on Multi-Many-Core Systems},
+  booktitle = {High Performance Computing for Computational Science --- VECPAR 2018 --- 13th International Conference, São Pedro, Brazil, September 17-19, 2018, Revised Selected Papers},
+  pages = {202--214},
+  series = {Lecture Notes in Computer Science},
+  volume = {11333},
+  year = {2018},
+  publisher = {Springer},
+  doi = {10.1007/978-3-030-15996-2\_15},
+  pdf={https://arxiv.org/abs/1512.02831},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-15996-2_15},
+  abstract={A buffer k-d tree is a k-d tree variant for massively-parallel nearest neighbor search. While providing valuable speed-ups on modern many-core devices in case both a large number of reference and query points are given, buffer k-d trees are limited by the amount of points that can fit on a single device. In this work, we show how to modify the original data structure and the associated workflow to make the overall approach capable of dealing with massive data sets. We further provide a simple yet efficient way of using multiple devices given in a single workstation. The applicability of the modified framework is demonstrated in the context of astronomy, a field that is faced with huge amounts of data.},
+  tags={de},
+  bibtex_show={true},
+  preview={2018_buffers.png}
+}
+
+@inproceedings{MehrenGVRHZ2018MassivelyParallel,
+  author = {Malte Mehren and Fabian Gieseke and Jan Verbesselt and Sabine Rosca and Stefanie Horion and Achim Zeileis},
+  title = {Massively-parallel break detection for satellite data},
+  booktitle = {Proceedings of the 30th International Conference on Scientific and Statistical Database Management, SSDBM 2018, Bozen-Bolzano, Italy, July 09-11, 2018},
+  pages = {5:1-5:10},
+  year = {2018},
+  publisher = {ACM},
+  doi = {10.1145/3221269.3223032},
+  url = {https://doi.org/10.1145/3221269.3223032},
+}
+
+@article{DIsantoCGP2018ReturnOfThe,
+  author = {Antonio D'Isanto and Stefano Cavuoti and Fabian Gieseke and Kai Lars Polsterer},
+  title = {Return of the features --- Efficient feature selection and interpretation for photometric redshifts},
+  journal = {Astronomy & Astrophysics},
+  year = {2018},
+  volume = {616},
+  pages = {A97},
+  doi = {10.1051/0004-6361/201833103},
+}
+
+@article{FloreaG2018ArtisticMovement,
+  author = {Corneliu Florea and Fabian Gieseke},
+  title = {Artistic movement recognition by consensus of boosted SVM based experts},
+  journal = {Journal of Visual Communication and Image Representation},
+  year = {2018},
+  volume = {56},
+  pages = {220--233},
+  doi = {10.1016/j.jvcir.2018.09.015},
+  url = {https://doi.org/10.1016/j.jvcir.2018.09.015},
+}
