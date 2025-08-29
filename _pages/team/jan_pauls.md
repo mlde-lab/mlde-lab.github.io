@@ -41,13 +41,23 @@ profile:
   profile_image_class: profile-image
   
 research: |
+  My research interests lie in the field of deep learning for large-scale remote sensing applications. 
   <div style="text-align: justify">
   </div>
   <ul>
     <li>Deep Learning</li>
     <li>Remote Sensing</li>
+    <li>Canopy Height Estimation</li>
   </ul>
-
+bio: |
+  <div style="text-align: justify">
+  I hold a BSc and a MSc degree in Information Systems from the University of Münster.
+    <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
+    <li><b>MSc degree in Information Systems</b>, University of Münster, Germany, ...</li>
+    <li><b>BSc degree in Information Systems</b>, University of Münster, Germany, ...</li>
+    </ul>
+  </div>
 ---
-
+### More Stuff
+Some more text in **markdown**.
 
