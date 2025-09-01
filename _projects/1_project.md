@@ -32,7 +32,7 @@ researchers:
     linkedin: https://www.linkedin.com/in/fabian-gieseke/
     google_scholar: https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de
   - name: Jan Pauls
-    image: jan_pauls.jpg
+    image: jan_pauls.jpeg
     image_circular: false
     role: Doctoral Candidate
   - name: Jorunn Mense

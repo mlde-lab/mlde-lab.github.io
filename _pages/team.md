@@ -44,7 +44,7 @@ researchers:
     role: Postdoc
     url: https://sites.google.com/view/juliankranz
   - name: Jan Pauls
-    image: jan_pauls.jpg
+    image: jan_pauls.jpeg
     image_circular: false
     role: Doctoral Candidate
     url: /team/jan-pauls

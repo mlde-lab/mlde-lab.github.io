@@ -37,27 +37,29 @@ filter_lastname: Pauls
 
 profile:
   name: Jan Pauls
-  image: jan_pauls.jpg
+  image: jan_pauls.jpeg
   profile_image_class: profile-image
   
 research: |
-  My research interests lie in the field of deep learning for large-scale remote sensing applications. 
-  <div style="text-align: justify">
-  </div>
+  My research interests lie in the field of deep learning for large-scale remote sensing applications. Current projects include the mapping of tree height from optical and radar satellite data, as well as using technical tricks to reduce the amount of labels required for training remote sensing models. 
+
   <ul>
-    <li>Deep Learning</li>
-    <li>Remote Sensing</li>
-    <li>Canopy Height Estimation</li>
+    <li>Large-Scale Machine Learning</li>
+    <li>Deep Learning for Remote Sensing</li>
+    <li>Reducing required data volumnes for training remote sensing models</li>
+    <li>Archeology in remote sensing</li>
+    <li>Building destruction detection</li>
   </ul>
+
 bio: |
   <div style="text-align: justify">
-  I hold a BSc and a MSc degree in Information Systems from the University of Münster.
+  I hold a BSc and a MSc degree in Information Systems from the University of Münster and am pursuing a PhD in Information Systems since January 2023.
     <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
-    <li><b>MSc degree in Information Systems</b>, University of Münster, Germany, ...</li>
-    <li><b>BSc degree in Information Systems</b>, University of Münster, Germany, ...</li>
+    <li><b>MSc degree in Information Systems</b>, Tracks: Business Intellgience, Software Engineering, University of Münster, Germany</li>
+    <li><b>BSc degree in Information Systems</b>, University of Münster, Germany</li>
     </ul>
   </div>
 ---
 ### More Stuff
-Some more text in **markdown**.
+
 
