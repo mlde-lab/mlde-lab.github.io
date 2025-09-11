@@ -581,7 +581,12 @@ preview={2020_bfast_earth.png},
   year = {2018},
   publisher = {ACM},
   doi = {10.1145/3221269.3223032},
-  url = {https://doi.org/10.1145/3221269.3223032},
+  html = {https://doi.org/10.1145/3221269.3223032},
+  pdf = {https://arxiv.org/abs/1807.01751},
+  abstract = {The field of remote sensing is nowadays faced with huge amounts of data. While this offers a variety of exciting research opportunities, it also yields significant challenges regarding both computation time and space requirements. In practice, the sheer data volumes render existing approaches too slow for processing and analyzing all the available data. This work aims at accelerating BFAST, one of the state-of-the-art methods for break detection given satellite image time series. In particular, we propose a massively-parallel implementation for BFAST that can effectively make use of modern parallel compute devices such as GPUs. Our experimental evaluation shows that the proposed GPU implementation is up to four orders of magnitude faster than the existing publicly available implementation and up to ten times faster than a corresponding multi-threaded CPU execution. The dramatic decrease in running time renders the analysis of significantly larger datasets possible in seconds or minutes instead of hours or days. We demonstrate the practical benefits of our implementations given both artificial and real datasets.},
+  bibtex_show={true},
+  tags={de},
+  preview={2018_bfast.png}
 }
 
 @article{DIsantoCGP2018ReturnOfThe,
@@ -592,6 +597,12 @@ preview={2020_bfast_earth.png},
   volume = {616},
   pages = {A97},
   doi = {10.1051/0004-6361/201833103},
+  pdf = {https://arxiv.org/abs/1803.10032},
+  html = {https://www.aanda.org/articles/aa/full_html/2018/08/aa33103-18/aa33103-18.html},
+  abstract = {The explosion of data in recent years has generated an increasing need for new analysis techniques in order to extract knowledge from massive datasets. Machine learning has proved particularly useful to perform this task. Fully automatized methods have recently gathered great popularity, even though those methods often lack physical interpretability. In contrast, feature based approaches can provide both well-performing models and understandable causalities with respect to the correlations found between features and physical processes. Efficient feature selection is an essential tool to boost the performance of machine learning models. In this work, we propose a forward selection method in order to compute, evaluate, and characterize better performing features for regression and classification problems. Given the importance of photometric redshift estimation, we adopt it as our case study. We synthetically created 4,520 features by combining magnitudes, errors, radii, and ellipticities of quasars, taken from the SDSS. We apply a forward selection process, a recursive method in which a huge number of feature sets is tested through a kNN algorithm, leading to a tree of feature sets. The branches of the tree are then used to perform experiments with the random forest, in order to validate the best set with an alternative model. We demonstrate that the sets of features determined with our approach improve the performances of the regression models significantly when compared to the performance of the classic features from the literature. The found features are unexpected and surprising, being very different from the classic features. Therefore, a method to interpret some of the found features in a physical context is presented. The methodology described here is very general and can be used to improve the performance of machine learning models for any regression or classification task.},
+  bibtex_show = {true},
+  tags = {application},
+  preview = {2018_return_features.png}
 }
 
 @article{FloreaG2018ArtisticMovement,
@@ -602,8 +613,13 @@ preview={2020_bfast_earth.png},
   volume = {56},
   pages = {220--233},
   doi = {10.1016/j.jvcir.2018.09.015},
-  url = {https://doi.org/10.1016/j.jvcir.2018.09.015},
+  html = {https://doi.org/10.1016/j.jvcir.2018.09.015},
+  bibtex_show = {true},
+  tags = {application},
+  abstract={In this work we aim to automatically recognize the artistic movement from a digitized image of a painting. Our approach uses a new system that resorts to descriptions induced by color structure histograms and by novel topographical features for texture assessment. The topographical descriptors accumulate information from the first and second local derivatives within four layers of finer representations. The classification is performed by two layers of ensembles. The first is an adapted boosted ensemble of support vector machines, which introduces further randomization over feature categories as a regularization. The training of the ensemble yields individual experts by isolating initially misclassified images and by correcting them in further stages of the process. The solution improves the performance by a second layer build upon the consensus of multiple local experts that analyze different parts of the images. The resulting performance compares favorably with classical solutions and manages to match the ones of modern deep learning frameworks.},
+  preview = {2018_boosted_svms.png}
 }
+
 @article{SCHWARTZ2025114959,
 title = {Retrieving yearly forest growth from satellite data: A deep learning based approach},
 journal = {Remote Sensing of Environment},

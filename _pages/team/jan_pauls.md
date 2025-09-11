@@ -46,9 +46,9 @@ research: |
   <ul>
     <li>Large-Scale Machine Learning</li>
     <li>Deep Learning for Remote Sensing</li>
-    <li>Reducing required data volumnes for training remote sensing models</li>
-    <li>Archeology in remote sensing</li>
-    <li>Building destruction detection</li>
+    <li>Data-Efficient Deep Learning</li>
+    <li>Archeology in Remote Sensing</li>
+    <li>Building Destruction Detection</li>
   </ul>
 
 bio: |
@@ -60,6 +60,5 @@ bio: |
     </ul>
   </div>
 ---
-### More Stuff
 
 
