@@ -28,7 +28,7 @@ subtitle: |+
   </li>
     <li><i class="fas fa-phone"></i>&nbsp;&nbsp; +49 251 8338162</li>
     </ul>
-    <i class="fab fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/jan-pauls" target="_blank"><b>GitHub</b></a>&nbsp;&nbsp;
+    <i class="fab fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/kschr40" target="_blank"><b>GitHub</b></a>&nbsp;&nbsp;
     <i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jan-pauls-521a68170/?originalSubdomain=de" target="_blank"><b>LinkedIn</b></a>&nbsp;&nbsp;   
   </div>
 
@@ -37,7 +37,7 @@ filter_lastname: Schrödter
 
 profile:
   name: Karsten Schrödter
-  image: karsten_schroedter.jpeg
+  image: karsten_schroedter.jpg
   profile_image_class: profile-image
   
 research: |

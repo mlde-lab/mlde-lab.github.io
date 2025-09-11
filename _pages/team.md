@@ -14,7 +14,6 @@ researchers:
     image_circular: false
     role: Full Professor
     url: /team/fabian-gieseke
-    email: fabian.gieseke AT uni-muenster.de
     github: https://github.com/gieseke
     linkedin: https://www.linkedin.com/in/fabian-gieseke/
     google_scholar: https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de
@@ -30,6 +29,8 @@ researchers:
     image: karsten_schroedter.jpg
     image_circular: false
     role: Postdoc
+    url: /team/karsten-schroedter
+    github: https://github.com/kschr40
   - name: Dr. Sugandha Arora
     image: sugandha_arora.jpg
     image_circular: false
