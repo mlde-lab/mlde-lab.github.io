@@ -51,9 +51,8 @@ research: |
 
 bio: |
   <div style="text-align: justify">
-  I hold a PhD in Mathematics from the University of Bielefeld.
+  
     <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
-
     <li><b>Postdoc (2024 - present)</b>, Projects: AI4Forest, TinyAIoT, University of Münster, Germany </li>
     <li><b>Data Scientist(2022 - 2024)</b>, Energy sector: flexibility marketing, spot market trading, ESFORIN, Germany  </li>
     <li><b>Phd in Mathematics (2018-2022)</b>, Research field: Algebraic and Arithmetic Geometry, University of Bielefeld, Germany</li>
