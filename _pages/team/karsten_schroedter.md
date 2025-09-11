@@ -15,7 +15,7 @@ subtitle: |+
    <br>
     <b>Contact</b>
     <ul>
-    <li>Room 222, Leonardo-Campus 3, 48147 Münster, Germany</li>
+    <li>Room 224, Leonardo-Campus 3, 48147 Münster, Germany</li>
     <li><i class="fas fa-envelope"></i>&nbsp;&nbsp; 
     <script>
     (function(){
@@ -26,10 +26,9 @@ subtitle: |+
     })();
   </script>
   </li>
-    <li><i class="fas fa-phone"></i>&nbsp;&nbsp; +49 251 8338162</li>
+    <li><i class="fas fa-phone"></i>&nbsp;&nbsp; +49 251 83-38163</li>
     </ul>
     <i class="fab fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/kschr40" target="_blank"><b>GitHub</b></a>&nbsp;&nbsp;
-    <i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jan-pauls-521a68170/?originalSubdomain=de" target="_blank"><b>LinkedIn</b></a>&nbsp;&nbsp;   
   </div>
 
 nav: false
@@ -41,21 +40,25 @@ profile:
   profile_image_class: profile-image
   
 research: |
-  My research interests lie in the field of deep learning for large-scale remote sensing applications. Current projects include the mapping of tree height from optical and radar satellite data, as well as using technical tricks to reduce the amount of labels required for training remote sensing models. 
+  My research interests lie in the intersection of machine and deep learning with statistics. Current projects include for example the mapping of uncertainty of tree height predictions from optical and radar satellite data or reducing data to be transmitted from an edge device such as a microcontroller with sensors to the cloud. 
 
   <ul>
-    <li>Large-Scale Machine Learning</li>
     <li>Deep Learning for Remote Sensing</li>
-    <li>Data-Efficient Deep Learning</li>
-    <li>Building Destruction Detection</li>
+    <li>Uncertainty Quantification in Deep Learning</li>
+    <li>Noisy Labels in Deep Learning</li>
+    <li>Efficient Quantization Techniques in Machine & Deep Learning</li>
   </ul>
 
 bio: |
   <div style="text-align: justify">
-  I hold a BSc and a MSc degree in Information Systems from the University of Münster and am pursuing a PhD in Information Systems since January 2023.
+  I hold a PhD in Mathematics from the University of Bielefeld.
     <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
-    <li><b>MSc degree in Information Systems</b>, Tracks: Business Intellgience, Software Engineering, University of Münster, Germany</li>
-    <li><b>BSc degree in Information Systems</b>, University of Münster, Germany</li>
+
+    <li><b>Postdoc (2024 - present)</b>, Projects: AI4Forest, TinyAIoT, University of Münster, Germany </li>
+    <li><b>Data Scientist(2022 - 2024)</b>, Energy sector: flexibility marketing, spot market trading, ESFORIN, Germany  </li>
+    <li><b>Phd in Mathematics (2018-2022)</b>, Research field: Algebraic and Arithmetic Geometry, University of Bielefeld, Germany</li>
+    <li><b>MSc degree in Mathematics (2015-2018)</b>, Tracks: Algebraic Geometry, Statistics, University of Münster, Germany</li>
+    <li><b>BSc degree in Mathematics and Applications (2012-2015)</b>, Heinrich-Heine University Düsseldorf, Germany</li>
     </ul>
   </div>
 ---
