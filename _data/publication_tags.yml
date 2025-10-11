@@ -7,6 +7,9 @@
 - tag: scalability
   name: scalability
 
+- tag: hpc
+  name: High-Performance Computing
+  
 - tag: application
   name: Application
   

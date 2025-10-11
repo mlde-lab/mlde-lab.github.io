@@ -1,3 +1,21 @@
+@article{SCHWARTZ2025114959,
+title = {Retrieving yearly forest growth from satellite data: A deep learning based approach},
+journal = {Remote Sensing of Environment},
+volume = {330},
+pages = {114959},
+year = {2025},
+issn = {0034-4257},
+doi = {https://doi.org/10.1016/j.rse.2025.114959},
+url = {https://www.sciencedirect.com/science/article/pii/S0034425725003633},
+author = {Martin Schwartz and Philippe Ciais and Ewan Sean and Aurélien {de Truchis} and Cédric Vega and Nikola Besic and Ibrahim Fayad and Jean-Pierre Wigneron and Sarah Brood and Agnès Pelissier-Tanon and Jan Pauls and Gabriel Belouze and Yidi Xu},
+keywords = {Deep learning, Forest height, Forest biomass, Time series, Forest growth, GEDI},
+abstract = {High-resolution mapping of forest attributes is crucial for ecosystem monitoring and carbon budget assessments. Recent advancements have leveraged satellite imagery and deep learning algorithms to generate high-resolution forest height maps. While these maps provide valuable snapshots of forest conditions, they lack the temporal resolution to estimate forest-related carbon fluxes or track annual changes. Few studies have produced annual forest height, volume, or biomass change maps validated at the forest stand level. To address this limitation, we developed a deep learning framework, coupling data from Sentinel-1 (S1), Sentinel-2 (S2) and from the Global Ecosystem Dynamics Investigation (GEDI) mission, to generate a time series of forest height, growing stock volume, and aboveground biomass at 10 to 30-m spatial resolution that we refer to as FORMS-T (FORest Multiple Satellite Time series). Unlike previous studies, we train our model on individual S2 scenes, rather than on growing season composites, to account for acquisition variability and improve generalization across years. We produced these maps for France over seven years (2018–2024) for height at 10 m resolution and further converted them to 30 m maps of growing stock volume and aboveground biomass using leaf type-specific allometric equations. Evaluation against the French National Forest Inventory (NFI) showed an average mean absolute error of 3.07 m for height (r2=0.68) across all years, 86 m3 ha-1 for volume and 65.1 Mg ha-1 for biomass. We further evaluated FORMS-T capacity to capture growth on a site where two successive airborne laser scanning (ALS) campaigns were available, showing a good agreement with ALS data when aggregating at coarser spatial resolution (r2=0.60, MAE=0.27 m for the 2020–2022 growth of trees between 10 and 15 m in 5 km pixels). Additionally, we compared our results to the NFI-based wood volume production at regional level and obtained a good agreement with a MAE of 1.45 m3 ha-1 yr-1 and r2 of 0.59. We then leveraged our height change maps to derive species-specific growth curves and compared them to ground-based measurements, highlighting distinct growth dynamics and regional variations in forest management practices. Further development of such maps could contribute to the assessment of forest-related carbon stocks and fluxes, contributing to the formulation of a comprehensive carbon budget at the country scale, and supporting global efforts to mitigate climate change.},
+preview={2025_schwartz_remotesensing.png},
+custom={Data|https://zenodo.org/records/15489231},
+tags={ml, application},
+projects={ai4forest}
+}
+
 @inproceedings{fayad2025dunia,
   title={DUNIA: Pixel-Sized Embeddings via Cross-Modal Alignment for Earth Observation Applications},
   author={Fayad, Ibrahim and Zimmer, Max and Schwartz, Martin and Ciais, Philippe and Gieseke, Fabian and Belouze, Gabriel and Brood, Sarah and De Truchis, Aurelien and d'Aspremont, Alexandre},
@@ -620,20 +638,901 @@ preview={2020_bfast_earth.png},
   preview = {2018_boosted_svms.png}
 }
 
-@article{SCHWARTZ2025114959,
-title = {Retrieving yearly forest growth from satellite data: A deep learning based approach},
-journal = {Remote Sensing of Environment},
-volume = {330},
-pages = {114959},
-year = {2025},
-issn = {0034-4257},
-doi = {https://doi.org/10.1016/j.rse.2025.114959},
-url = {https://www.sciencedirect.com/science/article/pii/S0034425725003633},
-author = {Martin Schwartz and Philippe Ciais and Ewan Sean and Aurélien {de Truchis} and Cédric Vega and Nikola Besic and Ibrahim Fayad and Jean-Pierre Wigneron and Sarah Brood and Agnès Pelissier-Tanon and Jan Pauls and Gabriel Belouze and Yidi Xu},
-keywords = {Deep learning, Forest height, Forest biomass, Time series, Forest growth, GEDI},
-abstract = {High-resolution mapping of forest attributes is crucial for ecosystem monitoring and carbon budget assessments. Recent advancements have leveraged satellite imagery and deep learning algorithms to generate high-resolution forest height maps. While these maps provide valuable snapshots of forest conditions, they lack the temporal resolution to estimate forest-related carbon fluxes or track annual changes. Few studies have produced annual forest height, volume, or biomass change maps validated at the forest stand level. To address this limitation, we developed a deep learning framework, coupling data from Sentinel-1 (S1), Sentinel-2 (S2) and from the Global Ecosystem Dynamics Investigation (GEDI) mission, to generate a time series of forest height, growing stock volume, and aboveground biomass at 10 to 30-m spatial resolution that we refer to as FORMS-T (FORest Multiple Satellite Time series). Unlike previous studies, we train our model on individual S2 scenes, rather than on growing season composites, to account for acquisition variability and improve generalization across years. We produced these maps for France over seven years (2018–2024) for height at 10 m resolution and further converted them to 30 m maps of growing stock volume and aboveground biomass using leaf type-specific allometric equations. Evaluation against the French National Forest Inventory (NFI) showed an average mean absolute error of 3.07 m for height (r2=0.68) across all years, 86 m3 ha-1 for volume and 65.1 Mg ha-1 for biomass. We further evaluated FORMS-T capacity to capture growth on a site where two successive airborne laser scanning (ALS) campaigns were available, showing a good agreement with ALS data when aggregating at coarser spatial resolution (r2=0.60, MAE=0.27 m for the 2020–2022 growth of trees between 10 and 15 m in 5 km pixels). Additionally, we compared our results to the NFI-based wood volume production at regional level and obtained a good agreement with a MAE of 1.45 m3 ha-1 yr-1 and r2 of 0.59. We then leveraged our height change maps to derive species-specific growth curves and compared them to ground-based measurements, highlighting distinct growth dynamics and regional variations in forest management practices. Further development of such maps could contribute to the assessment of forest-related carbon stocks and fluxes, contributing to the formulation of a comprehensive carbon budget at the country scale, and supporting global efforts to mitigate climate change.},
-preview={2025_schwartz_remotesensing.png},
-custom={Data|https://zenodo.org/records/15489231},
-tags={ml, application},
-projects={ai4forest}
+
+
+@ARTICLE{GiesekeEtAl2017,
+  author = {Fabian Gieseke and Steven Bloemen and Cas van den Bogaard and Tom Heskes and Jonas Kindler and Richard A. Scalzo and Valerio A.R.M. Ribeiro and Jan van Roestel and Paul J. Groot and Fang Yuan and Anais Möller and Brad E. Tucker},
+  title = {Convolutional Neural Networks for Transient Candidate Vetting in Large-Scale Surveys},
+  journal = {Monthly Notices of the Royal Astronomical Society {(MNRAS)}},
+  year = {2017},
+  pages = {3101-3114},
+  volume = {472},
+  number = {3},
+  publisher = {Oxford University Press},
+  pdf = {https://arxiv.org/abs/1708.08947},
+  html={https://academic.oup.com/mnras/article/472/3/3101/4093080},
+  abstract = {Current synoptic sky surveys monitor large areas of the sky to find variable and transient astronomical sources. As the number of detections per night at a single telescope easily exceeds several thousand, current detection pipelines make intensive use of machine learning algorithms to classify the detected objects and to filter out the most interesting candidates. A number of upcoming surveys will produce up to three orders of magnitude more data, which renders high-precision classification systems essential to reduce the manual and, hence, expensive vetting by human experts. We present an approach based on convolutional neural networks to discriminate between true astrophysical sources and artefacts in reference-subtracted optical images. We show that relatively simple networks are already competitive with state-of-the-art systems and that their quality can further be improved via slightly deeper networks and additional pre-processing steps – eventually yielding models outperforming state-of-the-art systems. In particular, our best model correctly classifies about 97.3 per cent of all ‘real’ and 99.7 per cent of all ‘bogus’ instances on a test set containing 1942 ‘bogus’ and 227 ‘real’ instances in total. Furthermore, the networks considered in this work can also successfully classify these objects at hand without relying on difference images, which might pave the way for future detection pipelines not containing image subtraction steps at all.},
+  bibtex_show = {true},
+  tags = {application,ml},
+  preview = {2017_transients.png},
+  selected={true},
+  abbr={Journal}
 }
+
+
+@ARTICLE{SouzaEtAl2017,
+  author = {R. S. de Souza and M. L. L. Dantas and M. V. Costa-Duarte and E. D. Feigelson and M. Killedar and P.-Y. Lablanche and R. Vilalta and A. Krone-Martins and R. Beck and Fabian Gieseke},
+  title = {A probabilistic approach to emission-line galaxy classification},
+  journal = {Monthly Notices of the Royal Astronomical Society {(MNRAS)}},
+  year = {2017},   
+  publisher = {Oxford University Press},
+  html={https://academic.oup.com/mnras/article/472/3/2808/4091443},
+  pdf={https://arxiv.org/abs/1703.07607},
+  abstract={We invoke a Gaussian mixture model (GMM) to jointly analyse two traditional emission-line classification schemes of galaxy ionization sources: the Baldwin-Phillips-Terlevich (BPT) and     vs. [NII]/H  (WHAN) diagrams, using spectroscopic data from the Sloan Digital Sky Survey Data Release 7 and SEAGal/STARLIGHT datasets. We apply a GMM to empirically define classes of galaxies in a three-dimensional space spanned by the   [OIII]/H ,   [NII]/H , and   EW(H ), optical parameters. The best-fit GMM based on several statistical criteria suggests a solution around four Gaussian components (GCs), which are capable to explain up to 97 per cent of the data variance. Using elements of information theory, we compare each GC to their respective astronomical counterpart. GC1 and GC4 are associated with star-forming galaxies, suggesting the need to define a new starburst subgroup. GC2 is associated with BPT's Active Galaxy Nuclei (AGN) class and WHAN's weak AGN class. GC3 is associated with BPT's composite class and WHAN's strong AGN class. Conversely, there is no statistical evidence -- based on four GCs -- for the existence of a Seyfert/LINER dichotomy in our sample. Notwithstanding, the inclusion of an additional GC5 unravels it. The GC5 appears associated to the LINER and Passive galaxies on the BPT and WHAN diagrams respectively. Subtleties aside, we demonstrate the potential of our methodology to recover/unravel different objects inside the wilderness of astronomical datasets, without lacking the ability to convey physically interpretable results. The probabilistic classifications from the GMM analysis are publicly available within the COINtoolbox.},
+  preview={2017_emission_galaxies.png},
+  bibtex_show = {true},
+  tags = {application}  
+}
+
+@article{KremerSGPI17,
+  author    = {Jan Kremer and
+               Kristoffer Stensbo{-}Smidt and
+               Fabian Gieseke and
+               Kim Steenstrup Pedersen and
+               Christian Igel},
+  title     = {Big Universe, Big Data: Machine Learning and Image Analysis for Astronomy},
+  journal   = {{IEEE} Intell. Syst.},
+  volume    = {32},
+  number    = {2},
+  pages     = {16--22},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/MIS.2017.40},
+  doi       = {10.1109/MIS.2017.40},
+  bibtex_show = {true},
+  tags = {application}  
+}
+
+
+@article{GiesekeOI17,
+  author    = {Fabian Gieseke and
+               Cosmin E. Oancea and
+               Christian Igel},
+  title     = {bufferkdtree: {A} Python library for massive nearest neighbor queries
+               on multi-many-core devices},
+  journal   = {Knowledge Based Systems},
+  volume    = {120},
+  pages     = {1--3},
+  year      = {2017},
+  url       = {https://doi.org/10.1016/j.knosys.2017.01.002},
+  doi       = {10.1016/j.knosys.2017.01.002},
+  bibtex_show = {true},
+  tags = {de,hpc}  
+}
+
+@inproceedings{GiesekePMIH17,
+  author    = {Fabian Gieseke and
+               Kai Lars Polsterer and
+               Ashish Mahabal and
+               Christian Igel and
+               Tom Heskes},
+  title     = {Massively-parallel best subset selection for ordinary least-squares
+               regression},
+  booktitle = {2017 {IEEE} Symposium Series on Computational Intelligence, {SSCI}
+               2017, Honolulu, HI, USA, November 27 - Dec. 1, 2017},
+  pages     = {1--8},
+  publisher = {{IEEE}},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/SSCI.2017.8285225},
+  doi       = {10.1109/SSCI.2017.8285225},
+  bibtex_show = {true},
+  tags = {de,ml}  
+}
+
+@inproceedings{MahabalSGPDDG17,
+  author    = {Ashish Mahabal and
+               Kshiteej Sheth and
+               Fabian Gieseke and
+               A. Pai and
+               S. George Djorgovski and
+               Andrew J. Drake and
+               Matthew J. Graham},
+  title     = {Deep-learnt classification of light curves},
+  booktitle = {2017 {IEEE} Symposium Series on Computational Intelligence, {SSCI}
+               2017, Honolulu, HI, USA, November 27 - Dec. 1, 2017},
+  pages     = {1--8},
+  publisher = {{IEEE}},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/SSCI.2017.8280984},
+  doi       = {10.1109/SSCI.2017.8280984},
+  bibtex_show = {true},
+  tags = {application}  
+}
+
+@inproceedings{FloreaTG17,
+  author    = {Corneliu Florea and
+               Cosmin Toca and
+               Fabian Gieseke},
+  title     = {Artistic Movement Recognition by Boosted Fusion of Color Structure
+               and Topographic Description},
+  booktitle = {2017 {IEEE} Winter Conference on Applications of Computer Vision,
+               {WACV} 2017, Santa Rosa, CA, USA, March 24-31, 2017},
+  pages     = {569--577},
+  publisher = {{IEEE} Computer Society},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/WACV.2017.69},
+  doi       = {10.1109/WACV.2017.69},
+  bibtex_show = {true},
+  tags = {application}  
+}
+
+@ARTICLE{BeckEtAl2017,
+  author = {Robert Beck and Chieh A. Lin and Emille O. Ishida and Fabian Gieseke and Rafel S. de Souza and Marcus V. Costa-Duarte and Mohammed W. Hattab and Alberto Krone-Martins},
+  title = {On the realistic validation of photometric redshifts},
+  journal = {Monthly Notices of the Royal Astronomical Society {(MNRAS)}},
+  year = {2017},
+  volume = {468},
+  number = {4},
+  pages = {4323-4339},  
+  publisher = {Oxford University Press},
+  bibtex_show = {true},
+  tags = {application}  
+}
+
+
+
+
+@ARTICLE{StensboSmidt2016,
+  author = {Kristoffer Stensbo-Smidt and Fabian Gieseke and Andrew Zirm and Kim Steenstrup Pedersen and Christian Igel},
+  title = {Sacrificing information for the greater good: how to select photometric bands for optimal accuracy},
+  journal = {Monthly Notices of the Royal Astronomical Society {(MNRAS)}},
+  year = {2017},
+  volume = {464},
+  number = {3},
+  pages = {2577-2596},  
+  publisher = {Oxford University Press},
+  bibtex_show = {true},
+  tags = {application}    
+}
+
+@ARTICLE{Sasdelli2016,
+  author = {Michele Sasdelli and E. O. Ishida and R. Vilalta and M. Aguena and V. C. Busti and H. Camacho and A. M. M. Trindade and Fabian Gieseke and R. S. de Souza and Y. T. Fantaye and P. A. Mazzali},
+  title = {Exploring the spectroscopic diversity of type Ia supernovae with {DRACULA}: {A} machine learning approach},
+  journal = {Monthly Notices of the Royal Astronomical Society (MNRAS)},
+  year = {2016},
+  volume = {461},
+  number = {2},
+  pages = {2044-2059},  
+  publisher = {Oxford University Press},
+  bibtex_show = {true},
+  tags = {application}    
+
+}
+
+@inproceedings{IshidaSVABCTGSF16,
+  author    = {Emille E. O. Ishida and
+               Michele Sasdelli and
+               Ricardo Vilalta and
+               Michel Aguena and
+               Vinicius C. Busti and
+               Hugo Camacho and
+               Arlindo M. M. Trindade and
+               Fabian Gieseke and
+               Rafael S. de Souza and
+               Yabebal T. Fantaye and
+               Paolo A. Mazzali},
+  editor    = {Massimo Brescia and
+               S. George Djorgovski and
+               Eric D. Feigelson and
+               Giuseppe Longo and
+               Stefano Cavuoti},
+  title     = {Exploring the spectroscopic diversity of type Ia supernovae with Deep
+               Learning and Unsupervised Clustering},
+  booktitle = {Astroinformatics 2016, Sorrento, Italy, October 19-25, 2016},
+  series    = {Proceedings of the International Astronomical Union},
+  volume    = {12},
+  number    = {{S325}},
+  pages     = {247--252},
+  publisher = {Cambridge University Press},
+  year      = {2016},
+  url       = {https://doi.org/10.1017/S174392131601293X},
+  doi       = {10.1017/S174392131601293X},
+  bibtex_show = {true},
+  tags = {application}    
+}
+
+@inproceedings{PolstererGIDG16,
+  author    = {Kai Lars Polsterer and
+               Fabian Gieseke and
+               Christian Igel and
+               Bernd Doser and
+               Nikolaos Gianniotis},
+  title     = {Parallelized rotation and flipping INvariant Kohonen maps {(PINK)}
+               on GPUs},
+  booktitle = {24th European Symposium on Artificial Neural Networks, {ESANN} 2016,
+               Bruges, Belgium, April 27-29, 2016},
+  year      = {2016},
+  url       = {http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-116.pdf},
+  bibtex_show = {true},
+  tags = {de,application,hpc}  
+}
+
+
+@article{KremerGPI2015,
+  author = {Jan Kremer and Fabian Gieseke and Kim Steenstrup Pedersen and Christian Igel},
+  title = {Nearest Neighbor Density Ratio Estimation for Large-Scale Applications in Astronomy},
+  journal = {Astronomy and Computing},
+  volume    = {12},
+  pages     = {62--72},
+  year = {2015},
+  bibtex_show = {true},
+  tags = {application}    
+}
+
+
+@inproceedings{GiesekePH15,
+  author    = {Fabian Gieseke and
+               Tapio Pahikkala and
+               Tom Heskes},
+  editor    = {{\'{E}}lisa Fromont and
+               Tijl De Bie and
+               Matthijs van Leeuwen},
+  title     = {Batch Steepest-Descent-Mildest-Ascent for Interactive Maximum Margin
+               Clustering},
+  booktitle = {Advances in Intelligent Data Analysis {XIV} - 14th International Symposium,
+               {IDA} 2015, Saint Etienne, France, October 22-24, 2015, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9385},
+  pages     = {95--107},
+  publisher = {Springer},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/978-3-319-24465-5\_9},
+  doi       = {10.1007/978-3-319-24465-5\_9},
+  bibtex_show = {true},
+  tags = {de}    
+}
+
+@inproceedings{Gieseke15,
+  author    = {Fabian Gieseke},
+  editor    = {Panos M. Pardalos and
+               Mario Pavone and
+               Giovanni Maria Farinella and
+               Vincenzo Cutello},
+  title     = {An Efficient Many-Core Implementation for Semi-Supervised Support
+               Vector Machines},
+  booktitle = {Machine Learning, Optimization, and Big Data - First International
+               Workshop, {MOD} 2015, Taormina, Sicily, Italy, July 21-23, 2015, Revised
+               Selected Papers},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9432},
+  pages     = {145--157},
+  publisher = {Springer},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/978-3-319-27926-8\_13},
+  doi       = {10.1007/978-3-319-27926-8\_13},
+  bibtex_show = {true},
+  tags = {hpc}    
+}
+
+
+@article{GiesekeAPK14,
+  author    = {Fabian Gieseke and
+               Antti Airola and
+               Tapio Pahikkala and
+               Oliver Kramer},
+  title     = {Fast and simple gradient-based optimization for semi-supervised support
+               vector machines},
+  journal   = {Neurocomputing},
+  volume    = {123},
+  pages     = {23--32},
+  year      = {2014},
+  url       = {https://doi.org/10.1016/j.neucom.2012.12.056},
+  doi       = {10.1016/j.neucom.2012.12.056},
+  bibtex_show = {true},
+  tags = {hpc}    
+}
+
+@article{PahikkalaAGK14,
+  author    = {Tapio Pahikkala and
+               Antti Airola and
+               Fabian Gieseke and
+               Oliver Kramer},
+  title     = {On Unsupervised Training of Multi-Class Regularized Least-Squares
+               Classifiers},
+  journal   = {Journal of Computer Science and Technology (ICDM 2012 Special Issue)},
+  volume    = {29},
+  number    = {1},
+  pages     = {90--104},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/s11390-014-1414-0},
+  doi       = {10.1007/s11390-014-1414-0},
+  bibtex_show = {true},
+  tags = {ml,de}    
+}
+
+@inproceedings{GiesekePOI14,
+  author    = {Fabian Gieseke and
+               Kai Lars Polsterer and
+               Cosmin Eugen Oancea and
+               Christian Igel},
+  title     = {Speedy greedy feature selection: Better redshift estimation via massive
+               parallelism},
+  booktitle = {22th European Symposium on Artificial Neural Networks, {ESANN} 2014,
+               Bruges, Belgium, April 23-25, 2014},
+  year      = {2014},
+  url       = {http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2014-171.pdf},
+  bibtex_show = {true},
+  tags = {ml}    
+}
+
+@inproceedings{GiesekeHOI14,
+  author    = {Fabian Gieseke and
+               Justin Heinermann and
+               Cosmin E. Oancea and
+               Christian Igel},
+  title     = {Buffer k-d Trees: Processing Massive Nearest Neighbor Queries on GPUs},
+  booktitle = {Proceedings of the 31th International Conference on Machine Learning,
+               {ICML} 2014, Beijing, China, 21-26 June 2014},
+  series    = {{JMLR} Workshop and Conference Proceedings},
+  volume    = {32},
+  pages     = {172--180},
+  publisher = {JMLR.org},
+  year      = {2014},
+  html       = {http://proceedings.mlr.press/v32/gieseke14.html},
+  pdf={http://proceedings.mlr.press/v32/gieseke14.pdf},
+  abstract={We present a new approach for combining
+k-d trees and graphics processing units for near-
+est neighbor search. It is well known that a di-
+rect combination of these tools leads to a non-
+satisfying performance due to conditional com-
+putations and suboptimal memory accesses. To
+alleviate these problems, we propose a variant
+of the classical k-d tree data structure, called
+buffer k-d tree, which can be used to reorganize
+the search. Our experiments show that we can
+take advantage of both the hierarchical subdivi-
+sion induced by k-d trees and the huge computa-
+tional resources provided by today’s many-core
+devices. We demonstrate the potential of our ap-
+proach in astronomy, where hundreds of million
+nearest neighbor queries have to be processed.},
+  bibtex_show = {true},
+  tags = {ml},
+  selected={true},
+  abbr={ICML14},
+  preview={2014_bufferktdtree.png}    
+}
+
+@inproceedings{KramerGHPT14,
+  author    = {Oliver Kramer and
+               Fabian Gieseke and
+               Justin Heinermann and
+               Jendrik Poloczek and
+               Nils Andr{\'{e}} Treiber},
+  editor    = {Wei Lee Woon and
+               Zeyar Aung and
+               Stuart E. Madnick},
+  title     = {A Framework for Data Mining in Wind Power Time Series},
+  booktitle = {Data Analytics for Renewable Energy Integration - Second {ECML} {PKDD}
+               Workshop, {DARE} 2014, Nancy, France, September 19, 2014, Revised
+               Selected Papers},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8817},
+  pages     = {97--107},
+  publisher = {Springer},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/978-3-319-13290-7\_8},
+  doi       = {10.1007/978-3-319-13290-7\_8},
+  bibtex_show = {true},
+  tags = {application,energy}    
+}
+
+
+@ARTICLE{PolstererZG2013,
+  author = {Kai Lars Polsterer and Peter Zinn and Fabian Gieseke},
+  title = {Finding New High-Redshift Quasars by Asking the Neighbours},
+  journal = {Monthly Notices of the Royal Astronomical Society (MNRAS)},
+  year = {2013},
+  volume = {428},
+  number = {1},
+  pages = {226-235},  
+  publisher = {Oxford University Press},
+  bibtex_show = {true},
+  tags = {application}    
+}
+
+@article{KramerGP13,
+  author    = {Oliver Kramer and
+               Fabian Gieseke and
+               Kai Lars Polsterer},
+  title     = {Learning morphological maps of galaxies with unsupervised regression},
+  journal   = {Expert Systems with Applications},
+  volume    = {40},
+  number    = {8},
+  pages     = {2841--2844},
+  year      = {2013},
+  url       = {https://doi.org/10.1016/j.eswa.2012.12.002},
+  doi       = {10.1016/j.eswa.2012.12.002},
+  bibtex_show = {true},
+  tags = {application}    
+}
+
+@article{KramerGS13,
+  author    = {Oliver Kramer and
+               Fabian Gieseke and
+               Benjamin Satzger},
+  title     = {Wind energy prediction and monitoring with neural computation},
+  journal   = {Neurocomputing},
+  volume    = {109},
+  pages     = {84--93},
+  year      = {2013},
+  url       = {https://doi.org/10.1016/j.neucom.2012.07.029},
+  doi       = {10.1016/j.neucom.2012.07.029},
+  bibtex_show = {true},
+  tags = {energy,application}    
+}
+
+@article{Gieseke13,
+  author    = {Fabian Gieseke},
+  title     = {From Supervised to Unsupervised Support Vector Machines and Applications in Astronomy},
+  journal   = {{KI}},
+  volume    = {27},
+  number    = {3},
+  pages     = {281--285},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/s13218-013-0248-1},
+  doi       = {10.1007/s13218-013-0248-1},
+  bibtex_show = {true},
+  tags = {ml,de,application}    
+}
+
+@inproceedings{GiesekePI13,
+  author    = {Fabian Gieseke and
+               Tapio Pahikkala and
+               Christian Igel},
+  editor    = {Cheng Soon Ong and
+               Tu Bao Ho},
+  title     = {Polynomial Runtime Bounds for Fixed-Rank Unsupervised Least-Squares
+               Classification},
+  booktitle = {Asian Conference on Machine Learning, {ACML} 2013, Canberra, ACT,
+               Australia, November 13-15, 2013},
+  series    = {{JMLR} Workshop and Conference Proceedings},
+  volume    = {29},
+  pages     = {62--71},
+  publisher = {JMLR.org},
+  abstract = {Maximum margin clustering can be regarded as the direct extension of support vector machines to
+unsupervised learning scenarios. The goal is to partition unlabeled data into two classes such that a
+subsequent application of a support vector machine would yield the overall best result (with respect
+to the optimization problem associated with support vector machines). While being very appealing
+from a conceptual point of view, the combinatorial nature of the induced optimization problem ren-
+ders a direct application of this concept difficult. In order to obtain efficient optimization schemes,
+various surrogates of the original problem definition have been proposed in the literature. In this
+work, we consider one of these variants, called unsupervised regularized least-squares classifica-
+tion, which is based on the square loss, and develop polynomial upper runtime bounds for the
+induced combinatorial optimization task. In particular, we show that for n patterns and kernel ma-
+trix of fixed rank r (with given eigendecomposition), one can obtain an optimal solution in O(nr)
+time for r ≤ 2 and in O(nr−1) time for r ≥ 3. The algorithmic framework is based on an inter-
+esting connection to the field of quadratic zero-one programming and permits the computation of
+exact solutions for the more general case of non-linear kernel functions in polynomial time.},
+  year      = {2013},
+  html       = {http://proceedings.mlr.press/v29/Gieseke13.html},
+  pdf={http://proceedings.mlr.press/v29/Gieseke13.pdf},
+  bibtex_show = {true},
+  tags = {ml},
+  selected={true},
+  abbr={ACML13},
+  preview={2013_polynomial.png}    
+}
+
+@inproceedings{KramerTG13,
+  author    = {Oliver Kramer and
+               Nils Andr{\'{e}} Treiber and
+               Fabian Gieseke},
+  editor    = {Bernd Page and
+               Andreas G. Fleischer and
+               Johannes G{\"{o}}bel and
+               Volker Wohlgemuth},
+  title     = {Support Vector Machines for Wind Energy Prediction in Smart Grids},
+  booktitle = {27th International Conference on Environmental Informatics for Environmental
+               Protection, Sustainable Development and Risk Management, EnviroInfo
+               2013, Hamburg, Germany, September 2-4, 2013. Proceedings},
+  series    = {Berichte aus der Umweltinformatik},
+  pages     = {16--24},
+  publisher = {Shaker},
+  year      = {2013},
+  url       = {http://iai-uiserv1.iai.fzk.de/ictensure/site?mod=litdb\&\#38;subject=art\&\#38;pid=XE6C64FA5\&\#38;action=detail},
+  bibtex_show = {true},
+  tags = {application,energy},    
+}
+
+@inproceedings{GiesekeK13,
+  author    = {Fabian Gieseke and
+               Oliver Kramer},
+  editor    = {Anna Isabel Esparcia{-}Alc{\'{a}}zar},
+  title     = {Towards Non-linear Constraint Estimation for Expensive Optimization},
+  booktitle = {Applications of Evolutionary Computation - 16th European Conference,
+               EvoApplications 2013, Vienna, Austria, April 3-5, 2013. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7835},
+  pages     = {459--468},
+  publisher = {Springer},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/978-3-642-37192-9\_46},
+  doi       = {10.1007/978-3-642-37192-9\_46},
+  bibtex_show = {true},
+  tags = {ml}    
+}
+
+@inproceedings{HeinermannKPG13,
+  author    = {Justin Heinermann and
+               Oliver Kramer and
+               Kai Lars Polsterer and
+               Fabian Gieseke},
+  editor    = {Ingo J. Timm and
+               Matthias Thimm},
+  title     = {On GPU-Based Nearest Neighbor Queries for Large-Scale Photometric
+               Catalogs in Astronomy},
+  booktitle = {{KI} 2013: Advances in Artificial Intelligence - 36th Annual German
+               Conference on AI, Koblenz, Germany, September 16-20, 2013. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8077},
+  pages     = {86--97},
+  publisher = {Springer},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/978-3-642-40942-4\_8},
+  doi       = {10.1007/978-3-642-40942-4\_8},
+  bibtex_show = {true},
+  tags = {hpc}    
+}
+
+@article{KramerG12,
+  author    = {Oliver Kramer and
+               Fabian Gieseke},
+  title     = {Evolutionary kernel density regression},
+  journal   = {Expert Syst. Appl.},
+  volume    = {39},
+  number    = {10},
+  pages     = {9246--9254},
+  year      = {2012},
+  url       = {https://doi.org/10.1016/j.eswa.2012.02.080},
+  doi       = {10.1016/j.eswa.2012.02.080},
+  bibtex_show = {true},
+  tags = {de}    
+}
+
+@article{GiesekeKAP12,
+  author    = {Fabian Gieseke and
+               Oliver Kramer and
+               Antti Airola and
+               Tapio Pahikkala},
+  title     = {Efficient recurrent local search strategies for semi- and unsupervised
+               regularized least-squares classification},
+  journal   = {Evolutionary Intelligence},
+  volume    = {5},
+  number    = {3},
+  pages     = {189--205},
+  year      = {2012},
+  url       = {https://doi.org/10.1007/s12065-012-0068-5},
+  doi       = {10.1007/s12065-012-0068-5},
+  bibtex_show = {true},
+  tags = {ml}    
+}
+
+@article{GiesekeMV12,
+  author    = {Fabian Gieseke and
+               Gabriel Moruz and
+               Jan Vahrenhold},
+  title     = {Resilient k-d trees: k-means in space revisited},
+  journal   = {Frontiers of Computer Science (ICDM 2010 Special Issue)},
+  volume    = {6},
+  number    = {2},
+  pages     = {166--178},
+  year      = {2012},
+  url       = {https://doi.org/10.1007/s11704-012-2870-8},
+  doi       = {10.1007/s11704-012-2870-8},
+  bibtex_show = {true},
+  tags = {de}    
+}
+
+@inproceedings{Gieseke12,
+  author    = {Fabian Gieseke},
+  editor    = {Steffen H{\"{o}}lldobler},
+  title     = {Von {\"{u}}berwachten zu un{\"{u}}berwachten Support-Vektor-Maschinen
+               und Anwendungen in der Astronomie},
+  booktitle = {Ausgezeichnete Informatikdissertationen 2012},
+  series    = {{LNI}},
+  volume    = {{D-13}},
+  pages     = {111--120},
+  publisher = {{GI}},
+  year      = {2012},
+  bibtex_show = {true},
+  tags = {ml,de,application}    
+}
+
+@inproceedings{PahikkalaAGK12,
+  author    = {Tapio Pahikkala and
+               Antti Airola and
+               Fabian Gieseke and
+               Oliver Kramer},
+  editor    = {Mohammed Javeed Zaki and
+               Arno Siebes and
+               Jeffrey Xu Yu and
+               Bart Goethals and
+               Geoffrey I. Webb and
+               Xindong Wu},
+  title     = {Unsupervised Multi-class Regularized Least-Squares Classification},
+  booktitle = {12th {IEEE} International Conference on Data Mining, {ICDM} 2012,
+               Brussels, Belgium, December 10-13, 2012},
+  pages     = {585--594},
+  publisher = {{IEEE} Computer Society},
+  year      = {2012},
+  html       = {https://doi.org/10.1109/ICDM.2012.71},
+  pdf = {https://www.utupub.fi/bitstream/handle/10024/186784/inpPaAiGiKr12a.full.pdf?sequence=1&isAllowed=y},
+  doi       = {10.1109/ICDM.2012.71},
+  bibtex_show = {true},
+  abstract={Regularized least-squares classification is one of the
+most promising alternatives to standard support vector machines,
+with the desirable property of closed-form solutions that can
+be obtained analytically, and efficiently. While the supervised,
+and mostly binary case has received tremendous attention in
+recent years, unsupervised multi-class settings have not yet been
+considered. In this work we present an efficient implementation
+for the unsupervised extension of the multi-class regularized
+least-squares classification framework, which is, to the best of the
+authors’ knowledge, the first one in the literature addressing this
+task. The resulting kernel-based framework efficiently combines
+steepest descent strategies with powerful meta-heuristics for
+avoiding local minima. The computational efficiency of the overall
+approach is ensured through the application of matrix algebra
+shortcuts that render efficient updates of the intermediate can-
+didate solutions possible. Our experimental evaluation indicates
+the potential of the novel method, and demonstrates its superior
+clustering performance over a variety of competing methods on
+real-world data sets.},
+  tags = {ml},
+  abbr={ICDM12},    
+  selected={true},
+  preview={2012_mmc_multiclass.png}
+}
+
+@inproceedings{GiesekeAPK12,
+  author    = {Fabian Gieseke and
+               Antti Airola and
+               Tapio Pahikkala and
+               Oliver Kramer},
+  editor    = {Pedro Latorre Carmona and
+               J. Salvador S{\'{a}}nchez and
+               Ana L. N. Fred},
+  title     = {Sparse Quasi-Newton Optimization for Semi-supervised Support Vector
+               Machines},
+  booktitle = {{ICPRAM} 2012 - Proceedings of the 1st International Conference on
+               Pattern Recognition Applications and Methods, Volume 1, Vilamoura,
+               Algarve, Portugal, 6-8 February, 2012},
+  pages     = {45--54},
+  publisher = {SciTePress},
+  year      = {2012},
+  bibtex_show = {true},
+  tags = {ml}    
+}
+
+@PhdThesis{Gieseke2011,
+  author = {Fabian Gieseke},
+  title  = {From supervised to unsupervised support vector machines and applications in astronomy},
+  school = {Carl von Ossietzky University of Oldenburg},
+  year   = {2011},
+  url    = {http://oops.uni-oldenburg.de/volltexte/2012/1398/},
+  bibtex_show = {true},
+  tags = {ml,de,application}    
+}
+
+@inproceedings{KramerG11,
+  author    = {Oliver Kramer and
+               Fabian Gieseke},
+  editor    = {Yongsheng Ding and
+               Haiying Wang and
+               Ning Xiong and
+               Kuangrong Hao and
+               Lipo Wang},
+  title     = {Analysis of wind energy time series with kernel methods and neural
+               networks},
+  booktitle = {Seventh International Conference on Natural Computation, {ICNC} 2011,
+               Shanghai, China, 26-28 July, 2011},
+  pages     = {2381--2385},
+  publisher = {{IEEE}},
+  year      = {2011},
+  url       = {https://doi.org/10.1109/ICNC.2011.6022597},
+  doi       = {10.1109/ICNC.2011.6022597},
+  bibtex_show = {true},
+  tags = {application,energy}    
+}
+
+@inproceedings{GiesekeKAP11,
+  author    = {Fabian Gieseke and
+               Oliver Kramer and
+               Antti Airola and
+               Tapio Pahikkala},
+  editor    = {Joscha Bach and
+               Stefan Edelkamp},
+  title     = {Speedy Local Search for Semi-Supervised Regularized Least-Squares},
+  booktitle = {{KI} 2011: Advances in Artificial Intelligence, 34th Annual German
+               Conference on AI, Berlin, Germany, October 4-7,2011. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7006},
+  pages     = {87--98},
+  publisher = {Springer},
+  year      = {2011},
+  url       = {https://doi.org/10.1007/978-3-642-24455-1\_8},
+  doi       = {10.1007/978-3-642-24455-1\_8},
+  bibtex_show = {true},
+  tags = {ml}    
+}
+
+@InProceedings{Kramer2011,
+  author    = {Oliver Kramer and Fabian Gieseke},
+  title     = {Variance Scaling for EDAs Revisited},
+  booktitle = {{KI} 2011: Advances in Artificial Intelligence, 34th Annual German Conference on AI, Berlin, Germany, October 4-7,2011. Proceedings},
+  year      = {2011},
+  editor    = {Joscha Bach and Stefan Edelkamp},
+  volume    = {7006},
+  series    = {Lecture Notes in Computer Science},
+  pages     = {169--178},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-642-24455-1\_16},
+  url       = {https://doi.org/10.1007/978-3-642-24455-1\_16},
+  bibtex_show = {true},
+  tags = {application}    
+}
+
+@InProceedings{Kramer2011a,
+  author    = {Oliver Kramer and Fabian Gieseke},
+  title     = {Short-Term Wind Energy Forecasting Using Support Vector Regression},
+  booktitle = {Soft Computing Models in Industrial and Environmental Applications, 6th International Conference {SOCO} 2011, 6-8 April, 2011, Salamanca, Spain},
+  year      = {2011},
+  editor    = {Emilio Corchado and V{\'{a}}clav Sn{\'{a}}sel and Javier Sedano and Aboul Ella Hassanien and Jos{\'{e}} Lu{\'{\i}}s Calvo{-}Rolle and Dominik Slezak},
+  volume    = {87},
+  series    = {Advances in Intelligent and Soft Computing},
+  pages     = {271--280},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-642-19644-7\_29},
+  url       = {https://doi.org/10.1007/978-3-642-19644-7\_29},
+  bibtex_show = {true},
+  tags = {application,energy}    
+}
+
+@article{GiesekeGV10,
+  author    = {Fabian Gieseke and
+               Joachim Gudmundsson and
+               Jan Vahrenhold},
+  title     = {Pruning spanners and constructing well-separated pair decompositions in the presence of memory hierarchies},
+  journal   = {Journal of Discrete Algorithms (JDA)},
+  volume    = {8},
+  number    = {3},
+  pages     = {259--272},
+  year      = {2010},
+  url       = {https://doi.org/10.1016/j.jda.2010.03.001},
+  doi       = {10.1016/j.jda.2010.03.001},
+  bibtex_show = {true},
+  tags = {de}    
+}
+
+@inproceedings{GiesekeMV10,
+  author    = {Fabian Gieseke and
+               Gabriel Moruz and
+               Jan Vahrenhold},
+  editor    = {Geoffrey I. Webb and
+               Bing Liu and
+               Chengqi Zhang and
+               Dimitrios Gunopulos and
+               Xindong Wu},
+  title     = {Resilient K-d Trees: K-Means in Space Revisited},
+  booktitle = {{ICDM} 2010, The 10th {IEEE} International Conference on Data Mining,
+               Sydney, Australia, 14-17 December 2010},
+  pages     = {815--820},
+  publisher = {{IEEE} Computer Society},
+  year      = {2010},
+  html       = {https://doi.org/10.1109/ICDM.2010.94},
+  pdf = {https://madalgo.au.dk/fileadmin/madalgo/OA_PDF_s/J71.pdf},
+  doi       = {10.1109/ICDM.2010.94},
+  bibtex_show = {true},
+  abstract={We develop a k-d tree variant that is resilient to a
+pre-described number of memory corruptions while still using
+only linear space. We show how to use this data structure in
+the context of clustering in high-radiation environments and
+demonstrate that our approach leads to a significantly higher
+resiliency rate compared to previous results.},
+  abbr={ICDM10},
+  selected={true},
+  tags = {de},
+  preview={2010_kmeans_space.png}    
+}
+
+@inproceedings{GiesekePTZBDKV10,
+  author    = {Fabian Gieseke and
+               Kai Lars Polsterer and
+               Andreas Thom and
+               Peter Zinn and
+               Dominik Bomanns and
+               Ralf{-}Jurgen Dettmar and
+               Oliver Kramer and
+               Jan Vahrenhold},
+  editor    = {Sorin Draghici and
+               Taghi M. Khoshgoftaar and
+               Vasile Palade and
+               Witold Pedrycz and
+               M. Arif Wani and
+               Xingquan Zhu},
+  title     = {Detecting Quasars in Large-Scale Astronomical Surveys},
+  booktitle = {The Ninth International Conference on Machine Learning and Applications,
+               {ICMLA} 2010, Washington, DC, USA, 12-14 December 2010},
+  pages     = {352--357},
+  publisher = {{IEEE} Computer Society},
+  year      = {2010},
+  url       = {https://doi.org/10.1109/ICMLA.2010.59},
+  doi       = {10.1109/ICMLA.2010.59},
+  bibtex_show = {true},
+  tags = {application}    
+}
+
+
+@inproceedings{GiesekePK09,
+  author    = {Fabian Gieseke and
+               Tapio Pahikkala and
+               Oliver Kramer},
+  editor    = {Andrea Pohoreckyj Danyluk and
+               L{\'{e}}on Bottou and
+               Michael L. Littman},
+  title     = {Fast evolutionary maximum margin clustering},
+  booktitle = {Proceedings of the 26th Annual International Conference on Machine
+               Learning, {ICML} 2009, Montreal, Quebec, Canada, June 14-18, 2009},
+  series    = {{ACM} International Conference Proceeding Series},
+  abstract = {The maximum margin clustering approach is
+a recently proposed extension of the concept
+of support vector machines to the clustering
+problem. Briefly stated, it aims at finding
+an optimal partition of the data into two
+classes such that the margin induced by a
+subsequent application of a support vector
+machine is maximal. We propose a method
+based on stochastic search to address this
+hard optimization problem. While a direct
+implementation would be infeasible for large
+data sets, we present an efficient computa-
+tional shortcut for assessing the “quality” of
+intermediate solutions. Experimental results
+show that our approach outperforms existing
+methods in terms of clustering accuracy.},
+  volume    = {382},
+  pages     = {361--368},
+  publisher = {{ACM}},
+  year      = {2009},
+  html       = {https://doi.org/10.1145/1553374.1553421},
+  pdf = {https://icml.cc/Conferences/2009/papers/245.pdf},
+  doi       = {10.1145/1553374.1553421},
+  bibtex_show = {true},
+  abbr={ICML09},
+  selected={true},
+  tags = {ml},
+  preview={2009_mmc.png}    
+}
+
+
+@INPROCEEDINGS{GiesekeV2009,
+  author = {Fabian Gieseke and Jan Vahrenhold},
+  title = {Cache-Oblivious Construction of a Well-Separated Pair Decomposition},
+  booktitle = {Proceedings of the 25th European Workshop on Computational Geometry},
+  year = {2009},
+  pages = {341-344},
+  bibtex_show = {true},
+  tags = {de}    
+}
+
+@INPROCEEDINGS{TsivtsivadzeGPBS2008,
+  author = {Evgeni Tsivtsivadze and Fabian Gieseke and Tapio Pahikkala and Jorma
+	Boberg and Tapio Salakoski},
+  title = {Learning Preferences with Co-Regularized Least-Squares},
+  booktitle = {Proceedings of the ECML/PKDD Workshop on Preference Learning},
+  year = {2008},
+  pages = {52-66},
+  bibtex_show = {true},
+  tags = {ml}    
+}
+
