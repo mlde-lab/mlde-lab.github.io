@@ -362,7 +362,8 @@ compared to hours needed by classical scanning-based approaches.},
   pdf={https://openaccess.thecvf.com/content/WACV2021/papers/Dai_Attentional_Feature_Fusion_WACV_2021_paper.pdf},
   abbr={WACV21},
   tags={ml},
-  preview={2021_attentional_feature_fusion.png}
+  preview={2021_attentional_feature_fusion.png},
+  selected={true}
 }
 
 @inproceedings{MunksgaardBHGO2021DatasetSensitive,
@@ -548,6 +549,8 @@ preview={2020_bfast_earth.png},
   year = {2019},
   publisher = {IEEE},
   doi = {10.1109/BigData47090.2019.9006251},
+  pdf = {https://arxiv.org/abs/1912.05026},
+  html = {https://ieeexplore.ieee.org/document/9006251},
   tags={ml,application,rs},
   bibtex_show={true},
   abstract={Massive amounts of satellite data have been gathered over time, holding the potential to unveil a spatiotemporal chronicle of the surface of Earth. These data allow scientists to investigate various important issues, such as land use changes, on a global scale. However, not all land-use phenomena are equally visible on satellite imagery. In particular, the creation of an inventory of the planet's road infrastructure remains a challenge, despite being crucial to analyze urbanization patterns and their impact. Towards this end, this work advances data-driven approaches for the automatic identification of roads based on open satellite data. Given the typical resolutions of these historical satellite data, we observe that there is inherent variation in the visibility of different road types. Based on this observation, we propose two deep learning frameworks that extend state-of-the-art deep learning methods by formalizing road detection as an ordinal classification task. In contrast to related schemes, one of the two models also resorts to satellite time series data that are potentially affected by missing data and cloud occlusion. Taking these time series data into account eliminates the need to manually curate datasets of high-quality image tiles, substantially simplifying the application of such models on a global scale. We evaluate our approaches on a dataset that is based on Sentinel~2 satellite imagery and OpenStreetMap vector data. Our results indicate that the proposed models can successfully identify large and medium-sized roads. We also discuss opportunities and challenges related to the detection of roads and other infrastructure on a global scale.},
@@ -681,15 +684,18 @@ preview={2020_bfast_earth.png},
                Kim Steenstrup Pedersen and
                Christian Igel},
   title     = {Big Universe, Big Data: Machine Learning and Image Analysis for Astronomy},
-  journal   = {{IEEE} Intell. Syst.},
+  journal   = {{IEEE} Intelligent Systems},
   volume    = {32},
   number    = {2},
   pages     = {16--22},
   year      = {2017},
-  url       = {https://doi.org/10.1109/MIS.2017.40},
+  html       = {https://doi.org/10.1109/MIS.2017.40},
+  pdf = {https://arxiv.org/abs/1704.04650},
+  abstract = {Astrophysics and cosmology are rich with data. The advent of wide-area digital cameras on large aperture telescopes has led to ever more ambitious surveys of the sky. Data volumes of entire surveys a decade ago can now be acquired in a single night and real-time analysis is often desired. Thus, modern astronomy requires big data know-how, in particular it demands highly efficient machine learning and image analysis algorithms. But scalability is not the only challenge: Astronomy applications touch several current machine learning research questions, such as learning from biased data and dealing with label and measurement noise. We argue that this makes astronomy a great domain for computer science research, as it pushes the boundaries of data analysis. In the following, we will present this exciting application area for data scientists. We will focus on exemplary results, discuss main challenges, and highlight some recent methodological advancements in machine learning and image analysis triggered by astronomical applications. },
   doi       = {10.1109/MIS.2017.40},
   bibtex_show = {true},
-  tags = {application}  
+  tags = {application},
+  preview = {2017_astronomy_big_data.png}  
 }
 
 
@@ -703,10 +709,17 @@ preview={2020_bfast_earth.png},
   volume    = {120},
   pages     = {1--3},
   year      = {2017},
-  url       = {https://doi.org/10.1016/j.knosys.2017.01.002},
+  html       = {https://doi.org/10.1016/j.knosys.2017.01.002},
   doi       = {10.1016/j.knosys.2017.01.002},
+  abstract = {The bufferkdtree package is an open-source software that provides an efficient implementation for
+processing huge amounts of nearest neighbor queries in Euclidean spaces of moderate dimensionality.
+Its underlying implementation resorts to a variant of the classical k-d tree data structure, called buffer
+k-d tree, which can be used to efficiently perform bulk nearest neighbor searches on modern many-core
+devices. The package, which is based on Python, C, and OpenCL, is made publicly available online at
+https://github.com/gieseke/bufferkdtree under the GPLv2 license.},
   bibtex_show = {true},
-  tags = {de,hpc}  
+  tags = {de,hpc},
+  preview = {2017_bufferkdtree_package.png}  
 }
 
 @inproceedings{GiesekePMIH17,
@@ -721,11 +734,13 @@ preview={2020_bfast_earth.png},
                2017, Honolulu, HI, USA, November 27 - Dec. 1, 2017},
   pages     = {1--8},
   publisher = {{IEEE}},
+  abstract = {Selecting an optimal subset of k out of d features for linear regression models given n training instances is often considered intractable for feature spaces with hundreds or thousands of dimensions. We propose an efficient massively-parallel implementation for selecting such optimal feature subsets in a brute-force fashion for small k. By exploiting the enormous compute power provided by modern parallel devices such as graphics processing units, it can deal with thousands of input dimensions even using standard commodity hardware only. We evaluate the practical runtime using artificial datasets and sketch the applicability of our framework in the context of astronomy.},
   year      = {2017},
-  url       = {https://doi.org/10.1109/SSCI.2017.8285225},
+  html       = {https://doi.org/10.1109/SSCI.2017.8285225},
   doi       = {10.1109/SSCI.2017.8285225},
   bibtex_show = {true},
-  tags = {de,ml}  
+  tags = {de,ml},
+  preview = {2017_best_subset.png}  
 }
 
 @inproceedings{MahabalSGPDDG17,
@@ -742,10 +757,13 @@ preview={2020_bfast_earth.png},
   pages     = {1--8},
   publisher = {{IEEE}},
   year      = {2017},
-  url       = {https://doi.org/10.1109/SSCI.2017.8280984},
+  html       = {https://doi.org/10.1109/SSCI.2017.8280984},
+  abstract = {Astronomy light curves are sparse, gappy, and heteroscedastic. As a result standard time series methods regularly used for financial and similar datasets are of little help and astronomers are usually left to their own instruments and techniques to classify light curves. A common approach is to derive statistical features from the time series and to use machine learning methods, generally supervised, to separate objects into a few of the standard classes. In this work, we transform the time series to two-dimensional light curve representations in order to classify them using modern deep learning techniques. In particular, we show that convolutional neural networks based classifiers work well for broad characterization and classification. We use labeled datasets of periodic variables from CRTS survey and show how this opens doors for a quick classification of diverse classes with several possible exciting extensions.},
+  pdf = {https://arxiv.org/abs/1709.06257},
   doi       = {10.1109/SSCI.2017.8280984},
   bibtex_show = {true},
-  tags = {application}  
+  tags = {application},
+  preview = {2017_light_curves.png}  
 }
 
 @inproceedings{FloreaTG17,
@@ -759,10 +777,25 @@ preview={2020_bfast_earth.png},
   pages     = {569--577},
   publisher = {{IEEE} Computer Society},
   year      = {2017},
-  url       = {https://doi.org/10.1109/WACV.2017.69},
+  html       = {https://doi.org/10.1109/WACV.2017.69},
   doi       = {10.1109/WACV.2017.69},
   bibtex_show = {true},
-  tags = {application}  
+  tags = {application},
+  abstract = {We address the problem of automatically recognizing
+artistic movement in digitized paintings. We make the fol-
+lowing contributions: Firstly, we introduce a large digitized
+painting database that contains refined annotations of artis-
+tic movement. Secondly, we propose a new system for the
+automatic categorization that resorts to image descriptions
+by color structure and novel topographical features as well
+as to an adapted boosted ensemble of support vector ma-
+chines. The system manages to isolate initially misclassi-
+fied images and to correct such errors in further stages of
+the boosting process. The resulting performance of the sys-
+tem compares favorably with classical solutions in terms
+of accuracy and even manages to outperform modern deep
+learning frameworks.},
+  preview = {2017_art_classification.png}  
 }
 
 @ARTICLE{BeckEtAl2017,
@@ -775,10 +808,12 @@ preview={2020_bfast_earth.png},
   pages = {4323-4339},  
   publisher = {Oxford University Press},
   bibtex_show = {true},
-  tags = {application}  
+  tags = {application},
+  html = {https://academic.oup.com/mnras/article/468/4/4323/3077192},
+  pdf = {https://arxiv.org/abs/1701.08748},
+  abstract = {Two of the main problems encountered in the development and accurate validation of photometric redshift (photo-z) techniques are the lack of spectroscopic coverage in feature space (e.g. colours and magnitudes) and the mismatch between photometric error distributions associated with the spectroscopic and photometric samples. Although these issues are well known, there is currently no standard benchmark allowing a quantitative analysis of their impact on the final photo-z estimation. In this work, we present two galaxy catalogues, Teddy and Happy, built to enable a more demanding and realistic test of photo-z methods. Using photometry from the Sloan Digital Sky Survey and spectroscopy from a collection of sources, we constructed datasets which mimic the biases between the underlying probability distribution of the real spectroscopic and photometric sample. We demonstrate the potential of these catalogues by submitting them to the scrutiny of different photo-z methods, including machine learning (ML) and template fitting approaches. Beyond the expected bad results from most ML algorithms for cases with missing coverage in feature space, we were able to recognize the superiority of global models in the same situation and the general failure across all types of methods when incomplete coverage is convoluted with the presence of photometric errors - a data situation which photo-z methods were not trained to deal with up to now and which must be addressed by future large scale surveys. Our catalogues represent the first controlled environment allowing a straightforward implementation of such tests.},
+  preview = {2017_happy.png}  
 }
-
-
 
 
 @ARTICLE{StensboSmidt2016,
@@ -791,7 +826,11 @@ preview={2020_bfast_earth.png},
   pages = {2577-2596},  
   publisher = {Oxford University Press},
   bibtex_show = {true},
-  tags = {application}    
+  tags = {application},
+  pdf = {https://arxiv.org/abs/1511.05424},
+  html = {https://academic.oup.com/mnras/article/464/3/2577/2435146},
+  abstract = {Large-scale surveys make huge amounts of photometric data available. Because of the sheer amount of objects, spectral data cannot be obtained for all of them. Therefore it is important to devise techniques for reliably estimating physical properties of objects from photometric information alone. These estimates are needed to automatically identify interesting objects worth a follow-up investigation as well as to produce the required data for a statistical analysis of the space covered by a survey. We argue that machine learning techniques are suitable to compute these estimates accurately and efficiently. This study promotes a feature selection algorithm, which selects the most informative magnitudes and colours for a given task of estimating physical quantities from photometric data alone. Using k nearest neighbours regression, a well-known non-parametric machine learning method, we show that using the found features significantly increases the accuracy of the estimations compared to using standard features and standard methods. We illustrate the usefulness of the approach by estimating specific star formation rates (sSFRs) and redshifts (photo-z's) using only the broad-band photometry from the Sloan Digital Sky Survey (SDSS). For estimating sSFRs, we demonstrate that our method produces better estimates than traditional spectral energy distribution (SED) fitting. For estimating photo-z's, we show that our method produces more accurate photo-z's than the method employed by SDSS. The study highlights the general importance of performing proper model selection to improve the results of machine learning systems and how feature selection can provide insights into the predictive relevance of particular input features. },
+ preview = {2017_best_features_selection.png}     
 }
 
 @ARTICLE{Sasdelli2016,
@@ -801,10 +840,14 @@ preview={2020_bfast_earth.png},
   year = {2016},
   volume = {461},
   number = {2},
-  pages = {2044-2059},  
+  pages = {2044-2059},
   publisher = {Oxford University Press},
   bibtex_show = {true},
-  tags = {application}    
+  pdf = {https://arxiv.org/abs/1512.06810},
+  html = {https://academic.oup.com/mnras/article/461/2/2044/2608377},
+  tags = {application},    
+  preview = {2016_exploring.png},
+  abstract = {The existence of multiple subclasses of Type Ia supernovae (SNe Ia) has been the subject of great debate in the last decade. One major challenge inevitably met when trying to infer the existence of one or more subclasses is the time consuming, and subjective, process of subclass definition. In this work, we show how machine learning tools facilitate identification of subtypes of SNe Ia through the establishment of a hierarchical group structure in the continuous space of spectral diversity formed by these objects. Using deep learning, we were capable of performing such identification in a four-dimensional feature space (+1 for time evolution), while the standard principal component analysis barely achieves similar results using 15 principal components. This is evidence that the progenitor system and the explosion mechanism can be described by a small number of initial physical parameters. As a proof of concept, we show that our results are in close agreement with a previously suggested classification scheme and that our proposed method can grasp the main spectral features behind the definition of such subtypes. This allows the confirmation of the velocity of lines as a first-order effect in the determination of SN Ia subtypes, followed by 91bg-like events. Given the expected data deluge in the forthcoming years, our proposed approach is essential to allow a quick and statistically coherent identification of SNe Ia subtypes (and outliers). All tools used in this work were made publicly available in the python package Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy (dracula) and can be found within COINtoolbox (https://github.com/COINtoolbox/DRACULA).}
 
 }
 
@@ -834,10 +877,11 @@ preview={2020_bfast_earth.png},
   pages     = {247--252},
   publisher = {Cambridge University Press},
   year      = {2016},
-  url       = {https://doi.org/10.1017/S174392131601293X},
-  doi       = {10.1017/S174392131601293X},
+  html       = {https://doi.org/10.1017/S174392131601293X},
   bibtex_show = {true},
-  tags = {application}    
+  tags = {application},
+  preview={2016_astroinformatics.png},
+  abstract = {The existence of multiple subclasses of type Ia supernovae (SNeIa) has been the subject of great debate in the last decade. In this work, we show how machine learning tools facilitate identification of subtypes of SNe Ia. Using Deep Learning for dimensionality reduction, we were capable of performing such identification in a parameter space of significantly lower dimension than its principal component analysis counterpart. This is evidence that the progenitor system and the explosion mechanism can be described with a small number of initial physical parameters. All tools used here are publicly available in the Python package DRACULA (Dimensionality Reduction And Clustering for Unsupervised Learning in Astronomy) and can be found within COINtoolbox (https://github.com/COINtoolbox/DRACULA).}    
 }
 
 @inproceedings{PolstererGIDG16,
@@ -851,9 +895,11 @@ preview={2020_bfast_earth.png},
   booktitle = {24th European Symposium on Artificial Neural Networks, {ESANN} 2016,
                Bruges, Belgium, April 27-29, 2016},
   year      = {2016},
-  url       = {http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-116.pdf},
+  html       = {http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-116.pdf},
+  pdf = {https://www.esann.org/sites/default/files/proceedings/legacy/es2016-116.pdf},
   bibtex_show = {true},
-  tags = {de,application,hpc}  
+  tags = {de,application,hpc},
+  preview = {2016_pink.png}
 }
 
 
@@ -865,7 +911,10 @@ preview={2020_bfast_earth.png},
   pages     = {62--72},
   year = {2015},
   bibtex_show = {true},
-  tags = {application}    
+  html = {https://www.sciencedirect.com/science/article/pii/S2213133715000657},
+  preview = {2015_density.png},
+  tags = {application},
+  abstract = {In astronomical applications of machine learning, the distribution of objects used for building a model is often different from the distribution of the objects the model is later applied to. This is known as sample selection bias, which is a major challenge for statistical inference as one can no longer assume that the labeled training data are representative. To address this issue, one can re-weight the labeled training patterns to match the distribution of unlabeled data that are available already in the training phase. There are many examples in practice where this strategy yielded good results, but estimating the weights reliably from a finite sample is challenging. We consider an efficient nearest neighbor density ratio estimator that can exploit large samples to increase the accuracy of the weight estimates. To solve the problem of choosing the right neighborhood size, we propose to use cross-validation on a model selection criterion that is unbiased under covariate shift. The resulting algorithm is our method of choice for density ratio estimation when the feature space dimensionality is small and sample sizes are large. The approach is simple and, because of the model selection, robust. We empirically find that it is on a par with established kernel-based methods on relatively small regression benchmark datasets. However, when applied to large-scale photometric redshift estimation, our approach outperforms the state-of-the-art.}    
 }
 
 
@@ -885,10 +934,12 @@ preview={2020_bfast_earth.png},
   pages     = {95--107},
   publisher = {Springer},
   year      = {2015},
-  url       = {https://doi.org/10.1007/978-3-319-24465-5\_9},
+  html       = {https://doi.org/10.1007/978-3-319-24465-5\_9},
   doi       = {10.1007/978-3-319-24465-5\_9},
   bibtex_show = {true},
-  tags = {de}    
+  preview = {2015_batch.png},
+  tags = {de},
+  abstract={The maximum margin clustering principle extends support vector machines to unsupervised scenarios. We present a variant of this clustering scheme that can be used in the context of interactive clustering scenarios. In particular, our approach permits the class ratios to be manually defined by the user during the fitting process. Our framework can be used at early stages of the data mining process when no or very little information is given about the true clusters and class ratios. One of the key contributions is an adapted steepest-descent-mildest-ascent optimization scheme that can be used to fine-tune maximum margin clustering solutions in an interactive manner. We demonstrate the applicability of our approach in the context of remote sensing and astronomy with training sets consisting of hundreds of thousands of patterns.}    
 }
 
 @inproceedings{Gieseke15,
@@ -907,10 +958,12 @@ preview={2020_bfast_earth.png},
   pages     = {145--157},
   publisher = {Springer},
   year      = {2015},
-  url       = {https://doi.org/10.1007/978-3-319-27926-8\_13},
+  html       = {https://link.springer.com/chapter/10.1007/978-3-319-27926-8_13},
   doi       = {10.1007/978-3-319-27926-8\_13},
   bibtex_show = {true},
-  tags = {hpc}    
+  tags = {hpc},
+  preview={2015_s3vms.png},
+  abstract={The concept of semi-supervised support vector machines extends classical support vector machines to learning scenarios, where both labeled and unlabeled patterns are given. In recent years, such semi-supervised extensions have gained considerable attention due to their huge potential for real-world applications with only small amounts of labeled data. While being appealing from a practical point of view, semi-supervised support vector machines lead to a combinatorial optimization problem that is difficult to address. Many optimization approaches have been proposed that aim at tackling this task. However, the computational requirements can still be very high, especially in case large data sets are considered and many model parameters need to be tuned. A recent trend in the field of big data analytics is to make use of graphics processing units to speed up computationally intensive tasks. In this work, such a massively-parallel implementation is developed for semi-supervised support vector machines. The experimental evaluation, conducted on commodity hardware, shows that valuable speed-ups of up to two orders of magnitude can be achieved over a standard single-core CPU execution.}    
 }
 
 
@@ -925,10 +978,13 @@ preview={2020_bfast_earth.png},
   volume    = {123},
   pages     = {23--32},
   year      = {2014},
-  url       = {https://doi.org/10.1016/j.neucom.2012.12.056},
+  html       = {https://www.sciencedirect.com/science/article/pii/S0925231213003706},
   doi       = {10.1016/j.neucom.2012.12.056},
+  pdf = {https://staff.cs.utu.fi/~aatapa/publications/pdf/neucom2013_draft.pdf},
   bibtex_show = {true},
-  tags = {hpc}    
+  preview = {2014_s3vms.png},
+  tags = {hpc},
+  abstract = {One of the main learning tasks in machine learning is the one of classifying data items. The basis for such a task is usually a training set consisting of labeled patterns. In real-world settings, however, such labeled data are usually scarce, and the corresponding models might yield unsatisfying results. Unlabeled data, on the other hand, can often be obtained in huge quantities without much additional effort. A prominent research direction in the field of machine learning is semi-supervised support vector machines. This type of binary classification approach aims at taking the additional information provided by the unlabeled patterns into account to reveal more information about the structure of the data at hand. In some cases, this can yield significantly better classification results compared to a straightforward application of supervised models. One drawback, however, is the fact that generating such models requires solving difficult non-convex optimization tasks. In this work, we present a simple but effective gradient-based optimization framework to address the induced problems. The resulting method can be implemented easily using black-box optimization engines and yields excellent classification and runtime results on both sparse and non-sparse data sets.}    
 }
 
 @article{PahikkalaAGK14,
@@ -943,10 +999,12 @@ preview={2020_bfast_earth.png},
   number    = {1},
   pages     = {90--104},
   year      = {2014},
-  url       = {https://doi.org/10.1007/s11390-014-1414-0},
+  html       = {https://link.springer.com/article/10.1007/s11390-014-1414-0},
   doi       = {10.1007/s11390-014-1414-0},
   bibtex_show = {true},
-  tags = {ml,de}    
+  tags = {ml,de},
+  preview = {2014_multiclass_mmc.png},
+  abstract={In this work we present the first efficient algorithm for unsupervised training of multi-class regularized least-squares classifiers. The approach is closely related to the unsupervised extension of the support vector machine classifier known as maximum margin clustering, which recently has received considerable attention, though mostly considering the binary classification case. We present a combinatorial search scheme that combines steepest descent strategies with powerful meta-heuristics for avoiding bad local optima. The regularized least-squares based formulation of the problem allows us to use matrix algebraic optimization enabling constant time checks for the intermediate candidate solutions during the search. Our experimental evaluation indicates the potential of the novel method and demonstrates its superior clustering performance over a variety of competing methods on real world datasets. Both time complexity analysis and experimental comparisons show that the method can scale well to practical sized problems.}    
 }
 
 @inproceedings{GiesekePOI14,
@@ -959,9 +1017,22 @@ preview={2020_bfast_earth.png},
   booktitle = {22th European Symposium on Artificial Neural Networks, {ESANN} 2014,
                Bruges, Belgium, April 23-25, 2014},
   year      = {2014},
-  url       = {http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2014-171.pdf},
+  html       = {https://www.esann.org/sites/default/files/proceedings/legacy/es2014-171.pdf},
   bibtex_show = {true},
-  tags = {ml}    
+  tags = {ml},
+  preview={2014_speedy.png},
+  abstract={Nearest neighbor models are among the most basic tools in
+machine learning, and recent work has demonstrated their effectiveness in
+the field of astronomy. The performance of these models crucially depends
+on the underlying metric, and in particular on the selection of a meaningful
+subset of informative features. The feature selection is task-dependent and
+usually very time-consuming. In this work, we propose an efficient par-
+allel implementation of incremental feature selection for nearest neighbor
+models utilizing nowadays graphics processing units. Our framework pro-
+vides significant computational speed-ups over its sequential single-core
+competitor of up to two orders of magnitude. We demonstrate the ap-
+plicability of the overall scheme on one of the most challenging tasks in
+astronomy: redshift estimation for distant galaxies.}    
 }
 
 @inproceedings{GiesekeHOI14,
@@ -1020,10 +1091,25 @@ nearest neighbor queries have to be processed.},
   pages     = {97--107},
   publisher = {Springer},
   year      = {2014},
-  url       = {https://doi.org/10.1007/978-3-319-13290-7\_8},
+  html       = {https://link.springer.com/chapter/10.1007/978-3-319-13290-7_8},
   doi       = {10.1007/978-3-319-13290-7\_8},
   bibtex_show = {true},
-  tags = {application,energy}    
+  tags = {application,energy},
+  preview={2014_wind.png},
+  abstract={Wind energy is playing an increasingly important part for
+ecologically friendly power supply. The fast growing infrastructure of
+wind turbines can be seen as large sensor system that screens the wind
+energy at a high temporal and spatial resolution. The resulting data-
+bases consist of huge amounts of wind energy time series data that
+can be used for prediction, controlling, and planning purposes. In this
+work, we describe WindML, a Python-based framework for wind energy
+related machine learning approaches. The main objective of WindML is
+the continuous development of tools that address important challenges
+induced by the growing wind energy information infrastructures. Various
+examples that demonstrate typical use cases are introduced and related
+research questions are discussed. The different modules of WindML reach
+from standard machine learning algorithms to advanced techniques for
+handling missing data and monitoring high-dimensional time series.}    
 }
 
 
@@ -1037,7 +1123,11 @@ nearest neighbor queries have to be processed.},
   pages = {226-235},  
   publisher = {Oxford University Press},
   bibtex_show = {true},
-  tags = {application}    
+  pdf = {https://arxiv.org/abs/1210.7071},
+  html = {https://academic.oup.com/mnras/article/428/1/226/1048425},
+  abstract = {Quasars with a high redshift (z) are important to understand the evolution processes of galaxies in the early Universe. However, only a few of these distant objects are known to this date. The costs of building and operating a 10-m class telescope limit the number of facilities and, thus, the available observation time. Therefore, an efficient selection of candidates is mandatory. This paper presents a new approach to select quasar candidates with high redshift (z > 4.8) based on photometric catalogues. We have chosen to use the z > 4.8 limit for our approach because the dominant Lyman α emission line of a quasar can only be found in the Sloan i- and z-band filters. As part of the candidate selection approach, a photometric redshift estimator is presented, too. Three of the 120 000 generated candidates have been spectroscopically analysed in follow-up observations and a new z = 5.0 quasar was found. This result is consistent with the estimated detection ratio of about 50 per cent and we expect 60 000 high-redshift quasars to be part of our candidate sample. The created candidates are available for download at MNRAS or at http://www.astro.rub.de/polsterer/quasar-candidates.csv.},
+  tags = {application},
+  preview = {2013_quasars.png}    
 }
 
 @article{KramerGP13,
@@ -1050,10 +1140,12 @@ nearest neighbor queries have to be processed.},
   number    = {8},
   pages     = {2841--2844},
   year      = {2013},
-  url       = {https://doi.org/10.1016/j.eswa.2012.12.002},
+  html       = {https://doi.org/10.1016/j.eswa.2012.12.002},
   doi       = {10.1016/j.eswa.2012.12.002},
   bibtex_show = {true},
-  tags = {application}    
+  tags = {application},
+  abstract = {Hubble’s morphological classification of galaxies has found broad acceptance in astronomy since decades. Numerous extensions have been proposed in the past, mostly based on galaxy prototypes. In this work, we automatically learn morphological maps of galaxies with unsupervised machine learning methods that preserve neighborhood relations and data space distances. For this sake, we focus on a stochastic variant of unsupervised nearest neighbors (UNN) for arranging galaxy prototypes on a two-dimensional map. UNN regression is the unsupervised counterpart of nearest neighbor regression for dimensionally reduction. In the experimental part of this article, we visualize the embeddings and compare the learning results achieved by various UNN parameterizations and related dimensionality reduction methods.},
+  preview = {2013_galaxies.png}    
 }
 
 @article{KramerGS13,
@@ -1065,10 +1157,21 @@ nearest neighbor queries have to be processed.},
   volume    = {109},
   pages     = {84--93},
   year      = {2013},
-  url       = {https://doi.org/10.1016/j.neucom.2012.07.029},
+  html       = {https://doi.org/10.1016/j.neucom.2012.07.029},
   doi       = {10.1016/j.neucom.2012.07.029},
   bibtex_show = {true},
-  tags = {energy,application}    
+  tags = {energy,application},
+  preview = {2013_wind.png},
+  abstract = {Wind energy has an important part to play as renewable energy resource in a sustainable world. For
+a reliable integration of wind energy high-dimensional wind time-series have to be analyzed. Fault
+analysis and prediction are an important aspect in this context. The objective of this work is to show
+how methods from neural computation can serve as forecasting and monitoring techniques, contribut-
+ing to a successful integration of wind into sustainable and smart energy grids. We will employ support
+vector regression as prediction method for wind energy time-series. Furthermore, we will use dimension
+reduction techniques like self-organizing maps for monitoring of high-dimensional wind time-series. The
+methods are briefly introduced, related work is presented, and experimental case studies are exemplarily
+described. The experimental parts are based on real wind energy time-series data from the National
+Renewable Energy Laboratory (NREL) western wind resource data set}    
 }
 
 @article{Gieseke13,
@@ -1079,10 +1182,25 @@ nearest neighbor queries have to be processed.},
   number    = {3},
   pages     = {281--285},
   year      = {2013},
-  url       = {https://doi.org/10.1007/s13218-013-0248-1},
+  html       = {https://doi.org/10.1007/s13218-013-0248-1},
   doi       = {10.1007/s13218-013-0248-1},
   bibtex_show = {true},
-  tags = {ml,de,application}    
+  tags = {ml,de,application},
+  abstract = {Support vector machines are among the most
+popular techniques in machine learning. Given sufficient la-
+beled data, they often yield excellent results. However, for
+a variety of real-world tasks, the acquisition of sufficient la-
+beled data can be very time-consuming; unlabeled data, on
+the other hand, can often be obtained easily in huge quan-
+tities. Semi-supervised support vector machines try to take
+advantage of these additional unlabeled patterns and have
+been successfully applied in this context. However, they
+induce a hard combinatorial optimization problem. In this
+work, we present two optimization strategies that address
+this task and evaluate the potential of the resulting imple-
+mentations on real-world data sets, including an example
+from the field of astronomy.},
+preview = {2013_svms_diss.png}    
 }
 
 @inproceedings{GiesekePI13,
@@ -1123,27 +1241,6 @@ exact solutions for the more general case of non-linear kernel functions in poly
   preview={2013_polynomial.png}    
 }
 
-@inproceedings{KramerTG13,
-  author    = {Oliver Kramer and
-               Nils Andr{\'{e}} Treiber and
-               Fabian Gieseke},
-  editor    = {Bernd Page and
-               Andreas G. Fleischer and
-               Johannes G{\"{o}}bel and
-               Volker Wohlgemuth},
-  title     = {Support Vector Machines for Wind Energy Prediction in Smart Grids},
-  booktitle = {27th International Conference on Environmental Informatics for Environmental
-               Protection, Sustainable Development and Risk Management, EnviroInfo
-               2013, Hamburg, Germany, September 2-4, 2013. Proceedings},
-  series    = {Berichte aus der Umweltinformatik},
-  pages     = {16--24},
-  publisher = {Shaker},
-  year      = {2013},
-  url       = {http://iai-uiserv1.iai.fzk.de/ictensure/site?mod=litdb\&\#38;subject=art\&\#38;pid=XE6C64FA5\&\#38;action=detail},
-  bibtex_show = {true},
-  tags = {application,energy},    
-}
-
 @inproceedings{GiesekeK13,
   author    = {Fabian Gieseke and
                Oliver Kramer},
@@ -1156,10 +1253,24 @@ exact solutions for the more general case of non-linear kernel functions in poly
   pages     = {459--468},
   publisher = {Springer},
   year      = {2013},
-  url       = {https://doi.org/10.1007/978-3-642-37192-9\_46},
-  doi       = {10.1007/978-3-642-37192-9\_46},
+  html       = {https://doi.org/10.1007/978-3-642-37192-9\_46},
   bibtex_show = {true},
-  tags = {ml}    
+  tags = {ml},
+  abstract = {Constraints can render a numerical optimization problem
+much more difficult to address. In many real-world optimization appli-
+cations, however, such constraints are not explicitly given. Instead, one
+has access to some kind of a “black-box” that represents the (unknown)
+constraint function. Recently, we proposed a fast linear constraint esti-
+mator that was based on binary search. This paper extends these results
+by (a) providing an alternative scheme that resorts to the effective use
+of support vector machines and by (b) addressing the more general task
+of non-linear decision boundaries. In particular, we make use of active
+learning strategies from the field of machine learning to select reasonable
+training points for the recurrent application of the classifier. We compare
+both constraint estimation schemes on linear and non-linear constraint
+functions, and depict opportunities and pitfalls concerning the effective
+integration of such models into a global optimization process},
+preview = {2013_svms_cmaes.png}    
 }
 
 @inproceedings{HeinermannKPG13,
@@ -1178,25 +1289,28 @@ exact solutions for the more general case of non-linear kernel functions in poly
   pages     = {86--97},
   publisher = {Springer},
   year      = {2013},
-  url       = {https://doi.org/10.1007/978-3-642-40942-4\_8},
+  html       = {https://doi.org/10.1007/978-3-642-40942-4\_8},
   doi       = {10.1007/978-3-642-40942-4\_8},
   bibtex_show = {true},
-  tags = {hpc}    
+  tags = {hpc},
+  abstract = {Nowadays astronomical catalogs contain patterns of hundreds of millions of objects with data volumes in the terabyte range. Upcoming projects will gather such patterns for several billions of objects with peta- and exabytes of data. From a machine learning point of view, these settings often yield unsupervised, semi-supervised, or fully supervised tasks, with large training and huge test sets. Recent studies have demonstrated the effectiveness of prototype-based learning schemes such as simple nearest neighbor models. However, although being among the most computationally efficient methods for such settings (if implemented via spatial data structures), applying these models on all remaining patterns in a given catalog can easily take hours or even days. In this work, we investigate the practical effectiveness of GPU-based approaches to accelerate such nearest neighbor queries in this context. Our experiments indicate that carefully tuned implementations of spatial search structures for such multi-core devices can significantly reduce the practical runtime. This renders the resulting frameworks an important algorithmic tool for current and upcoming data analyses in astronomy.},
+  preview = {2013_gpus_astro.png}    
 }
 
 @article{KramerG12,
-  author    = {Oliver Kramer and
-               Fabian Gieseke},
+  author    = {Oliver Kramer and Fabian Gieseke},
   title     = {Evolutionary kernel density regression},
-  journal   = {Expert Syst. Appl.},
+  journal   = {Expert Systems with Applications},
   volume    = {39},
   number    = {10},
   pages     = {9246--9254},
   year      = {2012},
-  url       = {https://doi.org/10.1016/j.eswa.2012.02.080},
+  html       = {https://doi.org/10.1016/j.eswa.2012.02.080},
   doi       = {10.1016/j.eswa.2012.02.080},
   bibtex_show = {true},
-  tags = {de}    
+  tags = {de},
+  preview = {2013_kernel_regression.png},
+  abstract = {The Nadaraya–Watson estimator, also known as kernel regression, is a density-based regression technique. It weights output values with the relative densities in input space. The density is measured with kernel functions that depend on bandwidth parameters. In this work we present an evolutionary bandwidth optimizer for kernel regression. The approach is based on a robust loss function, leave-one-out cross-validation, and the CMSA-ES as optimization engine. A variant with local parameterized Nadaraya–Watson models enhances the approach, and allows the adaptation of the model to local data space characteristics. The unsupervised counterpart of kernel regression is an approach to learn principal manifolds. The learning problem of unsupervised kernel regression (UKR) is based on optimizing the latent variables, which is a multimodal problem with many local optima. We propose an evolutionary framework for optimization of UKR based on scaling of initial local linear embedding solutions, and minimization of the cross-validation error. Both methods are analyzed experimentally.}    
 }
 
 @article{GiesekeKAP12,
