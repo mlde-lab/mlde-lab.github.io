@@ -22,6 +22,7 @@ researchers:
     image_circular: false
     role: Senior Lecturer
   - name: Dr. Nina Herrmann
+    url: /team/nina-herrmann
     image: nina_herrmann.jpg
     image_circular: false
     role: Postdoc

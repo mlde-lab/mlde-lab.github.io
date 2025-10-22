@@ -637,3 +637,127 @@ custom={Data|https://zenodo.org/records/15489231},
 tags={ml, application},
 projects={ai4forest}
 }
+
+
+@article{herrmann2024optimizing,
+  title={Optimizing Three-Dimensional Stencil-Operations on Heterogeneous Computing Environments},
+  author={Herrmann, Nina and Dieckmann, Justus and Kuchen, Herbert},
+  journal={International Journal of Parallel Programming},
+  volume={52},
+  number={4},
+  pages={274--297},
+  year={2024},
+  publisher={Springer},
+  preview={celeritystencil.png},
+  howpublished={\url{https://link.springer.com/article/10.1007/s10766-024-00769-w}},
+  url={https://link.springer.com/article/10.1007/s10766-024-00769-w},
+  website={https://link.springer.com/article/10.1007/s10766-024-00769-w},
+  tags={Parallel Programming, High-Level, Stencil Operations},
+  abstract = {Complex algorithms and enormous data sets require parallel execution of programs to
+attain results in a reasonable amount of time. Both aspects are combined in the domain
+of three-dimensional stencil operations, for example, computational fluid dynamics.
+This work contributes to the research on high-level parallel programming by discussing
+the generalizable implementation of a three-dimensional stencil skeleton that works in
+heterogeneous computing environments. Two exemplary programs, a gas simulation
+with the Lattice Boltzmann method, and a mean blur, are executed in a multi-node
+multi-graphics processing units environment, proving the runtime improvements in
+heterogeneous computing environments compared to a sequential program.},
+code={https://github.com/NinaHerrmann/muesli4},
+preview={3dstencil.png}
+}
+
+@article{herrmann2023distributed,
+  title={Distributed Calculations with Algorithmic Skeletons for Heterogeneous Computing Environments},
+  author={Herrmann, Nina and Kuchen, Herbert},
+  journal={International Journal of Parallel Programming},
+  volume={51},
+  number={2-3},
+  pages={172--185},
+  year={2023},
+  publisher={Springer},
+  preview={stencil2.png},
+  howpublished={\url{https://link.springer.com/article/10.1007/S10766-022-00742-5}},
+  url={https://link.springer.com/article/10.1007/S10766-022-00742-5},
+  website={https://link.springer.com/article/10.1007/S10766-022-00742-5},
+  tags={Parallel Programming, High-Level, Heterogeneous Computing Environments},
+  abstract={Contemporary HPC hardware typically provides several levels of parallelism, e.g.
+multiple nodes, each having multiple cores (possibly with vectorization) and accel-
+erators. Efficiently programming such systems usually requires skills in combining
+several low-level frameworks such as MPI, OpenMP, and CUDA. This overburdens
+programmers without substantial parallel programming skills. One way to overcome
+this problem and to abstract from details of parallel programming is to use algo-
+rithmic skeletons. In the present paper, we evaluate the multi-node, multi-CPU and
+multi-GPU implementation of the most essential skeletons Map, Reduce, and Zip.
+Our main contribution is a discussion of the efficiency of using multiple paralleliza-
+tion levels and the consideration of which fine-tune settings should be offered to the
+user.},
+code={https://github.com/NinaHerrmann/muesli4},
+preview={Distributed.png}
+}
+@article{herrmann2022stencil,
+  title={Stencil calculations with algorithmic skeletons for heterogeneous computing environments},
+  author={Herrmann, Nina and Menezes, Breno and Kuchen, Herbert},
+  journal={International Journal of Parallel Programming},
+  volume={50},
+  number={5-6},
+  pages={433--453},
+  year={2022},
+  publisher={Springer},
+  howpublished={\url{https://link.springer.com/article/10.1007/s10766-022-00735-4}},
+  url={https://link.springer.com/article/10.1007/s10766-022-00735-4},
+  preview={stencilo.png},
+  website={https://link.springer.com/article/10.1007/s10766-022-00735-4},
+  tags={Parallel Programming, High-Level, Stencil Operations},
+  abstract={The development of parallel applications is a difficult and error-prone task, especially
+for inexperienced programmers. Stencil operations are exceptionally complex for
+parallelization as synchronization and communication between the individual pro-
+cesses and threads are necessary. It gets even more difficult to efficiently distribute
+the computations and efficiently implement communication when heterogeneous
+computing environments are used. For using multiple nodes, each having multiple
+cores and accelerators such as GPUs, skills in combining frameworks such as MPI,
+OpenMP, and CUDA are required. The complexity of parallelizing the stencil
+operation increases the need for abstracting from the platform-specific details and
+simplify parallel programming. One way to abstract from details of parallel pro-
+gramming is to use algorithmic skeletons. This work introduces an implementation of
+the MapStencil skeleton that is able to generate parallel code for distributed memory
+environments, using multiple nodes with multicore CPUs and GPUs. Examples of
+practical applications of the MapStencil skeleton are the Jacobi Solver or the Canny
+Edge Detector. The main contribution of this paper is a discussion of the difficulties
+when implementing a universal Skeleton for MapStencil for heterogeneous com-
+puting environments and an outline of the identified best practices for communica-
+tion intense skeletons.},
+code={https://github.com/NinaHerrmann/muesli4},
+preview={stencil2d.png}
+}
+@article{de2021high,
+  title={High-level parallel ant colony optimization with algorithmic skeletons},
+  author={Menezes, Breno and Herrmann, Nina and Kuchen, Herbert and Buarque de Lima Neto, Fernando},
+  journal={International Journal of Parallel Programming},
+  volume={49},
+  number={6},
+  pages={776--801},
+  year={2021},
+  publisher={Springer},
+  howpublished={\url{https://link.springer.com/article/10.1007/s10766-021-00714-1}},
+  url={https://link.springer.com/article/10.1007/s10766-021-00714-1},
+  preview={aco.png},
+  website={https://link.springer.com/article/10.1007/s10766-021-00714-1},
+  tags={Parallel Programming, High-Level, Ant-Colony-Optimization},
+  abstract={Parallel implementations of swarm intelligence algorithms such as the ant colony
+optimization (ACO) have been widely used to shorten the execution time when solv-
+ing complex optimization problems. When aiming for a GPU environment, devel-
+oping efficient parallel versions of such algorithms using CUDA can be a difficult
+and error-prone task even for experienced programmers. To overcome this issue, the
+parallel programming model of Algorithmic Skeletons simplifies parallel programs
+by abstracting from low-level features. This is realized by defining common pro-
+gramming patterns (e.g. map, fold and zip) that later on will be converted to effi-
+cient parallel code. In this paper, we show how algorithmic skeletons formulated
+in the domain specific language Musket can cope with the development of a paral-
+lel implementation of ACO and how that compares to a low-level implementation.
+Our experimental results show that Musket suits the development of ACO. Besides
+making it easier for the programmer to deal with the parallelization aspects, Musket
+generates high performance code with similar execution times when compared to
+low-level implementations},
+code={https://github.com/NinaHerrmann/muesli4},
+preview={aco.png}
+}
