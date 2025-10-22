@@ -40,11 +40,6 @@ researchers:
     image: una_kelly.jpg
     image_circular: false
     role: Postdoc
-  - name: Dr. Julian Kranz
-    image: julian_kranz.jpg
-    image_circular: false
-    role: Postdoc
-    url: https://sites.google.com/view/juliankranz
   - name: Jan Pauls
     image: jan_pauls.jpeg
     image_circular: false
@@ -60,7 +55,14 @@ researchers:
     image: jan_stenkamp.jpg
     image_circular: false
     role: Doctoral Candidate
-
+  - name: Gabriel Belouze
+    image: gabriel_belouze.jpg
+    image_circular: false
+    role: Doctoral Candidate (External)
+    url: https://gabriel.belouze.com/
+    github: https://github.com/gbelouze
+    linkedin: https://www.linkedin.com/in/gabriel-belouze/
+    
 group_management:
   - name: Julia Seither
     image: julia_seither.jpg
@@ -70,14 +72,6 @@ group_management:
 student_assistants:
   - name: Sven Ligensa
     image: sven_ligensa.jpg
-    image_circular: false
-    role: Student Assistant
-  - name: Michael Vogt
-    image: michael_vogt.jpg
-    image_circular: false
-    role: Student Assistant
-  - name: Philipp Kemper
-    image: philipp_kemper.jpg
     image_circular: false
     role: Student Assistant
     
@@ -99,4 +93,10 @@ alumni:
   - name: Thorben Hellweg
     image: thorben_hellweg.jpg
     period: 2020-2022
+  - name: Dr. Julian Kranz
+    image: julian_kranz.jpg
+    period: 2024-2025
+    url: https://sites.google.com/view/juliankranz
+    more_info: University of Münster
+    
 ---
