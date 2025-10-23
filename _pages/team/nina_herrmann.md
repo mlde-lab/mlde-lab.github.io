@@ -55,8 +55,6 @@ In the field of business informatics, I am on the borderline with computer scien
   </ul>
 
 bio: |
-
-
   <div style="text-align: justify">
     <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
     <li><b>Postdoc (2024 - present)</b>, Projects: AI4Forest, TinyAIoT, University of Münster, Germany </li>
