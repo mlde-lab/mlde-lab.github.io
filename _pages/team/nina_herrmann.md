@@ -39,7 +39,9 @@ profile:
   profile_image_class: profile-image
 
 research: |
+<div style="text-align: justify">
 In the field of business informatics, I am on the borderline with computer science. I am particularly interested in areas of research where no conclusions can be drawn without an understanding of the underlying technology. Simplifying parallel programs enables real-time applications and is particularly essential for applications with large amounts of data. Contrary to the trend of making machine learning models more accurate by training them longer, which often results in them becoming larger, I believe it is essential to optimize the computing power and memory required by machine learning models to the technical minimum.
+    </div>
   <ul>
   <li>Parallel Programming</li>
         <ul>
