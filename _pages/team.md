@@ -70,6 +70,10 @@ researchers:
     url: https://gabriel.belouze.com/
     github: https://github.com/gbelouze
     linkedin: https://www.linkedin.com/in/gabriel-belouze/
+  - name: Minjoo Park
+    image: minjoo_park.jpg
+    image_circular: false
+    role: Visiting PhD Student
     
 group_management:
   - name: Julia Seither
