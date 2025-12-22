@@ -74,6 +74,10 @@ researchers:
     image: minjoo_park.jpg
     image_circular: false
     role: Visiting PhD Student
+  - name: Sven Ligensa
+    image: sven_ligensa.jpg
+    image_circular: false
+    role: Doctoral Candidate
     
 group_management:
   - name: Julia Seither
@@ -82,10 +86,7 @@ group_management:
     role: Team Assistant
     
 student_assistants:
-  - name: Sven Ligensa
-    image: sven_ligensa.jpg
-    image_circular: false
-    role: Student Assistant
+
     
 alumni:
   - name: Dr. Christian Lülf
