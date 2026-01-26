@@ -1,3 +1,32 @@
+@inproceedings{schroedter2026bitwisequant,
+	title={Trainable Bitwise Soft Quantization for Input Feature Compression (accepted, not yet published)},
+	author={Schrödter, Karsten and Stenkamp, Jan and Herrmann, Nina and Gieseke, Fabian},
+	booktitle={Third Conference on Parsimony and Learning},
+	year={2026},
+	abstract      = {The growing demand for machine learning applications in the context of the Internet of Things calls for new approaches to optimize the use of limited compute and memory resources. Despite significant progress that has been made w.r.t. reducing model sizes and improving efficiency, many applications still require remote servers to provide the required resources. However, such approaches rely on transmitting data from edge devices to remote servers, which may not always be feasible due to bandwidth, latency, or energy constraints. We propose a task-specific, trainable feature quantization layer that compresses the input features of a neural network. This can significantly reduce the amount of data that needs to be transferred from the device to a remote server. In particular, the layer allows each input feature to be quantized to a user-defined number of bits, enabling a simple on-device compression at the time of data collection. The layer is designed to approximate step functions with sigmoids, enabling trainable quantization thresholds. By concatenating outputs from multiple sigmoids, introduced as bitwise soft quantization, it achieves trainable quantized values when integrated with a neural network. We compare our method to full-precision inference as well as to several quantization baselines. Experiments show that our approach outperforms standard quantization methods, while maintaining accuracy levels close to those of full-precision models. In particular, depending on the dataset at hand, compression factors of to can be achieved without significant performance loss.},
+	abbr={CPAL26},
+	bibtex_show={true},
+	preview={2026_bitwise_quantization.png},
+	selected={true},
+	tags={ml,application,rs},
+	projects={ai4forest}
+}
+
+@inproceedings{schroedter2026uncertaintytree,
+	title={Canopy Tree Height Estimation using Quantile Regression: Modeling and Evaluating Uncertainty in Remote Sensing (accepted, not yet published)},
+	author={Schrödter, Karsten and Pauls, Jan and Gieseke, Fabian},
+	booktitle={Twenty-Ninth Annual Conference on Artificial Intelligence and Statistics},
+	year={2026},
+	abstract      = {Accurate tree height estimation is vital for ecological monitoring and biomass assessment. We apply quantile regression to existing tree height estimation models based on satellite data to incorporate uncertainty quantification. Most current approaches on tree height estimation rely on point predictions, which limits their applicability in risk-sensitive scenarios. In this work, we show that with minor modifications to the prediction head, existing models can be adapted to provide statistically calibrated uncertainty estimates via quantile regression. Furthermore, we demonstrate how our results correlate with known challenges in remote sensing (e.g., terrain complexity, vegetation heterogeneity), indicating that the model is less confident in more challenging conditions.},
+	abbr={AISTATS26},
+	bibtex_show={true},
+	preview={2026_uncertainty_tree_height.png},
+	selected={true},
+	tags={ml,application,rs},
+	projects={ai4forest}
+}
+
+
 @inproceedings{fayad2025dunia,
   title={DUNIA: Pixel-Sized Embeddings via Cross-Modal Alignment for Earth Observation Applications},
   author={Fayad, Ibrahim and Zimmer, Max and Schwartz, Martin and Ciais, Philippe and Gieseke, Fabian and Belouze, Gabriel and Brood, Sarah and De Truchis, Aurelien and d'Aspremont, Alexandre},
