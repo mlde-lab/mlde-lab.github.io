@@ -22,6 +22,7 @@ researchers:
     image_circular: false
     role: Senior Lecturer
   - name: Dr. Nina Herrmann
+    url: /team/nina-herrmann
     image: nina_herrmann.jpg
     image_circular: false
     role: Postdoc
@@ -39,18 +40,22 @@ researchers:
     image: una_kelly.jpg
     image_circular: false
     role: Postdoc
-  - name: Dr. Julian Kranz
-    image: julian_kranz.jpg
+  - name: Dr. Leonard Papenmeier
+    image: leonard_papenmeier.jpg
     image_circular: false
     role: Postdoc
-    url: https://sites.google.com/view/juliankranz
+    url: https://leonard.papenmeier.io/
+    github: https://github.com/LeoIV
+    linkedin: https://www.linkedin.com/in/leonard-papenmeier-a90a60135/
+    google_scholar: https://scholar.google.com/citations?user=85BUIRcAAAAJ&hl=en&oi=ao
   - name: Jan Pauls
     image: jan_pauls.jpeg
     image_circular: false
     role: Doctoral Candidate
-    url: /team/jan-pauls
+    url: https://janpauls.org
     github: https://github.com/jan-pauls
-    linkedin: https://www.linkedin.com/in/jan-pauls-521a68170/?originalSubdomain=de
+    linkedin: https://www.linkedin.com/in/jan-pauls-521a68170/
+    google_scholar: https://scholar.google.com/citations?user=FHghFnMAAAAJ&hl=de&oi=sra
   - name: Jorunn Mense
     image: jorunn_mense.jpg
     image_circular: false
@@ -59,7 +64,22 @@ researchers:
     image: jan_stenkamp.jpg
     image_circular: false
     role: Doctoral Candidate
-
+  - name: Gabriel Belouze
+    image: gabriel_belouze.jpg
+    image_circular: false
+    role: Doctoral Candidate (External)
+    url: https://gabriel.belouze.com/
+    github: https://github.com/gbelouze
+    linkedin: https://www.linkedin.com/in/gabriel-belouze/
+  - name: Minjoo Park
+    image: minjoo_park.jpg
+    image_circular: false
+    role: Visiting PhD Student
+  - name: Sven Ligensa
+    image: sven_ligensa.jpg
+    image_circular: false
+    role: Doctoral Candidate
+    
 group_management:
   - name: Julia Seither
     image: julia_seither.jpg
@@ -67,18 +87,7 @@ group_management:
     role: Team Assistant
     
 student_assistants:
-  - name: Sven Ligensa
-    image: sven_ligensa.jpg
-    image_circular: false
-    role: Student Assistant
-  - name: Michael Vogt
-    image: michael_vogt.jpg
-    image_circular: false
-    role: Student Assistant
-  - name: Philipp Kemper
-    image: philipp_kemper.jpg
-    image_circular: false
-    role: Student Assistant
+
     
 alumni:
   - name: Dr. Christian Lülf
@@ -98,4 +107,10 @@ alumni:
   - name: Thorben Hellweg
     image: thorben_hellweg.jpg
     period: 2020-2022
+  - name: Dr. Julian Kranz
+    image: julian_kranz.jpg
+    period: 2024-2025
+    url: https://sites.google.com/view/juliankranz
+    more_info: University of Münster
+    
 ---

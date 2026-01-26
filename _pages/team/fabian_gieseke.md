@@ -11,7 +11,7 @@ breadcrumb:
 subtitle: |+
   <div class="alert alert-info" role="alert">
   <!--<i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>-->
-  <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany). Affiliated with both the <a href="https://www.uni-muenster.de/Informatik/en/">Computer Science</a> and the <a href="https://www.uni-muenster.de/Geoinformatics/en/">Institute for Geoinformatics</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany).</b><br>
+  <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany). Affiliated with both the <a href="https://www.uni-muenster.de/Informatik/en/">Computer Science Department</a> and the <a href="https://www.uni-muenster.de/Geoinformatics/en/">Institute for Geoinformatics</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a>.</b><br>
   
     <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Associate Professor (part-time) at the <a href="https://di.ku.dk/english/">Department of Computer Science</a> of the <a href="https://www.ku.dk/en">University of Copenhagen</a> (Denmark)</b><br>
    <br>

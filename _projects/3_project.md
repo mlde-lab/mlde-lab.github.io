@@ -23,6 +23,15 @@ researchers:
     github: https://github.com/gieseke
     linkedin: https://www.linkedin.com/in/fabian-gieseke/
     google_scholar: https://scholar.google.com/citations?user=g3ZiieoAAAAJ&hl=de
+  - name: Dr. Leonard Papenmeier
+    image: leonard_papenmeier.jpg
+    image_circular: false
+    role: Postdoc
+    url: https://leonard.papenmeier.io/
+    github: https://github.com/LeoIV
+    linkedin: https://www.linkedin.com/in/leonard-papenmeier-a90a60135/
+    google_scholar: https://scholar.google.com/citations?user=85BUIRcAAAAJ&hl=en&oi=ao
+    
 ---
 
 {% include project_box.html
