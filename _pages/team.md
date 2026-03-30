@@ -62,6 +62,8 @@ researchers:
     role: Doctoral Candidate
   - name: Jan Stenkamp
     image: jan_stenkamp.jpg
+    url: /team/jan-stenkamp
+    github: https://github.com/jsten07
     image_circular: false
     role: Doctoral Candidate
   - name: Gabriel Belouze
