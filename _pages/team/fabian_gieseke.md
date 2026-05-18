@@ -7,12 +7,12 @@ breadcrumb:
   - title: team
     url: /team/
   - title: Fabian Gieseke
-  
+
 subtitle: |+
   <div class="alert alert-info" role="alert">
   <!--<i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>-->
   <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany). Affiliated with both the <a href="https://www.uni-muenster.de/Informatik/en/">Computer Science Department</a> and the <a href="https://www.uni-muenster.de/Geoinformatics/en/">Institute for Geoinformatics</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a>.</b><br>
-  
+
     <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Associate Professor (part-time) at the <a href="https://di.ku.dk/english/">Department of Computer Science</a> of the <a href="https://www.ku.dk/en">University of Copenhagen</a> (Denmark)</b><br>
    <br>
 
@@ -58,7 +58,7 @@ profile:
   name: Fabian Gieseke
   image: fabian_gieseke.jpg
   profile_image_class: profile-image
-  
+
 research: |
   <div style="text-align: justify">
   My research interests lie in the field of large-scale machine learning, which has gained enormous importance in recent years. One of the reasons for this is the fact that data volumes have dramatically increased in many areas. This is, for example, the case in remote sensing, where current projects deliver petabytes of data every day. A similar "data flood" can nowadays be observed in various other domains, such as medicine, finance, modern media systems, or in the context of modern energy grids. My past and current work focuses both on the development of new, scalable machine learning techniques and on the practical application of such methods.
@@ -92,5 +92,3 @@ bio: |
   </ul>
   <br>
 ---
-
-

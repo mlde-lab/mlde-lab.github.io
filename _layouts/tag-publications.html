@@ -8,8 +8,6 @@ layout: default
   </header>
 
   <article>
-    <div class="publications">
-      {% bibliography -f papers -q @*[tags~={{ page.tag }}]* %}
-    </div>
+    <div class="publications">{% bibliography -f papers -q @*[tags~={{ page.tag }}]* %}</div>
   </article>
 </div>

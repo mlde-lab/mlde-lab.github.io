@@ -1,8 +1,8 @@
 ---
 layout: project
-title: 	Energy- and resource-efficient artificial intelligence for modern IoT applications
+title: Energy- and resource-efficient artificial intelligence for modern IoT applications
 acronym: TinyAIoT
-description: 
+description:
 img: assets/img/projects/2/tinyaiot_logo_preview.png
 importance: 1
 category: ongoing
@@ -17,7 +17,7 @@ funding:
   - name: BMUKN
     url: https://www.bundesumweltministerium.de/en/
     logo: assets/img/projects/2/logo_en.svg
-    
+
 researchers:
   - name: Prof. Dr. Fabian Gieseke
     image: fabian_gieseke.jpg
@@ -41,17 +41,13 @@ researchers:
 {% include project_box.html
    variant="info"
    icon="fas fa-project-diagram"
-   title=page.title 
+   title=page.title
    abstract="The rapid growth of the Internet of Things fueled the design of devices that are based on microcontrollers, equipped with sensors, and capable of exchanging data. These devices - used, e.g., in smart home applications or to build environmental monitoring stations - enable the collection and analysis of large amounts of data and the development of potentially powerful applications. However, applications are currently limited by the need to exchange collected data via cloud services to use state-of-the-art AI processes, which consumes significant resources in the form of energy, material, and bandwidth. The aim of the TinyAIoT project is to reduce these resource requirements by developing efficient and tiny AI models that can be used on the microcontrollers themselves. This not only extends the range of possible use cases to more powerful applications, but also reduces the required bandwidth of applications, enabling microcontrollers to operate autonomously for several weeks to years.<br><br>This project is funded by the [Federal Ministry for the Environment, Climate Action, Nature Conservation, and Nuclear Safety (BMUKN)](https://www.bundesumweltministerium.de/en/) and expires on December 31, 2025. The project is carried out as a joint project between the [University of Münster](https://www.uni-muenster.de/en/) and the [Reedu GmbH & Co. KG](https://sensebox.de/en/research-tinyaiot.html).
    "
    acronym="TinyAIoT"
    timeframe="01/2023 – 12/2025"
    funding=page.funding
 %}
-
-
-  
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -79,4 +75,3 @@ The main goal of the TinyAIoT project is to further reduce the resource requirem
 <div class="caption">
 The TinyAIoT project was partly inspired by the existing <a href="https://wiediversistmeingarten.org">Birdiary</a> project.
 </div>
-

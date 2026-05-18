@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 breadcrumb:
   - title: team
-        
+
 researchers:
   - name: Prof. Dr. Fabian Gieseke
     image: fabian_gieseke.jpg
@@ -35,7 +35,7 @@ researchers:
   - name: Dr. Sugandha Arora
     image: sugandha_arora.jpg
     image_circular: false
-    role: Postdoc 
+    role: Postdoc
   - name: Dr. Una Kelly
     image: una_kelly.jpg
     image_circular: false
@@ -81,16 +81,15 @@ researchers:
     google_scholar: https://scholar.google.com/citations?user=VN0jgXcAAAAJ
     github: https://github.com/svenligensa
     linkedin: https://www.linkedin.com/in/sven-ligensa
-    
+
 group_management:
   - name: Julia Seither
     image: julia_seither.jpg
     image_circular: false
     role: Team Assistant
-    
+
 student_assistants:
 
-    
 alumni:
   - name: Dr. Christian Lülf
     image: christian_luelf.jpg

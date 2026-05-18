@@ -1,97 +1,80 @@
 ---
 layout: default
 ---
-
 <!-- about.html -->
-      <div class="post">
-        <article>
-        
-       
-          {% if page.profile -%}
-          <div class="row">
-            <div class="col-sm-4">
-              {%- if page.profile.image %}
-                {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/team/' -%}
+<div class="post">
+  <article>
+    {% if page.profile -%}
+      <div class="row">
+        <div class="col-sm-4">
+          {%- if page.profile.image %}
+            {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/team/' -%}
 
-                {% if page.profile.image_cicular %}
-                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-                {% else %}
-                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-                {% endif %}
+            {% if page.profile.image_cicular %}
+              {%- assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' -%}
+            {% else %}
+              {%- assign profile_image_class = 'img-fluid z-depth-1 rounded' -%}
+            {% endif %}
 
-               {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-	       {%
-	         include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-                 cache_bust=true
-	       %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
+          {% endif -%}
+        </div>
+        <div class="col-sm-8">
+          <div class="d-flex align-items-center justify-content-between">
+            <p class="desc">{{ page.subtitle }}</p>
 
-              {% endif -%}
-            </div>
-            <div class="col-sm-8">
-
-              <div class="d-flex align-items-center justify-content-between">
-              <p class="desc">{{ page.subtitle }}</p>
-              
-
-                {%- if page.social %}
-                <!-- Social -->
-                <div class="social">
-                  <div class="contact-icons" style="font-size: 2rem;">
+            {%- if page.social %}
+              <!-- Social -->
+              <div class="social">
+                <div class="contact-icons" style="font-size: 2rem;">
                   {% include social.html %}
-                  </div>
                 </div>
-                {%- endif %}
-                
               </div>
+            {%- endif %}
+          </div>
 
-              {%- if page.profile.address %}
-              <div class="address">
-                {{ page.profile.address }}
-              </div>
-              {%- endif %}
-              
+          {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
             </div>
-          </div>
           {%- endif %}
+        </div>
+      </div>
+    {%- endif %}
 
-          
-          <div class="clearfix">
+    <div class="clearfix">
+      {% if page.bio %}
+        <h2>Bio</h2>
+        {{ page.bio }}
+      {% endif %}
 
-             {% if page.bio %}
-               <h2>Bio</h2>              
-               {{ page.bio }}   
-             {% endif %}             
-             
-             {% if page.research %}
-               <h2>Research Interests</h2>              
-               {{ page.research }}   
-             {% endif %}
+      {% if page.research %}
+        <h2>Research Interests</h2>
+        {{ page.research }}
+      {% endif %}
 
-             
-            {{ content }}
-          </div>
+      {{ content }}
+    </div>
 
-      <h2>
-        Publications
-      </h2>
+    <h2>Publications</h2>
 
-      {% include bib_search.liquid %}
-      <br>
-      <br>
-	<div class="publication-tags">
-	  <a href="#" class="btn btn-sm z-depth-0 active" role="button" data-tag="all">All</a>
-	  {% assign tags = site.data.publication_tags %}
-	  {% for tag in tags %}
-	    <a href="#{{ tag.tag }}" class="btn btn-sm z-depth-0" role="button" data-tag="{{ tag.tag }}">{{ tag.name }}</a>
-	  {% endfor %}
-	</div>
+    {% include bib_search.liquid %}
+    <br>
+    <br>
+    <div class="publication-tags">
+      <a href="#" class="btn btn-sm z-depth-0 active" role="button" data-tag="all">All</a>
+      {% assign tags = site.data.publication_tags %}
+      {% for tag in tags %}
+        <a href="#{{ tag.tag }}" class="btn btn-sm z-depth-0" role="button" data-tag="{{ tag.tag }}">{{ tag.name }}</a>
+      {% endfor %}
+    </div>
 
-	<div class="publications">
-	{% bibliography -f papers %}
-	</div>
-
-
-
-        </article>
-
+    <div class="publications">
+      {% bibliography -f papers %}
+    </div>
+  </article>
 </div>

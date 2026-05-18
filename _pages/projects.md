@@ -10,7 +10,6 @@ horizontal: false
 
 breadcrumb:
   - title: projects
-
 ---
 
 <!-- pages/projects.md -->

@@ -1,49 +1,37 @@
-<div class="alert alert-{{ include.variant | default: 'info' }} project-alert mb-4" role="region" aria-labelledby="{{ include.id | default: include.title | slugify }}-title">
+<div
+  class="alert alert-{{ include.variant | default: 'info' }} project-alert mb-4"
+  role="region"
+  aria-labelledby="{{ include.id | default: include.title | slugify }}-title"
+>
   <div class="d-flex align-items-start">
     {% if include.icon %}
-      <i class="{{ include.icon }} mr-2 mt-1" aria-hidden="true"></i>
+    <i class="{{ include.icon }} mr-2 mt-1" aria-hidden="true"></i>
     {% endif %}
     <div class="flex-grow-1">
       {% if include.title %}
-        <h3 id="{{ include.id | default: include.title | slugify }}-title" class="h4 mb-2">{{ include.title }}</h3>
+      <h3 id="{{ include.id | default: include.title | slugify }}-title" class="h4 mb-2">{{ include.title }}</h3>
+      {% endif %} {% if include.abstract %}
+      <div class="mb-2">{{ include.abstract | markdownify }}</div>
+      {% endif %} {% if include.acronym or include.timeframe or include.funding %}
+      <div class="small mt-2 pt-2 border-top">
+        {% if include.acronym %}
+        <span class="mr-4"> <strong>Acronym:</strong> {{ include.acronym }} </span>
+        {% endif %} {% if include.timeframe %}
+        <span class="mr-4"> <strong>Timeframe:</strong> {{ include.timeframe }} </span>
+        {% endif %} {% if include.funding %}
+        <span class="mr-4">
+          <strong>Funding:</strong>
+          <span class="funding-logos">
+            {% for f in include.funding %}
+            <a href="{{ f.url }}" {% if f.name %}aria-label="{{ f.name }}" {% endif %}>
+              <img class="funding-logo" src="{{ f.logo | relative_url }}" alt="{{ f.name | default: 'Funder logo' }}" />
+            </a>
+            {% endfor %}
+          </span>
+        </span>
+        {% endif %}
+      </div>
       {% endif %}
-
-      {% if include.abstract %}
-        <div class="mb-2">
-           {{ include.abstract | markdownify }}
-        </div>
-      {% endif %}
-      
-
-      {% if include.acronym or include.timeframe or include.funding %}
-        <div class="small mt-2 pt-2 border-top">
-          {% if include.acronym %}
-            <span class="mr-4">
-              <strong>Acronym:</strong> {{ include.acronym }}
-            </span>
-          {% endif %}
-          {% if include.timeframe %}
-            <span  class="mr-4">
-              <strong>Timeframe:</strong> {{ include.timeframe }}
-            </span>
-          {% endif %}
-          
-          {% if include.funding %}
-          <span class="mr-4">
-	  <strong>Funding:</strong>
-		  <span class="funding-logos">
-		    {% for f in include.funding %}
-		      <a href="{{ f.url }}" {% if f.name %}aria-label="{{ f.name }}"{% endif %}>
-			<img class="funding-logo" src="{{ f.logo | relative_url }}" alt="{{ f.name | default: 'Funder logo' }}">
-		      </a>
-		    {% endfor %}
-		  </span>
-	  </span>
-         {% endif %}
-        </div>
-      {% endif %}
-      
-
     </div>
   </div>
 </div>

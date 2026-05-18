@@ -7,7 +7,7 @@ profile:
   align: center
   image: team.jpg
   profile_image_class: profile-image
-  image_circular: false 
+  image_circular: false
   more_info: >
     <p>MLDE Group (2024)</p>
 
@@ -26,5 +26,3 @@ latest_posts:
 ---
 
 The **Machine Learning and Data Engineering (MLDE)** group focuses on developing efficient and scalable implementations of modern machine learning methods. Our research addresses key challenges such as reducing the computational resources required for the inference phase of large-scale deep learning models or accelerating training through distributed computing. Beyond advancing algorithms, we place a strong emphasis on bridging the gap between theory and practice by designing solutions that can be deployed in real-world, resource-constrained environments. This often involves close collaboration with experts from other domains, including large-scale satellite data analysis or modern energy systems. The group is part of the [Department of Information Systems](https://www.wi.uni-muenster.de) of the [University of Münster](https://www.uni-muenster.de/en/) and is led by [Fabian Gieseke](/team/fabian-gieseke).
-
-

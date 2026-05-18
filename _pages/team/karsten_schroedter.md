@@ -7,7 +7,7 @@ breadcrumb:
   - title: team
     url: /team/
   - title: Karsten Schrödter
-  
+
 subtitle: |+
   <div class="alert alert-info" role="alert">
   <!--<i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>-->
@@ -38,7 +38,7 @@ profile:
   name: Karsten Schrödter
   image: karsten_schroedter.jpg
   profile_image_class: profile-image
-  
+
 research: |
   My research interests lie in the intersection of machine and deep learning with statistics. Current projects include for example the mapping of uncertainty of tree height predictions from optical and radar satellite data or reducing data to be transmitted from an edge device such as a microcontroller with sensors to the cloud. 
 
@@ -51,7 +51,7 @@ research: |
 
 bio: |
   <div style="text-align: justify">
-  
+
     <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
     <li><b>Postdoc (2024 - present)</b>, Projects: AI4Forest, TinyAIoT, University of Münster, Germany </li>
     <li><b>Data Scientist(2022 - 2024)</b>, Energy sector: flexibility marketing, spot market trading, ESFORIN, Germany  </li>
@@ -61,5 +61,3 @@ bio: |
     </ul>
   </div>
 ---
-
-

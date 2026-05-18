@@ -195,7 +195,7 @@ ul.task-list input[type="checkbox"] {
   text-align: justify;
 }
 
-// Team 
+// Team
 .team-container {
   display: flex;
   flex-wrap: wrap;
@@ -234,20 +234,19 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-
-
 // Profile
-
 
 .profile {
   width: 100%;
 
   .image-offset {
-    margin-left: 0rem; 
+    margin-left: 0rem;
   }
-  
+
   @media (min-width: 576px) {
-    .image-offset { margin-left: 1rem !important; }
+    .image-offset {
+      margin-left: 1rem !important;
+    }
   }
   .more-info {
     margin-bottom: 10px;
@@ -289,7 +288,7 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 2rem;
   font-size: 0.875rem;
   text-align: justify;
-  
+
   a {
     color: inherit;
 
@@ -640,7 +639,6 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
-  
 }
 
 .post-list {
@@ -784,37 +782,37 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-      
+
       .preview-container {
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
       }
-      
+
       .preview {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
         margin-bottom: 0.25rem;
-        
+
         img {
           width: 100%;
           height: auto;
           border-radius: 4px;
         }
       }
-      
+
       .abbr-tag {
         margin-top: 0.25rem;
-        
+
         .badge {
           display: inline-block;
           background-color: var(--global-theme-color);
           padding: 0.15rem 0.5rem;
           border-radius: 3px;
           font-size: 0.75rem;
-          
+
           a {
             color: white;
             &:hover {
@@ -823,17 +821,17 @@ footer.sticky-bottom {
           }
         }
       }
-      
+
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
-        
+
         .badge {
           display: inline-block;
           background-color: var(--global-theme-color);
           padding: 0.5rem 1rem;
           border-radius: 3px;
-          
+
           a {
             color: white;
             &:hover {
@@ -842,7 +840,7 @@ footer.sticky-bottom {
           }
         }
       }
-      
+
       .award {
         color: var(--global-theme-color) !important;
         border: 1px solid var(--global-theme-color);
@@ -882,8 +880,10 @@ footer.sticky-bottom {
           color: var(--global-theme-color);
           background-color: var(--global-bg-color);
           padding: 0.25rem 0.5rem;
-          transition: color 0.3s ease, background-color 0.3s ease;
-          
+          transition:
+            color 0.3s ease,
+            background-color 0.3s ease;
+
           &:hover {
             color: var(--global-bg-color);
             background-color: var(--global-theme-color);
@@ -943,7 +943,7 @@ footer.sticky-bottom {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        
+
         .badge {
           display: inline-flex;
           align-items: center;
@@ -954,7 +954,7 @@ footer.sticky-bottom {
           line-height: 1;
           white-space: nowrap;
           transform: translateY(-0.5px);
-          
+
           a {
             color: white;
             &:hover {
@@ -962,12 +962,12 @@ footer.sticky-bottom {
             }
           }
         }
-        
+
         .venue-name {
           margin-left: 0.5rem;
           flex: 1;
         }
-        
+
         .year {
           white-space: nowrap;
           margin-left: auto;
@@ -1529,43 +1529,42 @@ figure.cover {
 
 .publication-tags {
   margin-bottom: 2rem;
-  
+
   h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
-  
+
   .btn {
     margin: 0.2rem;
   }
 }
 
 .narrow-box {
-  max-width: 350px; 
+  max-width: 350px;
 }
 
 .breadcrumb {
-  font-size: 1.8rem;     
-  font-weight: 300;      
+  font-size: 1.8rem;
+  font-weight: 300;
   line-height: 1.2;
   color: var(--global-text-color);
   background: transparent;
   padding: 0;
-  margin: 0 0 .25rem 0;
+  margin: 0 0 0.25rem 0;
 }
-
 
 .breadcrumb .breadcrumb-item,
 .breadcrumb .breadcrumb-item.active {
   color: var(--global-text-color) !important;
-  font-weight: inherit;  
+  font-weight: inherit;
 }
 
 .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
   content: "›";
   color: inherit;
   font-size: 1em;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
 .breadcrumb .breadcrumb-item a {
@@ -1580,27 +1579,31 @@ figure.cover {
   text-decoration: underline;
 }
 
-.project-alert { border-radius: .25rem; /* oder: 0 */ }
+.project-alert {
+  border-radius: 0.25rem; /* oder: 0 */
+}
 
 /* Funding-Bereich */
-.funding-container { }
-.funding-blurb { }
+.funding-container {
+}
+.funding-blurb {
+}
 
 /* Logos direkt hinter "Funding:" in derselben Zeile */
 .funding-logos {
-  display: inline-flex !important;  /* erzwingt Inline-Verhalten */
+  display: inline-flex !important; /* erzwingt Inline-Verhalten */
   flex-wrap: nowrap;
   align-items: center;
-  gap: .5rem;
-  margin-left: .5rem;               /* kleiner Abstand hinter dem Label */
+  gap: 0.5rem;
+  margin-left: 0.5rem; /* kleiner Abstand hinter dem Label */
   vertical-align: baseline;
 }
 
 .funding-logo {
-  display: inline-block;   
+  display: inline-block;
   height: 45px;
   width: auto;
-  border: 1px solid var(--global-theme-color); 
+  border: 1px solid var(--global-theme-color);
   border-radius: 0;
   padding: 2px;
   background: #fff;
@@ -1608,6 +1611,6 @@ figure.cover {
 
 .justify {
   text-align: justify;
-  text-justify: inter-word;  
-  hyphens: auto;             
+  text-justify: inter-word;
+  hyphens: auto;
 }

@@ -2,7 +2,7 @@
 layout: project
 acronym: AI4Forest
 title: AI-Based High-Resolution Forest Monitoring
-description: 
+description:
 img: assets/img/projects/1/canopy_height_preview.jpg
 importance: 1
 category: ongoing
@@ -20,7 +20,7 @@ funding:
   - name: DLR
     url: https://www.dlr.de
     logo: assets/img/projects/1/dlr-logo-en.svg
-    
+
 researchers:
   - name: Prof. Dr. Fabian Gieseke
     image: fabian_gieseke.jpg
@@ -44,17 +44,13 @@ researchers:
 {% include project_box.html
    variant="info"
    icon="fas fa-project-diagram"
-   title=page.title 
+   title=page.title
    abstract="Preserving global vegetation is crucial for addressing and mitigating climate change. Accurate, up-to-date forest health data is essential. AI4Forest aims to develop advanced AI methods to monitor forests using satellite imagery, including radar and optical data. The project will create scalable techniques for detailed, high-resolution maps of the globe, e.g., to monitor canopy height, biomass, and to track forest disturbances. This project is funded by the [Federal Ministry of Research, Technology and Space](https://www.bmbf.de) and the [German Aerospace Center](https://www.dlr.de) (project ID 01IS23025B).<br><br> Please see the project website at [ai4forest.eu](https://ai4forest.eu) for more details.
    "
    acronym="AI4Forest"
    timeframe="01/2023 – 05/2027"
    funding=page.funding
 %}
-
-
-  
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -85,4 +81,3 @@ The AI4Forest project brings together experts in AI, Applied Mathematics, Comput
 <div class="caption">
 	    A global canopy height map based on a deep learning model.
 </div>
-

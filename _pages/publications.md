@@ -16,7 +16,6 @@ breadcrumb:
 
 {% include bib_search.liquid %}
 
-
 <div class="publication-tags">
   <a href="#" class="btn btn-sm z-depth-0 active" role="button" data-tag="all">All</a>
   {% assign tags = site.data.publication_tags %}

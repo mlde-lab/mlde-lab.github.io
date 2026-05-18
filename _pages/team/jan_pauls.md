@@ -7,7 +7,7 @@ breadcrumb:
   - title: team
     url: /team/
   - title: Jan Pauls
-  
+
 subtitle: |+
   <div class="alert alert-info" role="alert">
   <!--<i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>-->
@@ -39,7 +39,7 @@ profile:
   name: Jan Pauls
   image: jan_pauls.jpeg
   profile_image_class: profile-image
-  
+
 research: |
   My research interests lie in the field of deep learning for large-scale remote sensing applications. Current projects include the mapping of tree height from optical and radar satellite data, as well as using technical tricks to reduce the amount of labels required for training remote sensing models. 
 
@@ -60,5 +60,3 @@ bio: |
     </ul>
   </div>
 ---
-
-
