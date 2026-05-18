@@ -73,14 +73,14 @@ researchers:
     url: https://gabriel.belouze.com/
     github: https://github.com/gbelouze
     linkedin: https://www.linkedin.com/in/gabriel-belouze/
-  - name: Minjoo Park
-    image: minjoo_park.jpg
-    image_circular: false
-    role: Visiting PhD Student
   - name: Sven Ligensa
     image: sven_ligensa.jpg
     image_circular: false
     role: Doctoral Candidate
+    url: https://svenligensa.github.io
+    google_scholar: https://scholar.google.com/citations?user=VN0jgXcAAAAJ
+    github: https://github.com/svenligensa
+    linkedin: https://www.linkedin.com/in/sven-ligensa
     
 group_management:
   - name: Julia Seither
@@ -114,5 +114,8 @@ alumni:
     period: 2024-2025
     url: https://sites.google.com/view/juliankranz
     more_info: University of Münster
-    
+  - name: Minjoo Park
+    image: minjoo_park.jpg
+    image_circular: false
+    role: Visiting PhD Student
 ---
