@@ -9,7 +9,7 @@ last_name:
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is the webpage of the Machine Learning and Data Engineering group at the University of Münster, led by Fabian Gieseke.
+  Research group working on Scalable Machine Learning, TinyML, Edge AI, Deep Learning, Remote Sensing, Energy Systems, Astrophysics, and other applications.
 footer_text: >
 keywords: MLDE, machine learning, data engineering, University of Münster, Germany, Fabian Gieseke # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
