@@ -115,6 +115,6 @@ alumni:
     more_info: University of Münster
   - name: Minjoo Park
     image: minjoo_park.jpg
-    image_circular: false
-    role: Visiting PhD Student
+    period: 2025-2026
+    more_info: Visiting PhD Student
 ---
