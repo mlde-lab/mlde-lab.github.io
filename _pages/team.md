@@ -21,11 +21,6 @@ researchers:
     image: jens_lechtenboerger.jpg
     image_circular: false
     role: Senior Lecturer
-  - name: Dr. Nina Herrmann
-    url: /team/nina-herrmann
-    image: nina_herrmann.jpg
-    image_circular: false
-    role: Postdoc
   - name: Dr. Karsten Schrödter
     image: karsten_schroedter.jpg
     image_circular: false
@@ -117,4 +112,10 @@ alumni:
     image: minjoo_park.jpg
     period: 2025-2026
     more_info: Visiting PhD Student
+  - name: Dr. Nina Herrmann
+    url: /team/nina-herrmann
+    image: nina_herrmann.jpg
+    image_circular: false
+    period: 2024-2026
+    more_info: Technical University of Munich
 ---
