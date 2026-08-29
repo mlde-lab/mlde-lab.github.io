@@ -23,7 +23,9 @@
 	author={Kurkela, Anni Henriikka and Stenkamp, Jan and Scharf, Paula and Bartoschek, Thomas and Gieseke, Fabian},
 	booktitle={European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), Applied Data Science Track},
 	year={2026},
-	abbr={ECML PKDD26},
+	abbr={ECMLPKDD26},
+	abstract={Biodiversity loss has intensified the demand for continuous, low-cost monitoring of indicator species such as birds. While cloud-based computer vision pipelines achieve a high classification performance, they incur a substantial power consumption, require reliable connectivity, and raise privacy concerns. Thus, such solutions are not ideal for widespread citizen science deployments. This work explores the feasibility of performing bird-species recognition directly onboard of microcontroller-class devices using TinyML techniques, thereby enabling autonomous, energy-efficient, and privacy-preserving monitoring stations. By leveraging a publicly available citizen science dataset of feeder-camera images, we created a collection of images of common Central European garden birds.
+After systematic data cleaning and augmentation, we fine-tuned several lightweight deep learning models (SqueezeNet, MNASNet, ShuffleNet V2, DenseNet, MobileNetV2/V3, EfficientNetV2) and applied post-training quantization to meet the memory and compute constraints of an ESP32-S3 platform. The resulting quantized models retain competitive accuracy while using only a few megabytes of flash storage and inducing inference latencies of about one second per image on such a device. More specifically, MobileNetV2 was the best-performing model with an accuracy of about 92.48 % (16 bird species). The quantized version achieved an accuracy of about 90.20 % and the deployed version an accuracy of 80.22 % on a subset of the test data with up to 0.76 frames per second. Overall, our study demonstrates that the considered models can deliver practical bird-species classification models on microcontroller hardware, hence providing a pathway for scalable, low-power ecological sensing.}
 	bibtex_show={true},
 	preview={2026_tinyml_bird_species.png},
 	selected={false},
@@ -44,6 +46,7 @@
   abstract = {Abstract Forest structure, tree diameter, and above-ground biomass (AGB) are central variables in trait-based ecology and forest management, and recent advances in Unmanned Aerial Vehicle (UAV) and LiDAR surveys have substantially improved tree-level phenotyping of these attributes. Building on these developments, machine learning (ML) applications are increasingly used to refine tree diameter estimates and, by extension, improve AGB predictions derived from allometric relationships. Here, we evaluated the capacity of shallow learning methods to leverage local contextual information surrounding a tree of interest to improve predictions of stem diameter and tree-level AGB over 33 ha of a Norway spruce forest (Davos, CH). Our objectives were to (i) characterize gradients of tree height, (ii) examine group-level morphology of tree assemblages as an indicator of forest structural organization and (iii) assess whether these patterns can be leveraged to improve tree diameter and AGB predictions. We segmented the LiDAR point cloud scene into individual canopies and focused on LiDAR-derived tree canopy features. We then used local indicators of spatial association of tree heights to characterize local context and identify tree assemblages within the forest. Assemblage-level metrics were first analysed to characterize forest spatial structure and ecological similarity, and subsequently evaluated as additional predictors in ML regression experiments for tree diameter. Performance was compared between twin regression methods that either incorporated assemblage metrics (i.e. context-aware) or did not. Improvements provided by context awareness were assessed in terms of accuracy gained in estimating tree diameter and AGB. We evaluated three shallow learning methods using nested cross-validation and considered two datasets from the same site: one spatially sparse, based on scattered sampling plots, and one spatially continuous. In both sparse and continuous datasets, we found enhanced prediction performance in context-aware regressions, with RMSE for tree diameter estimation reduced by 4.1\% and 0.8\%, respectively, suggesting that heterogeneous local context supports improved estimates. Practical implication: Gradients of tree height can reflect underlying ecological drivers of forest structure, and this structural information may be leveraged to enhance predictions of tree diameter and AGB. The proposed method is fully native to UAV LiDAR data.},
   year = {2026},
   preview={2026_lidar.png},
+  abbr={Journal},
   tags={ml,application,rs},
 }
 
@@ -120,7 +123,8 @@
   preview={2025_schwartz_remotesensing.png},
   custom={Data|https://zenodo.org/records/15489231},
   tags={ml, application},
-  projects={ai4forest}
+  projects={ai4forest},
+  abbr={Journal}  
 }
 
 
@@ -837,6 +841,7 @@ abstract = {High-resolution mapping of forest attributes is crucial for ecosyste
 preview={2025_schwartz_remotesensing.png},
 custom={Data|https://zenodo.org/records/15489231},
 tags={ml, application},
+abbr={Journal},
 projects={ai4forest}
 }
 
