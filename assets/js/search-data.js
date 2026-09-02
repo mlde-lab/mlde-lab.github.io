@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-research",
+          title: "research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "This page gives an overview of ongoing and completed research projects, both including collaborations with academic partners and collaborations with industry.",
