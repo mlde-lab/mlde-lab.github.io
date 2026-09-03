@@ -108,8 +108,8 @@ _styles: |
 
 <div class="row research-row">
   <div class="col-md-5 research-media">
-    {% include figure.liquid loading="lazy" path="assets/img/publication_preview/2026_tinyml_bird_species.png" title="On-device bird species recognition" class="img-fluid rounded" %}
-    <div class="research-caption">A compact convolutional neural network classifies bird images locally on a microcontroller.</div>
+    {% include figure.liquid loading="lazy" path="assets/img/tinyml_tiny_tree.png" title="TinyML sensor-data processing on a microcontroller" class="img-fluid rounded" %}
+    <div class="research-caption">Sensor data is processed locally by a compact Tiny Tree model running on a microcontroller.</div>
   </div>
   <div class="col-md-7 research-copy justify">
     <p>TinyML brings training and inference to severely resource-constrained devices. Adapted training procedures and memory layouts reduce the resource requirements of boosted-tree models by factors of 4–16 while preserving predictive performance. Trainable quantization further reduces the sensor data that must be transmitted. Applications include privacy-preserving bicycle counting and energy-efficient bird-species recognition.</p>
@@ -176,4 +176,28 @@ Alongside our methodological research, we develop machine-learning techniques wi
 <ul class="research-publications">
   <li><a href="https://arxiv.org/abs/1708.08947">Gieseke et al. (2017). <em>Convolutional Neural Networks for Transient Candidate Vetting in Large-Scale Surveys.</em> Monthly Notices of the Royal Astronomical Society, 472, 3101–3114. <strong>MNRAS</strong>.</a></li>
   <li><a href="https://arxiv.org/abs/1210.7071">Polsterer, Zinn &amp; Gieseke (2013). <em>Finding New High-Redshift Quasars by Asking the Neighbours.</em> Monthly Notices of the Royal Astronomical Society, 428, 226–235. <strong>MNRAS</strong>.</a></li>
+</ul>
+
+### Smart Cities and Smart Grids
+
+<div class="row research-row">
+  <div class="col-md-5 research-media">
+    {% include figure.liquid loading="lazy" path="assets/img/smart_city_grid.png" title="Connected infrastructure in a smart grid" class="img-fluid rounded" %}
+    <div class="research-caption">Smart grids connect renewable generation, storage, buildings, industry, and electric mobility.</div>
+  </div>
+  <div class="col-md-7 research-copy justify">
+    <p>Smart cities and smart grids combine distributed sensing, local intelligence, and networked infrastructure. Our research addresses forecasting for increasingly dynamic energy systems: the growing share of weather-dependent renewable generation makes energy supply more volatile, while electricity demand varies across time, locations, and consumer groups. We use state-of-the-art machine-learning techniques to obtain accurate forecasts of renewable-energy production and energy demand from historical measurements, weather information, calendar effects, and other contextual signals. These forecasts can support grid operation, flexibility planning, and the reliable coordination of generation, storage, and consumption.</p>
+  </div>
+</div>
+
+<div class="justify mt-3">
+  <p>For distributed smart-city sensing systems, we develop compact models that process data close to where it is collected and transmit only the results. This reduces bandwidth and energy consumption while supporting privacy-aware monitoring and timely decisions. One application is the monitoring of bicycle-parking facilities: a camera-equipped ESP32-S3 microcontroller runs a compressed object-detection model locally and sends only the resulting bicycle count via LoRaWAN to a remote service.</p>
+</div>
+
+<div class="research-media research-wide-media research-media-80">
+  {% include figure.liquid loading="lazy" path="assets/img/smart_city_bicycle_counting.png" title="Edge-AI pipeline for counting parked bicycles" class="img-fluid rounded" %}
+  <div class="research-caption">Images are processed on the microcontroller; only the detected bicycle count is transmitted to the monitoring service.</div>
+</div>
+<ul class="research-publications">
+  <li><a href="https://doi.org/10.1145/3774906.3802788">Stenkamp et al. (2026). <em>Counting Parked Bicycles on the Edge — A TinyML Smart City Application.</em> ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems. <strong>SenSys 2026</strong>.</a></li>
 </ul>
