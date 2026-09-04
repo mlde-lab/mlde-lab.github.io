@@ -159,6 +159,8 @@ Alongside our methodological research, we develop machine-learning techniques wi
   <li><a href="https://openreview.net/forum?id=ri1cs3vtXX">Pauls et al. (2025). <em>Capturing Temporal Dynamics in Large-Scale Canopy Tree Height Estimation.</em> 42nd International Conference on Machine Learning. <strong>ICML 2025</strong>.</a></li>
   <li><a href="https://arxiv.org/abs/2604.06988">Schrödter et al. (2026). <em>Canopy Tree Height Estimation using Quantile Regression: Modeling and Evaluating Uncertainty in Remote Sensing.</em> Twenty-Ninth Annual Conference on Artificial Intelligence and Statistics. <strong>AISTATS 2026</strong>.</a></li>
   <li><a href="https://doi.org/10.1038/s41558-024-02201-0">Bernardino et al. (2025). <em>Predictability of Abrupt Shifts in Dryland Ecosystem Functioning.</em> <strong>Nature Climate Change</strong>, 15, 86–91.</a></li>
+  <li><a href="https://doi.org/10.1038/s41558-022-01544-w">Mugabowindekwe et al. (2022). <em>Nation-wide mapping of tree-level aboveground carbon stocks in Rwanda.</em> <strong>Nature Climate Change</strong>.</a></li>
+  <li><a href="https://doi.org/10.1038/s41586-020-2824-5">Brandt et al. (2020). <em>An unexpectedly large count of trees in the West African Sahara and Sahel.</em> <strong>Nature</strong>.</a></li>
 </ul>
 
 ### Astrophysics
