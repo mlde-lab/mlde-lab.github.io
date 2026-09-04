@@ -58,9 +58,4 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-ai-innovations-in-finance",
-          title: 'AI Innovations in Finance',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},];
