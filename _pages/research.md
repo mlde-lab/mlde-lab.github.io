@@ -84,9 +84,9 @@ _styles: |
   </div>
 </div>
 <ul class="research-publications">
-  <li><a href="https://arxiv.org/abs/2406.13322">Lülf et al. (2024). <em>CLIP-Branches: Interactive Fine-Tuning for Text-Image Retrieval.</em> Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, Demo Track. <strong>SIGIR 2024</strong>.</a></li>
-  <li><a href="https://arxiv.org/abs/2309.15617">Lülf et al. (2023). <em>RapidEarth: A Search Engine for Large-Scale Geospatial Imagery.</em> Proceedings of the 31st International Conference on Advances in Geographic Information Systems, Demo Paper. <strong>SIGSPATIAL 2023</strong>.</a></li>
-  <li><a href="https://arxiv.org/abs/2306.02670">Lülf et al. (2023). <em>Fast Search-By-Classification for Large-Scale Databases Using Index-Aware Decision Trees and Random Forests.</em> Proceedings of the VLDB Endowment, 16, 2845–2857. <strong>VLDB 2023</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/2406.13322">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2024). <em>CLIP-Branches: Interactive Fine-Tuning for Text-Image Retrieval.</em> Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, Demo Track. <strong>SIGIR 2024</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/2309.15617">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2023). <em>RapidEarth: A Search Engine for Large-Scale Geospatial Imagery.</em> Proceedings of the 31st International Conference on Advances in Geographic Information Systems, Demo Paper. <strong>SIGSPATIAL 2023</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/2306.02670">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2023). <em>Fast Search-By-Classification for Large-Scale Databases Using Index-Aware Decision Trees and Random Forests.</em> Proceedings of the VLDB Endowment, 16, 2845–2857. <strong>VLDB 2023</strong>.</a></li>
 </ul>
 
 <div class="row research-row">
@@ -100,8 +100,8 @@ _styles: |
   </div>
 </div>
 <ul class="research-publications">
-  <li><a href="https://arxiv.org/abs/1906.04673">Oehmcke &amp; Gieseke (2022). <em>Input Selection for Bandwidth-Limited Neural Network Inference.</em> Proceedings of the 2022 SIAM International Conference on Data Mining, 280–288. <strong>SDM 2022</strong>.</a></li>
-  <li><a href="https://arxiv.org/abs/2406.01076">Pauls et al. (2024). <em>Estimating Canopy Height at Scale.</em> 41st International Conference on Machine Learning. <strong>ICML 2024</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/1906.04673">Stefan Oehmcke &amp; Fabian Gieseke (2022). <em>Input Selection for Bandwidth-Limited Neural Network Inference.</em> Proceedings of the 2022 SIAM International Conference on Data Mining, 280–288. <strong>SDM 2022</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/2406.01076">Jan Pauls, Max Zimmer, Una M. Kelly, Martin Schwartz, Sassan Saatchi, Philippe Ciais, Sebastian Pokutta, Martin Brandt &amp; Fabian Gieseke (2024). <em>Estimating Canopy Height at Scale.</em> 41st International Conference on Machine Learning. <strong>ICML 2024</strong>.</a></li>
 </ul>
 
 ## Tiny Machine Learning
@@ -117,9 +117,9 @@ _styles: |
   </div>
 </div>
 <ul class="research-publications">
-  <li><a href="https://openreview.net/forum?id=batDcksZsh">Herrmann et al. (2026). <em>Boosted Trees on a Diet: Compact Models for Resource-Constrained Devices.</em> The Fourteenth International Conference on Learning Representations. <strong>ICLR 2026</strong>.</a></li>
-  <li>Schrödter et al. (2026). <em>Trainable Bitwise Soft Quantization for Input Feature Compression.</em> Third Conference on Parsimony and Learning. <strong>CPAL 2026</strong>.</li>
-  <li>Kurkela et al. (2026). <em>TinyML for Environmental Monitoring: Bird Species Image Classification on Resource-Constrained Devices.</em> European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, Applied Data Science Track. <strong>ECML PKDD 2026</strong>.</li>
+  <li><a href="https://openreview.net/forum?id=batDcksZsh">Nina Herrmann, Jan Stenkamp, Benjamin Karic, Stefan Oehmcke &amp; Fabian Gieseke (2026). <em>Boosted Trees on a Diet: Compact Models for Resource-Constrained Devices.</em> The Fourteenth International Conference on Learning Representations. <strong>ICLR 2026</strong>.</a></li>
+  <li>Karsten Schrödter, Jan Stenkamp, Nina Herrmann &amp; Fabian Gieseke (2026). <em>Trainable Bitwise Soft Quantization for Input Feature Compression.</em> Third Conference on Parsimony and Learning. <strong>CPAL 2026</strong>.</li>
+  <li>Anni Henriikka Kurkela, Jan Stenkamp, Paula Scharf, Thomas Bartoschek &amp; Fabian Gieseke (2026). <em>TinyML for Environmental Monitoring: Bird Species Image Classification on Resource-Constrained Devices.</em> European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, Applied Data Science Track. <strong>ECML PKDD 2026</strong>.</li>
 </ul>
 
 ## Machine Learning and High-Performance Computing
@@ -135,9 +135,9 @@ _styles: |
   </div>
 </div>
 <ul class="research-publications">
-  <li><a href="https://futhark-lang.org/publications/icde20.pdf">Gieseke et al. (2020). <em>Massively-Parallel Change Detection for Satellite Time Series Data with Missing Values.</em> Proceedings of the 36th IEEE International Conference on Data Engineering, 385–396. <strong>ICDE 2020</strong>.</a></li>
-  <li><a href="https://arxiv.org/pdf/1802.06394">Gieseke &amp; Igel (2018). <em>Training Big Random Forests with Little Resources.</em> Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining, 1445–1454. <strong>KDD 2018</strong>.</a></li>
-  <li><a href="http://proceedings.mlr.press/v32/gieseke14.html">Gieseke et al. (2014). <em>Buffer k-d Trees: Processing Massive Nearest Neighbor Queries on GPUs.</em> Proceedings of the 31st International Conference on Machine Learning, 172–180. <strong>ICML 2014</strong>.</a></li>
+  <li><a href="https://futhark-lang.org/publications/icde20.pdf">Fabian Gieseke, Sabina Rosca, Troels Henriksen, Jan Verbesselt &amp; Cosmin Eugen Oancea (2020). <em>Massively-Parallel Change Detection for Satellite Time Series Data with Missing Values.</em> Proceedings of the 36th IEEE International Conference on Data Engineering, 385–396. <strong>ICDE 2020</strong>.</a></li>
+  <li><a href="https://arxiv.org/pdf/1802.06394">Fabian Gieseke &amp; Christian Igel (2018). <em>Training Big Random Forests with Little Resources.</em> Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining, 1445–1454. <strong>KDD 2018</strong>.</a></li>
+  <li><a href="http://proceedings.mlr.press/v32/gieseke14.html">Fabian Gieseke, Justin Heinermann, Cosmin E. Oancea &amp; Christian Igel (2014). <em>Buffer k-d Trees: Processing Massive Nearest Neighbor Queries on GPUs.</em> Proceedings of the 31st International Conference on Machine Learning, 172–180. <strong>ICML 2014</strong>.</a></li>
 </ul>
 
 ## Applications
@@ -155,12 +155,12 @@ Alongside our methodological research, we develop machine-learning techniques wi
   <p>Much of this work is carried out within <a class="research-project-link" href="/projects/1_project/"><i class="fas fa-arrow-right" aria-hidden="true"></i> AI4Forest</a>; interactive results and further material are also available at <a href="https://ai4forest.eu">ai4forest.eu</a>.</p>
 </div>
 <ul class="research-publications">
-  <li><a href="https://openreview.net/forum?id=JXCiQteuOv">Fayad et al. (2025). <em>DUNIA: Pixel-Sized Embeddings via Cross-Modal Alignment for Earth Observation Applications.</em> 42nd International Conference on Machine Learning. <strong>ICML 2025</strong>.</a></li>
-  <li><a href="https://openreview.net/forum?id=ri1cs3vtXX">Pauls et al. (2025). <em>Capturing Temporal Dynamics in Large-Scale Canopy Tree Height Estimation.</em> 42nd International Conference on Machine Learning. <strong>ICML 2025</strong>.</a></li>
-  <li><a href="https://arxiv.org/abs/2604.06988">Schrödter et al. (2026). <em>Canopy Tree Height Estimation using Quantile Regression: Modeling and Evaluating Uncertainty in Remote Sensing.</em> Twenty-Ninth Annual Conference on Artificial Intelligence and Statistics. <strong>AISTATS 2026</strong>.</a></li>
-  <li><a href="https://doi.org/10.1038/s41558-024-02201-0">Bernardino et al. (2025). <em>Predictability of Abrupt Shifts in Dryland Ecosystem Functioning.</em> <strong>Nature Climate Change</strong>, 15, 86–91.</a></li>
-  <li><a href="https://doi.org/10.1038/s41558-022-01544-w">Mugabowindekwe et al. (2022). <em>Nation-wide mapping of tree-level aboveground carbon stocks in Rwanda.</em> <strong>Nature Climate Change</strong>.</a></li>
-  <li><a href="https://doi.org/10.1038/s41586-020-2824-5">Brandt et al. (2020). <em>An unexpectedly large count of trees in the West African Sahara and Sahel.</em> <strong>Nature</strong>.</a></li>
+  <li><a href="https://openreview.net/forum?id=JXCiQteuOv">Ibrahim Fayad, Max Zimmer, Martin Schwartz, Philippe Ciais, Fabian Gieseke, Gabriel Belouze, Sarah Brood, Aurelien De Truchis &amp; Alexandre d'Aspremont (2025). <em>DUNIA: Pixel-Sized Embeddings via Cross-Modal Alignment for Earth Observation Applications.</em> 42nd International Conference on Machine Learning. <strong>ICML 2025</strong>.</a></li>
+  <li><a href="https://openreview.net/forum?id=ri1cs3vtXX">Jan Pauls, Max Zimmer, Berkant Turan, Sassan Saatchi, Philippe Ciais, Sebastian Pokutta &amp; Fabian Gieseke (2025). <em>Capturing Temporal Dynamics in Large-Scale Canopy Tree Height Estimation.</em> 42nd International Conference on Machine Learning. <strong>ICML 2025</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/2604.06988">Karsten Schrödter, Jan Pauls &amp; Fabian Gieseke (2026). <em>Canopy Tree Height Estimation using Quantile Regression: Modeling and Evaluating Uncertainty in Remote Sensing.</em> Twenty-Ninth Annual Conference on Artificial Intelligence and Statistics. <strong>AISTATS 2026</strong>.</a></li>
+  <li><a href="https://doi.org/10.1038/s41558-024-02201-0">Paulo Negri Bernardino, Wanda De Keersmaecker, Stéphanie Horion, Ruben Van De Kerchove, Stef Lhermitte, Rasmus Fensholt, Stefan Oehmcke, Fabian Gieseke, Koenraad Van Meerbeek, Christin Abel, Jan Verbesselt &amp; Ben Somers (2025). <em>Predictability of Abrupt Shifts in Dryland Ecosystem Functioning.</em> <strong>Nature Climate Change</strong>, 15, 86–91.</a></li>
+  <li><a href="https://doi.org/10.1038/s41558-022-01544-w">Maurice Mugabowindekwe, Martin Brandt, Jerome Chave, Florian Reiner, David Skole, Ankit Kariryaa, Christian Igel, Pierre Hiernaux, Philippe Ciais, Ole Mertz, Xiaoye Tong, Sizhuo Li, Gaspard Rwanyiziri, Thaulin Dushimiyimana, Alain Ndoli, Uwizeyimana Valens, Jens-Peter Lillesø, Fabian Gieseke, Compton Tucker, Sassan S Saatchi &amp; Rasmus Fensholt (2022). <em>Nation-wide mapping of tree-level aboveground carbon stocks in Rwanda.</em> <strong>Nature Climate Change</strong>.</a></li>
+  <li><a href="https://doi.org/10.1038/s41586-020-2824-5">Martin Brandt, Compton J. Tucker, Ankit Kariryaa, Kjeld Rasmussen, Christin Abel, Jennifer Small, Jerome Chave, Laura Vang Rasmussen, Pierre Hiernaux, Abdoul Aziz Diouf, Laurent Kergoat, Ole Mertz, Christian Igel, Fabian Gieseke, Johannes Schöning, Sizhuo Li, Katherine Melocik, Jesse Meyer, Scott Sinno, Eric Romero, Erin Glennie, Amandine Montagu, Morgane Dendoncker &amp; Rasmus Fensholt (2020). <em>An unexpectedly large count of trees in the West African Sahara and Sahel.</em> <strong>Nature</strong>.</a></li>
 </ul>
 
 ### Astrophysics
@@ -176,8 +176,8 @@ Alongside our methodological research, we develop machine-learning techniques wi
   </div>
 </div>
 <ul class="research-publications">
-  <li><a href="https://arxiv.org/abs/1708.08947">Gieseke et al. (2017). <em>Convolutional Neural Networks for Transient Candidate Vetting in Large-Scale Surveys.</em> Monthly Notices of the Royal Astronomical Society, 472, 3101–3114. <strong>MNRAS</strong>.</a></li>
-  <li><a href="https://arxiv.org/abs/1210.7071">Polsterer, Zinn &amp; Gieseke (2013). <em>Finding New High-Redshift Quasars by Asking the Neighbours.</em> Monthly Notices of the Royal Astronomical Society, 428, 226–235. <strong>MNRAS</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/1708.08947">Fabian Gieseke, Steven Bloemen, Cas van den Bogaard, Tom Heskes, Jonas Kindler, Richard A. Scalzo, Valerio A.R.M. Ribeiro, Jan van Roestel, Paul J. Groot, Fang Yuan, Anais Möller &amp; Brad E. Tucker (2017). <em>Convolutional Neural Networks for Transient Candidate Vetting in Large-Scale Surveys.</em> Monthly Notices of the Royal Astronomical Society, 472, 3101–3114. <strong>MNRAS</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/1210.7071">Kai Lars Polsterer, Peter Zinn &amp; Fabian Gieseke (2013). <em>Finding New High-Redshift Quasars by Asking the Neighbours.</em> Monthly Notices of the Royal Astronomical Society, 428, 226–235. <strong>MNRAS</strong>.</a></li>
 </ul>
 
 ### Smart Cities and Smart Grids
@@ -201,5 +201,5 @@ Alongside our methodological research, we develop machine-learning techniques wi
   <div class="research-caption">Images are processed on the microcontroller; only the detected bicycle count is transmitted to the monitoring service.</div>
 </div>
 <ul class="research-publications">
-  <li><a href="https://doi.org/10.1145/3774906.3802788">Stenkamp et al. (2026). <em>Counting Parked Bicycles on the Edge — A TinyML Smart City Application.</em> ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems. <strong>SenSys 2026</strong>.</a></li>
+  <li><a href="https://doi.org/10.1145/3774906.3802788">Jan Stenkamp, Mathis Hunke, Cem Karatas, Steffen Kirchhoff, Christoph Knaden, Paul Naebers, Lige Zhao, Benjamin Karic, Fabian Gieseke &amp; Nina Herrmann (2026). <em>Counting Parked Bicycles on the Edge — A TinyML Smart City Application.</em> ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems. <strong>SenSys 2026</strong>.</a></li>
 </ul>
