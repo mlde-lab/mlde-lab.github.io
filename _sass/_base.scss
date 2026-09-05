@@ -308,6 +308,72 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
+.navbar-brand-group {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.navbar-logo-mlde {
+  display: block;
+  width: auto;
+  height: 2rem;
+}
+
+.navbar-institution-logos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1.5rem;
+}
+
+.navbar-institution-link {
+  display: flex;
+  align-items: center;
+  color: inherit;
+
+  img {
+    display: block;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(1) brightness(0.58) contrast(1.35);
+    opacity: 0.92;
+    transition:
+      filter 180ms ease,
+      opacity 180ms ease;
+  }
+
+  &:hover img,
+  &:focus-visible img {
+    // Monochrome conversion to the site's primary green (#458b05).
+    filter: brightness(0) saturate(100%) invert(45%) sepia(96%) saturate(1309%) hue-rotate(55deg) brightness(83%) contrast(96%);
+    opacity: 1;
+  }
+
+  &:focus-visible {
+    border-radius: 0.15rem;
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 0.2rem;
+  }
+}
+
+.navbar-logo-wiwi {
+  max-width: 6.9rem;
+  height: 1.75rem;
+}
+
+.navbar-logo-uni {
+  max-width: 7.2rem;
+  height: 1.75rem;
+  transform: translateY(-0.27rem);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-institution-logos {
+    display: none;
+  }
+}
+
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);

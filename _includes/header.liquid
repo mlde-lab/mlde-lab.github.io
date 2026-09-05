@@ -2,9 +2,35 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/img/logo_mlde.png" height="32">
-      </a>
+      <div class="navbar-brand-group">
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/" aria-label="MLDE home">
+          <img class="navbar-logo-mlde" src="{{ site.baseurl }}/assets/img/logo_mlde.png" alt="MLDE">
+        </a>
+        <div class="navbar-institution-logos" aria-label="Affiliated institutions">
+          <a
+            class="navbar-institution-link"
+            href="https://www.wiwi.uni-muenster.de/fakultaet/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Wirtschaftswissenschaftliche Fakultät (opens in a new tab)"
+          >
+            <img
+              class="navbar-logo-wiwi"
+              src="{{ site.baseurl }}/assets/img/logo_wiwi_de.png"
+              alt="Wirtschaftswissenschaftliche Fakultät"
+            >
+          </a>
+          <a
+            class="navbar-institution-link"
+            href="https://www.uni-muenster.de/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Universität Münster (opens in a new tab)"
+          >
+            <img class="navbar-logo-uni" src="{{ site.baseurl }}/assets/img/logo_uni_ms.svg" alt="Universität Münster">
+          </a>
+        </div>
+      </div>
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
