@@ -45,7 +45,7 @@ _styles: |
     width: 100%;
     margin: 0 0 1.75rem;
     padding-left: 1.35rem;
-    font-size: 1rem;
+    font-size: 1.0625rem;
     line-height: 1.5;
   }
   .research-publications li {
@@ -65,7 +65,7 @@ _styles: |
 ---
 
 {% include project_box.html
-   variant="info"
+   variant="research-green"
    icon="fas fa-microchip"
    title="We bridge machine learning, data systems, and discovery ..."
    abstract="Our research connects machine learning and data engineering to make AI models useful under real-world constraints on resources, data, and computing systems. We design learning methods by considering data access, computing architecture, and available resources together from the outset. This perspective spans efficient access to very large data collections, scalable execution on high-performance systems, and compact models for edge and TinyML hardware. Current funded projects include [AI4Forest](/projects/1_project/) and [TinyAIoT](/projects/2_project/)."

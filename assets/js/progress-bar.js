@@ -26,6 +26,11 @@ window.onload = function () {
 function progressBarSetup() {
   if ("max" in document.createElement("progress")) {
     initializeProgressElement();
+    // Keep the content offset in sync with fonts and the expanded mobile menu.
+    const navbarElement = document.getElementById("navbar");
+    if (navbarElement && "ResizeObserver" in window) {
+      new ResizeObserver(initializeProgressElement).observe(navbarElement);
+    }
     $(document).on("scroll", function () {
       progressBar.attr({ value: getCurrentScrollPosition() });
     });
@@ -46,7 +51,9 @@ function getCurrentScrollPosition() {
 }
 
 function initializeProgressElement() {
-  let navbarHeight = $("#navbar").outerHeight(true);
+  // Only a fixed navbar needs an offset; an in-flow masthead already occupies space.
+  const navbar = $("#navbar");
+  const navbarHeight = navbar.css("position") === "fixed" ? navbar.outerHeight(true) : 0;
   $("body").css({ "padding-top": navbarHeight });
   $("progress-container").css({ "padding-top": navbarHeight });
   progressBar.css({ top: navbarHeight });
