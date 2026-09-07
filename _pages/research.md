@@ -51,6 +51,9 @@ _styles: |
   .research-publications li {
     margin-bottom: 0.45rem;
   }
+  .research-publications strong {
+    font-weight: 700 !important;
+  }
   .research-project-link {
     white-space: nowrap;
   }
