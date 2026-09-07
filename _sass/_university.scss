@@ -300,3 +300,24 @@ body.fixed-top-nav {
   color: #386e16;
   text-decoration: underline;
 }
+
+// Let venue names carry emphasis instead of the publication titles.
+.publications ol.bibliography li .title,
+.publications ol.bibliography li .title a {
+  font-weight: 400;
+}
+
+.publications .periodical abbr.badge,
+.publications .periodical abbr.badge a,
+.publications .venue-name strong {
+  font-weight: 700;
+}
+
+.team-photo-link {
+  display: block;
+  border-radius: 10px;
+}
+.team-photo-link:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}

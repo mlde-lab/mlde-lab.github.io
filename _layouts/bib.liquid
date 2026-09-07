@@ -177,9 +177,11 @@
             {%- endif -%}
             <span class="venue-name">
               {%- if entry.type == "article" -%}
-                <em>{{entry.journal_short | default: entry.journal}}{% if entry.award %} ({{ entry.award }}){% endif %}</em>
+                {% assign journal_name = entry.journal_short | default: entry.journal %}
+                {% assign emphasized_journals = 'Nature|Nature Climate|Nature Climate Change|Nature Communications' | split: '|' %}
+                {% if emphasized_journals contains journal_name %}<strong>{{ journal_name }}</strong>{% else %}{{ journal_name | emphasize_conferences }}{% endif %}{% if entry.award %} ({{ entry.award }}){% endif %}
               {%- else -%}
-                <em>{{entry.booktitle_short | default: entry.booktitle}}{% if entry.award %} ({{ entry.award }}){% endif %}</em>
+                <em>{{entry.booktitle_short | default: entry.booktitle | emphasize_conferences}}{% if entry.award %} ({{ entry.award }}){% endif %}</em>
               {%- endif -%}
             </span>
           {%- endcapture -%}
@@ -197,7 +199,7 @@
               {%- endif -%}
             {%- endif -%}
             <span class="venue-name">
-              <em>{{entry.booktitle_short | default: entry.booktitle}}{% if entry.award %} ({{ entry.award }}){% endif %}</em>
+              <em>{{entry.booktitle_short | default: entry.booktitle | emphasize_conferences}}{% if entry.award %} ({{ entry.award }}){% endif %}</em>
             </span>
           {%- endcapture -%}
       {%- elsif thesis contains entry.type -%}

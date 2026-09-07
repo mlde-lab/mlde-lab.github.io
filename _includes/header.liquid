@@ -154,7 +154,7 @@
       </div>
     </progress>
   {% endif %}
-  {% if page.breadcrumb %}
+  {% if page.breadcrumb.size > 1 %}
     <div class="container mt-3" role="navigation">
       {% include breadcrumbs.liquid %}
     </div>

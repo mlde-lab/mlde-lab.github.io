@@ -16,7 +16,9 @@ layout: page
                 {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
               {% endif %}
               {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+              {% if member.url %}<a class="team-photo-link" href="{{ member.url }}" aria-label="Profile: {{ member.name | escape }}">{% endif %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.name %}
+              {% if member.url %}</a>{% endif %}
             {% endif %}
             {% if member.url %}
               <div class="more-info">
@@ -68,7 +70,9 @@ layout: page
                 {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
               {% endif %}
               {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+              {% if member.url %}<a class="team-photo-link" href="{{ member.url }}" aria-label="Profile: {{ member.name | escape }}">{% endif %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.name %}
+              {% if member.url %}</a>{% endif %}
             {% endif %}
             {% if member.url %}
               <div class="more-info">
@@ -111,7 +115,9 @@ layout: page
                 {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
               {% endif %}
               {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+              {% if member.url %}<a class="team-photo-link" href="{{ member.url }}" aria-label="Profile: {{ member.name | escape }}">{% endif %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.name %}
+              {% if member.url %}</a>{% endif %}
             {% endif %}
             {% if member.url %}
               <div class="more-info">
@@ -156,7 +162,9 @@ layout: page
                 {% assign member_image_class = 'img-fluid z-depth-1 rounded team-image-fixed' %}
               {% endif %}
               {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.image %}
+              {% if member.url %}<a class="team-photo-link" href="{{ member.url }}" aria-label="Profile: {{ member.name | escape }}">{% endif %}
+              {% include figure.liquid loading="eager" path=member_image_path class=member_image_class sizes=sizes alt=member.name %}
+              {% if member.url %}</a>{% endif %}
             {% endif %}
             {% if member.url %}
               <div class="more-info">

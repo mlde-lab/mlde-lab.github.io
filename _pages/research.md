@@ -84,9 +84,9 @@ _styles: |
   </div>
 </div>
 <ul class="research-publications">
-  <li><a href="https://arxiv.org/abs/2406.13322">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2024). <em>CLIP-Branches: Interactive Fine-Tuning for Text-Image Retrieval.</em> Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, Demo Track. <strong>SIGIR 2024</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/2406.13322">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2024). <em>CLIP-Branches: Interactive Fine-Tuning for Text-Image Retrieval.</em> Proceedings of the 47th International ACM <strong>SIGIR</strong> Conference on Research and Development in Information Retrieval, Demo Track. <strong>SIGIR 2024</strong>.</a></li>
   <li><a href="https://arxiv.org/abs/2309.15617">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2023). <em>RapidEarth: A Search Engine for Large-Scale Geospatial Imagery.</em> Proceedings of the 31st International Conference on Advances in Geographic Information Systems, Demo Paper. <strong>SIGSPATIAL 2023</strong>.</a></li>
-  <li><a href="https://arxiv.org/abs/2306.02670">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2023). <em>Fast Search-By-Classification for Large-Scale Databases Using Index-Aware Decision Trees and Random Forests.</em> Proceedings of the VLDB Endowment, 16, 2845–2857. <strong>VLDB 2023</strong>.</a></li>
+  <li><a href="https://arxiv.org/abs/2306.02670">Christian Lülf, Denis Mayr Lima Martins, Salles Marcos Antonio Vaz, Yongluan Zhou &amp; Fabian Gieseke (2023). <em>Fast Search-By-Classification for Large-Scale Databases Using Index-Aware Decision Trees and Random Forests.</em> Proceedings of the <strong>VLDB</strong> Endowment, 16, 2845–2857. <strong>VLDB 2023</strong>.</a></li>
 </ul>
 
 <div class="row research-row">

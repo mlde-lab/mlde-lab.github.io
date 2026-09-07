@@ -11,9 +11,9 @@ breadcrumb:
 subtitle: |+
   <div class="alert alert-info" role="alert">
   <!--<i class="fas fa-house"></i>&nbsp;&nbsp;&nbsp;<b>Head of the <a href="https://mlde-lab.github.io">MLDE</a> group </b><br>-->
-  <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany). Affiliated with both the <a href="https://www.uni-muenster.de/Informatik/en/">Computer Science Department</a> and the <a href="https://www.uni-muenster.de/Geoinformatics/en/">Institute for Geoinformatics</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a>.</b><br>
+  <i class="fas fa-university"></i>&nbsp;&nbsp;Full Professor (W3) at the <a href="https://www.wi.uni-muenster.de/">Department of Information Systems</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> (Germany). Affiliated with both the <a href="https://www.uni-muenster.de/Informatik/en/">Computer Science Department</a> and the <a href="https://www.uni-muenster.de/Geoinformatics/en/">Institute for Geoinformatics</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a>.<br>
 
-    <i class="fas fa-university"></i>&nbsp;&nbsp;<b>Associate Professor (part-time) at the <a href="https://di.ku.dk/english/">Department of Computer Science</a> of the <a href="https://www.ku.dk/en">University of Copenhagen</a> (Denmark)</b><br>
+    <i class="fas fa-university"></i>&nbsp;&nbsp;Associate Professor (part-time) at the <a href="https://di.ku.dk/english/">Department of Computer Science</a> of the <a href="https://www.ku.dk/en">University of Copenhagen</a> (Denmark)<br>
    <br>
 
     <b>Contact (University of Münster)</b>
@@ -77,8 +77,8 @@ bio: |
   </div>
 
   <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
-  <li><b>Full Professor (W3)</b>, Department of Information Systems, University of Münster (Germany), 2020-today.</li>
-  <li><b>Associate Professor (part-time)</b>, Department of Computer Science, University of Copenhagen (Denmark), 2021-today.</li>
+  <li>Full Professor (W3), Department of Information Systems, University of Münster (Germany), 2020-today.</li>
+  <li>Associate Professor (part-time), Department of Computer Science, University of Copenhagen (Denmark), 2021-today.</li>
   <li><b>Assistant Professor (Tenure-Track)</b>, Department of Computer Science, University of Copenhagen (Denmark), 2016-2021.</li>
   <li><b>Postdoctoral Researcher</b>, Institute for Computing and Information Sciences (iCIS), Radboud University Nijmegen (Netherlands), 2014-2016 (supported by the <a href="https://www.ru.nl/en/staff/researchers/radboud-excellence-initiative">Raboud Excellence Initiative</a>).</li>
   <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Copenhagen (Denmark), 2013-2014 (supported by the <a href="https://www.daad.de/en/">German Academic Exchange Service</a>).</li>
