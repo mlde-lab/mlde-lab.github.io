@@ -45,12 +45,23 @@ researchers:
    variant="info"
    icon="fas fa-project-diagram"
    title=page.title
-   abstract="Preserving global vegetation is crucial for addressing and mitigating climate change. Accurate, up-to-date forest health data is essential. AI4Forest aims to develop advanced AI methods to monitor forests using satellite imagery, including radar and optical data. The project will create scalable techniques for detailed, high-resolution maps of the globe, e.g., to monitor canopy height, biomass, and to track forest disturbances. This project is funded by the [Federal Ministry of Research, Technology and Space](https://www.bmbf.de) and the [German Aerospace Center](https://www.dlr.de) (project ID 01IS23025B).<br><br> Please see the project website at [ai4forest.eu](https://ai4forest.eu) for more details.
+   abstract="Preserving global vegetation is crucial for addressing and mitigating climate change. Accurate, up-to-date forest health data is essential. AI4Forest aims to develop advanced AI methods to monitor forests using satellite imagery, including radar and optical data. The project will create scalable techniques for detailed, high-resolution maps of the globe, e.g., to monitor canopy height, biomass, and to track forest disturbances. This project is funded by the [Federal Ministry of Research, Technology and Space](https://www.bmbf.de) and the [German Aerospace Center](https://www.dlr.de) (project ID 01IS23025B).
    "
    acronym="AI4Forest"
    timeframe="01/2023 – 05/2027"
    funding=page.funding
 %}
+
+<div>
+<a class="project-website-card" href="https://ai4forest.eu/">
+  <img class="project-website-card__image" src="{{ '/assets/img/projects/1/ai4forest-website-preview.jpg' | relative_url }}" width="640" height="360" alt="AI4Forest homepage with an aerial view of a forest" loading="lazy" decoding="async">
+  <div class="project-website-card__content">
+    <h2>AI4Forest — Official project website</h2>
+    <p>Explore research, partners and publications.</p>
+    <span class="project-website-card__button">https://www.ai4forest.eu</span>
+  </div>
+</a>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

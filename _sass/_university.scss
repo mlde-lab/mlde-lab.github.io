@@ -321,3 +321,93 @@ body.fixed-top-nav {
   outline: 2px solid var(--global-theme-color);
   outline-offset: 4px;
 }
+
+// A single accessible link makes the whole project website preview clickable.
+a.project-website-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #c8dbb8;
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  background: #eef5e8;
+  color: #29431e;
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+
+  &:hover,
+  &:focus-visible {
+    color: #29431e;
+    text-decoration: none;
+    border-color: #386e16;
+    border-left-color: var(--global-theme-color);
+    box-shadow: 0 4px 14px rgba(56, 110, 22, 0.14);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #386e16;
+    outline-offset: 3px;
+  }
+
+  .project-website-card__image {
+    flex: 0 0 240px;
+    width: 240px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .project-website-card__content {
+    min-width: 0;
+  }
+
+  h2 {
+    margin: 0 0 0.5rem;
+    padding-top: 0;
+    border-top: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  p {
+    margin: 0 0 0.85rem;
+  }
+
+  .project-website-card__button {
+    display: inline-block;
+    padding: 0.55rem 0.9rem;
+    border-radius: 5px;
+    background: #386e36;
+    color: #fff;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+  }
+
+  &:hover .project-website-card__button,
+  &:focus-visible .project-website-card__button {
+    background: #29431e;
+    color: #fff;
+  }
+
+  @media (max-width: 575.98px) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+
+    .project-website-card__image {
+      flex: none;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
