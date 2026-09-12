@@ -77,13 +77,13 @@ bio: |
   </div>
 
   <ul style="margin-top: 10px; margin-bottom: 10px; padding-left: 30px;">
-  <li>Full Professor (W3), Department of Information Systems, University of Münster (Germany), 2020-today.</li>
-  <li>Associate Professor (part-time), Department of Computer Science, University of Copenhagen (Denmark), 2021-today.</li>
+  <li><b>Full Professor (W3)</b>, Department of Information Systems, University of Münster (Germany), 2020-today.</li>
+  <li><b>Associate Professor (part-time)</b>, Department of Computer Science, University of Copenhagen (Denmark), 2021-today.</li>
   <li><b>Assistant Professor (Tenure-Track)</b>, Department of Computer Science, University of Copenhagen (Denmark), 2016-2021.</li>
   <li><b>Postdoctoral Researcher</b>, Institute for Computing and Information Sciences (iCIS), Radboud University Nijmegen (Netherlands), 2014-2016 (supported by the <a href="https://www.ru.nl/en/staff/researchers/radboud-excellence-initiative">Raboud Excellence Initiative</a>).</li>
   <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Copenhagen (Denmark), 2013-2014 (supported by the <a href="https://www.daad.de/en/">German Academic Exchange Service</a>).</li>
   <li><b>Postdoctoral Researcher</b>, Department of Computer Science, University of Oldenburg (Germany), 2012-2013.</li>
-  <li><b>Doctoral Degree (Dr. rer. nat.)</b>, Department of Computer Science, University of Oldenburg, Germany, 2006-2012.	</li>
+  <li><b>Doctoral Degree (Dr. rer. nat., <i>summa cum laude</i>)</b>, Department of Computer Science, University of Oldenburg, Germany, 2006-2012.	</li>
   <ul>
   <li>Thesis: <i><a href="https://uol.de/f/2/dept/informatik/download/Promotionen/phdthesis_fabian_gieseke.pdf">From Supervised to Unsupervised Support Vector Machines and Applications in Astronomy</a></i></li>
   </ul>
