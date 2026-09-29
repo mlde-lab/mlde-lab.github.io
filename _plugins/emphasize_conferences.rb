@@ -3,7 +3,7 @@ require 'cgi'
 module Jekyll
   module ConferenceEmphasis
     def emphasize_conferences(input)
-      CGI.escapeHTML(input.to_s).gsub(/\b(?:ECML[ -]PKDD|SIGSPATIAL|AISTATS|ICML|ICLR|KDD|SDM|VLDB|SIGIR|ICDE|WACV|ICDM|MNRAS|ACML)\b/) do |acronym|
+      CGI.escapeHTML(input.to_s).gsub(/\b(?:ECML[ -]PKDD|SIGSPATIAL|AISTATS|ICML|ICLR|KDD|SDM|VLDB|SIGIR|ICDE|WACV|ICDM|MNRAS|ACML|CPAL|SenSys|ESANN)\b/) do |acronym|
         "<strong>#{acronym}</strong>"
       end
     end
