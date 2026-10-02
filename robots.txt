@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mlde-lab.github.io/sitemap.xml
+Sitemap: https://mldelab.de/sitemap.xml
