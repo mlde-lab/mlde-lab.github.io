@@ -27,6 +27,7 @@ subtitle: |+
   </li>
     </ul>
     <i class="fab fa-github"></i>&nbsp;&nbsp;<a href="https://github.com/jsten07" target="_blank"><b>GitHub</b></a>&nbsp;&nbsp;
+    <i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jan-stenkamp/" target="_blank"><b>LinkedIn</b></a>&nbsp;&nbsp;
   </div>
 
 nav: false
